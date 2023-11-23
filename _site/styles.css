@@ -1,0 +1,29 @@
+figure.highlight {
+  padding: 0.75em;
+  background: #263238;
+}
+
+figure > pre {
+  margin-bottom: 0;
+}
+
+code.language-ruby {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+span.k {
+  color: #c792ea;
+}
+
+span.nf, span.nb, span.nc {
+  color: #82aaff;
+}
+
+span.p, span.no, span.n, span.o, span.c1{
+  color: #fff;
+}
+
+span.s1, span.s2 {
+  color: #c3e88d;
+}
