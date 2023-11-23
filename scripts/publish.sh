@@ -7,7 +7,7 @@ last_SHA=$(git log --pretty=format:'%h' -n 1)
 tmp_dir="temp_$last_SHA"
 
 SITE="gh-pages"
-SOURCE="main"
+SOURCE="main" 
 
 # Build the Jekyll site directly to a temporary folder
 jekyll build -d ~/$tmp_dir
