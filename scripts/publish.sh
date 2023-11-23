@@ -10,7 +10,7 @@ SITE="gh-pages"
 SOURCE="main" 
 
 # Build the Jekyll site directly to a temporary folder
-jekyll build -d ~/$tmp_dir
+jekyll build -d ~/$tmp_dir > /dev/null 2>&1
 if [ $? = 0 ]; then
   echo "Jekyll build successful"
 else
