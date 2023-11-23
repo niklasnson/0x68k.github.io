@@ -27,6 +27,9 @@ plugins:
   - jekyll-feed
   - jekyll-archives
 
+gems:
+  - jekyll-tagging-related_posts
+
 jekyll-archives:
   enabled: 
     - tags
