@@ -3,8 +3,13 @@
   <div class="container">
     <div class="row">
       <div class="col-md-9">
-        <h1>{{ page.title }}</h1>
-        <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • {{ page.author }}{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}</p>
+
+
+        <h3>{{ page.title }}</h3>
+        <hr />
+        <p class="mt-3">Posted: {{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • {{ page.author }}{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}</p>        
+        <hr />
+
         <article class="post-content">
           {{ content }}
         </article>
@@ -14,9 +19,9 @@
           <div class="card-body">
             <h5 class="card-title">Tags</h5> 
             <ul>
-            {% for tag in site.tags %} 
-              {% assign tagName = tag | first | downcase %}
-              <li><a href='/archives/tag/{{tag|first}}'>{{ tagName }}</a></li>
+            {% for tag in page.tags %} 
+
+              <li><a href='/archives/tag/{{tag}}'>{{ tag }}</a></li>
             {% endfor %}
             </ul>
           </div>
