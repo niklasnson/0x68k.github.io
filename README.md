@@ -13,4 +13,12 @@ This is the source for my personal blog **niklasnson.com**. It uses some unsopor
   $ rake new title
 ```
 
+## To setup a new local branch
+
+```
+  $ git clone git@github.com:niklasnson/niklasnson.github.io.git
+  $ git switch -c gh-pages origin/gh-pages
+
+```
+
 And then edit the page created in posts directory
