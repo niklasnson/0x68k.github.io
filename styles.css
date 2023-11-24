@@ -27,3 +27,21 @@ span.p, span.no, span.n, span.o, span.c1{
 span.s1, span.s2 {
   color: #c3e88d;
 }
+
+.archive ul {
+  list-style-type: none;
+  padding: 0; 
+}
+
+.archive time {
+  color: #888;
+  display: inline-block;
+  font-size: 0.8em;
+  text-align: right;
+  text-transform: uppercase;
+  padding-right: 0.4em;
+}
+
+.tags ul {
+  margin-bottom: 0;
+}
