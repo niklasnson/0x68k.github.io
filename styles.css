@@ -20,7 +20,7 @@ span.nf, span.nb, span.nc {
   color: #82aaff;
 }
 
-span.p, span.no, span.n, span.o, span.c1{
+span.p, span.no, span.n, span.o, span.c1, span.nv {
   color: #fff;
 }
 
@@ -44,4 +44,8 @@ span.s1, span.s2 {
 
 .tags ul {
   margin-bottom: 0;
+}
+
+code.language-bash {
+  color: #fff;
 }
