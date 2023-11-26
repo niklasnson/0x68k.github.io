@@ -10,8 +10,13 @@ This is the source for my personal blog **niklasnson.com**. It uses some unsopor
 
 ## Create a new post
 ```
-  $ rake new title
+  $ rake new
 ```
+
+## Create a new draft
+```
+  $ rake draft
+``` 
 
 ## To setup a new local branch
 

@@ -24,7 +24,7 @@ span.p, span.no, span.n, span.o, span.c1, span.nv {
   color: #fff;
 }
 
-span.s1, span.s2 {
+span.s1, span.s2, span.mi {
   color: #c3e88d;
 }
 
