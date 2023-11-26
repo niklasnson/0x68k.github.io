@@ -5,7 +5,7 @@ categories: [snippet]
 tags: ruby
 ---
 
-Small snippet to compress HTML in Ruby. 
+Small snippet to compress HTML in Ruby. Returning from function is a string with the basic compressed HTML.
 
 {% highlight ruby %}
 def compress(html)
