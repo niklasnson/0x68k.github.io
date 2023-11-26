@@ -73,7 +73,8 @@
           <p>If tyou need to discard all local changes and just reset overwrite everything with a copy from the rmeote branch this is the way to do it. For me it was needed with the gh-pages branch of this project, depinding on what machine i last worked on the head would differ from computer to computer so i just need to update the head avoiding having to do a merge and fix a lot of meaningless conflicts.</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">  <span class="nv">$ </span>git fetch <span class="nt">--all</span>
-  <span class="nv">$ </span>get reset <span class="nt">--hard</span> origin/branch</code></pre></figure>
+  <span class="nv">$ </span>get reset <span class="nt">--hard</span> origin/branch
+  <span class="nv">$ </span>git merge <span class="s1">'@{u}'</span></code></pre></figure>
 
 
         </article>
