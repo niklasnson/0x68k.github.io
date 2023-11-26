@@ -22,9 +22,9 @@ fi
 git checkout $SITE > /dev/null 2>&1
 
 # Do the update just to set head to same as on remote
-git fetch > /dev/null 2>&1
+git fetch > /dev/null > /dev/null 2>&1
 git reset --hard HEAD > /dev/null 2>&1
-#git merge '@{u}'
+git merge '@{u}' > /dev/null 2>&1
 
 # Remove the current contents of the SITE branch and
 #   replace them with the contents of the temp folder
