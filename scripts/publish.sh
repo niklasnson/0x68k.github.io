@@ -21,6 +21,11 @@ fi
 # Switch to the SITE branch
 git checkout $SITE > /dev/null 2>&1
 
+# Do the update just to set head to same as on remote
+git fetch
+git reset --hard HEAD
+#git merge '@{u}'
+
 # Remove the current contents of the SITE branch and
 #   replace them with the contents of the temp folder
 current_dir=${PWD}

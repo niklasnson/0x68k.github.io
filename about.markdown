@@ -6,7 +6,7 @@ permalink: /about
 
 <img class="img-fluid" src="/img/prof_pic.jpg">
 
-Hi! I’m Niklas Nilsson. I'm a software engineer at Ericsson where i write sofware for the gNB - for the 5g telecom systems. I’m interested in finding better ways to build maintainable software in small and efficient teams.
+Hi! I’m Niklas Nilsson. I'm a software engineer at Ericsson where i write sofware for the gNB - in 5g telecom systems. I’m interested in finding better ways to build maintainable software in small and efficient teams.
 
 ##### Leadership
 Positive, team player and communicative leader. As a person, I am open, cooperative, extrovert and willing to work with people of different backgrounds and genders.
@@ -26,5 +26,4 @@ I have a strong intrest in retro computers; specific the Commodore Amiga compute
 I enjoy software projects on the Amiga, mostly working in C. Also trying to explore assembler programming on the Motorola 680xx. 
 
 #### Connect with me
-
 I’d love to connect! Feel free to reach me on <a href="https://mastodon.social/@niklasnson">Mastodon</a>, or drop me a mail.
