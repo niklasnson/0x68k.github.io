@@ -22,8 +22,8 @@ fi
 git checkout $SITE > /dev/null 2>&1
 
 # Do the update just to set head to same as on remote
-git fetch
-git reset --hard HEAD
+git fetch > /dev/null 2>&1
+git reset --hard HEAD > /dev/null 2>&1
 #git merge '@{u}'
 
 # Remove the current contents of the SITE branch and
