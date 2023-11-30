@@ -3,20 +3,26 @@ layout: page
 title: Active projects
 permalink: /projects
 ---
+A List of active projects that I am currently working on, projects are hosted on GitHub, but some of them are private.
 
-##### idofun.com - a photo sharing platform. 
-Photosharing platform with a high privacy thinking. 
-
- ---
-
-* Built with Ruby On Rails and PostgreSQL.
-* Relatime publishing of photos, comments and likes. 
-
-
-##### kroppsfabriken.se - website for the club Kroppsfabriken
+##### **idofun.com** - a social sharing platform. 
+Social photosharing platform with high privacy in mind. Built to be fast and responsive, one version for all devices and screen sizes. The platform includes private posts, messages, muting and blocking users. 
 
  ---
 
-* Built with Ruby on Rails and PostgreSQL
-* Integration with PayPal API
-* Ticket system
+* Real-time publishing of photos, comments and likes.
+* API interaction with other services. 
+* Inbound emails handling - answer comments by replying to email. 
+* Blocking or muting other users. 
+* Share photos in cirkles. 
+* Challanges and competetions. 
+
+##### **kroppsfabriken.se** - website for the club Kroppsfabriken
+
+ ---
+ KROPPSFABRIKEN is a fetish club with a strict dress code, which must be followed to gain entry. We want to offer a safe haven for you to live out your fetishes together with other fetishists. Focusing on latex, rubber and electronic music. Parts of the site is protected and you need to be logged in to view photos and but tickets to event. 
+
+* Integration with PayPal API.
+* Advanced ticket system with entrance interface. 
+* Transfer tickets to other members.
+* Blog with posts and drafts. 
