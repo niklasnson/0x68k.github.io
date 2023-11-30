@@ -6,7 +6,7 @@ permalink: /projects
 A List of active projects that I am currently working on, projects are hosted on GitHub, but some of them are private.
 
 ##### **idofun.com** - a social sharing platform. 
-Social photosharing platform with high privacy in mind. Built to be fast and responsive, one version for all devices and screen sizes. The platform includes private posts, messages, muting and blocking users. 
+IDOFUN.COM is a social photosharing platform with high privacy in mind. Built to be fast and responsive, one version for all devices and screen sizes. The platform includes private posts, messages, muting and blocking users. 
 
  ---
 
