@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Compressing HTML</title>
+    <title>Amiga Dos Inside & Out</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles.css">
   </head>
@@ -68,21 +68,41 @@
       <div class="col-md-9">
 
 
-        <h3>Compressing HTML</h3>
+        <h3>Amiga Dos Inside & Out</h3>
         <hr />
-        <p class="mt-3">Posted: December 24, 2022</p>        
+        <p class="mt-3">Posted: June 10, 2021</p>        
         <hr />
 
         <article class="post-content">
-          <p>Small snippet to compress HTML in Ruby. Returning from function is a string with the basic compressed HTML.</p>
+          <p>Mostly written as a note to myself while I’m configurering my Amiga 600HD.</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">compress</span><span class="p">(</span><span class="n">html</span><span class="p">)</span>
-  <span class="n">html</span><span class="p">.</span><span class="nf">gsub!</span><span class="p">(</span><span class="sr">/\n+/</span><span class="p">,</span><span class="s1">''</span><span class="p">)</span>
-  <span class="n">html</span><span class="p">.</span><span class="nf">gsub!</span><span class="p">(</span><span class="s1">'  '</span><span class="p">,</span> <span class="s1">''</span><span class="p">)</span>
-  <span class="n">html</span><span class="p">.</span><span class="nf">gsub!</span><span class="p">(</span><span class="s1">'&gt; &lt;'</span><span class="p">,</span> <span class="s1">'&gt;&lt;'</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="n">html</span>
-<span class="k">end</span></code></pre></figure>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">dir</code> -  directory</li>
+  <li><code class="language-plaintext highlighter-rouge">endcli</code> -  closedown cli and go to workbench</li>
+  <li><code class="language-plaintext highlighter-rouge">format DRIVE &lt;disk&gt; NAME &lt;name&gt; [NOICONS] </code> - format drive</li>
+  <li><code class="language-plaintext highlighter-rouge">cd DIR</code> - chanage directory</li>
+  <li><code class="language-plaintext highlighter-rouge">makedir /A</code> - make directory</li>
+  <li><code class="language-plaintext highlighter-rouge">delete </code> - remove directory</li>
+  <li><code class="language-plaintext highlighter-rouge">list</code> - list files and information</li>
+  <li><code class="language-plaintext highlighter-rouge">rename FROM TO</code> - rename file or folder</li>
+  <li><code class="language-plaintext highlighter-rouge">diskcopy FROM TO</code> - copy disc</li>
+  <li><code class="language-plaintext highlighter-rouge">relabel DRIVE NAME</code> - rename a disc</li>
+  <li><code class="language-plaintext highlighter-rouge">info</code> - display disc drive information</li>
+  <li><code class="language-plaintext highlighter-rouge">install DRIVE</code> - Converts Amiga format disc to bootable disks</li>
+  <li><code class="language-plaintext highlighter-rouge">type FROM</code> - Displays a ASCII file on screen</li>
+  <li><code class="language-plaintext highlighter-rouge">join</code> - Concatenate (joins) up to 15 files to one</li>
+  <li><code class="language-plaintext highlighter-rouge">serach FROM</code> - Search for a string</li>
+  <li><code class="language-plaintext highlighter-rouge">sort FROM TO</code> - Sort command sorts text files</li>
+  <li><code class="language-plaintext highlighter-rouge">protect FILE FLAGS</code> - Set single protection bit on files</li>
+  <li><code class="language-plaintext highlighter-rouge">filenote FILE COMMENT</code> - Set a comment on a file</li>
+  <li><code class="language-plaintext highlighter-rouge">setdate</code> - Set date on file</li>
+  <li><code class="language-plaintext highlighter-rouge">diskdoctor DRIVE</code> - Attemts to save disc with read/write errors</li>
+  <li><code class="language-plaintext highlighter-rouge">newcli</code> - Opens a new cli task</li>
+  <li><code class="language-plaintext highlighter-rouge">endcli</code> - CLose current cli task</li>
+  <li><code class="language-plaintext highlighter-rouge">execute</code> - Executes a script file</li>
+</ul>
 
+<p>I highly recomend you to read <a href="http://tele-work.hu/AmigaDoc/AmigaDosInside&amp;out.pdf">Amiga Dos Inside &amp; Out</a>. One of the best sources to understand Amiga CLI.</p>
 
         </article>
       </div>
@@ -93,7 +113,10 @@
             <ul>
              
 
-              <li><a href='/archives/tag/ruby'>ruby</a></li>
+              <li><a href='/archives/tag/cli'>cli</a></li>
+             
+
+              <li><a href='/archives/tag/amiga'>amiga</a></li>
             
             </ul>
           </div>
@@ -109,11 +132,11 @@
               
                 <li><a href="/security/2023/11/26/detect-suspicious-logins.html">Detect suspicious logins</a></li>
               
+                <li><a href="/snippet/2022/12/24/compressing-html.html">Compressing HTML</a></li>
+              
                 <li><a href="/jekyll/bash/ruby/2022/10/02/publish-a-prebuilt-jekyll-project.html">Publish a prebuilt jekyll project</a></li>
               
                 <li><a href="/git/snippets/2021/12/21/overwrite-local-changes-in-git.html">Overwrite local changes in Git</a></li>
-              
-                <li><a href="/amiga/2021/06/10/amiga-dos-inside-out.html">Amiga Dos Inside & Out</a></li>
               
             </ul>
           </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-12-02T09:44:22+01:00</updated><id>/feed.xml</id><title type="html">Niklas Nilsson</title><entry><title type="html">Next and previous buttons for active record</title><link href="/ruby/snippets/2023/12/02/next-and-previous-buttons-for-active-record.html" rel="alternate" type="text/html" title="Next and previous buttons for active record" /><published>2023-12-02T00:00:00+01:00</published><updated>2023-12-02T00:00:00+01:00</updated><id>/ruby/snippets/2023/12/02/next-and-previous-buttons-for-active-record</id><content type="html" xml:base="/ruby/snippets/2023/12/02/next-and-previous-buttons-for-active-record.html"><![CDATA[<p>Having buttons to go to the next or back out of an actice record is a desired function, for example, when creating a photo album. So how can one create this functionality in Rails?</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-12-02T20:17:41+01:00</updated><id>/feed.xml</id><title type="html">Niklas Nilsson</title><entry><title type="html">Next and previous buttons for active record</title><link href="/ruby/snippets/2023/12/02/next-and-previous-buttons-for-active-record.html" rel="alternate" type="text/html" title="Next and previous buttons for active record" /><published>2023-12-02T00:00:00+01:00</published><updated>2023-12-02T00:00:00+01:00</updated><id>/ruby/snippets/2023/12/02/next-and-previous-buttons-for-active-record</id><content type="html" xml:base="/ruby/snippets/2023/12/02/next-and-previous-buttons-for-active-record.html"><![CDATA[<p>Having buttons to go to the next or back out of an actice record is a desired function, for example, when creating a photo album. So how can one create this functionality in Rails?</p>
 
 <p>Class:</p>
 
@@ -51,4 +51,32 @@
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">  <span class="nv">$ </span>git fetch <span class="nt">--all</span>
   <span class="nv">$ </span>get reset <span class="nt">--hard</span> origin/branch
-  <span class="nv">$ </span>git merge <span class="s1">'@{u}'</span></code></pre></figure>]]></content><author><name></name></author><category term="git" /><category term="snippets" /><category term="git" /><summary type="html"><![CDATA[If tyou need to discard all local changes and just reset overwrite everything with a copy from the rmeote branch this is the way to do it. For me it was needed with the gh-pages branch of this project, depinding on what machine i last worked on the head would differ from computer to computer so i just need to update the head avoiding having to do a merge and fix a lot of meaningless conflicts.]]></summary></entry></feed>
+  <span class="nv">$ </span>git merge <span class="s1">'@{u}'</span></code></pre></figure>]]></content><author><name></name></author><category term="git" /><category term="snippets" /><category term="git" /><summary type="html"><![CDATA[If tyou need to discard all local changes and just reset overwrite everything with a copy from the rmeote branch this is the way to do it. For me it was needed with the gh-pages branch of this project, depinding on what machine i last worked on the head would differ from computer to computer so i just need to update the head avoiding having to do a merge and fix a lot of meaningless conflicts.]]></summary></entry><entry><title type="html">Amiga Dos Inside &amp;amp; Out</title><link href="/amiga/2021/06/10/amiga-dos-inside-out.html" rel="alternate" type="text/html" title="Amiga Dos Inside &amp;amp; Out" /><published>2021-06-10T00:00:00+02:00</published><updated>2021-06-10T00:00:00+02:00</updated><id>/amiga/2021/06/10/amiga-dos-inside-out</id><content type="html" xml:base="/amiga/2021/06/10/amiga-dos-inside-out.html"><![CDATA[<p>Mostly written as a note to myself while I’m configurering my Amiga 600HD.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">dir</code> -  directory</li>
+  <li><code class="language-plaintext highlighter-rouge">endcli</code> -  closedown cli and go to workbench</li>
+  <li><code class="language-plaintext highlighter-rouge">format DRIVE &lt;disk&gt; NAME &lt;name&gt; [NOICONS] </code> - format drive</li>
+  <li><code class="language-plaintext highlighter-rouge">cd DIR</code> - chanage directory</li>
+  <li><code class="language-plaintext highlighter-rouge">makedir /A</code> - make directory</li>
+  <li><code class="language-plaintext highlighter-rouge">delete </code> - remove directory</li>
+  <li><code class="language-plaintext highlighter-rouge">list</code> - list files and information</li>
+  <li><code class="language-plaintext highlighter-rouge">rename FROM TO</code> - rename file or folder</li>
+  <li><code class="language-plaintext highlighter-rouge">diskcopy FROM TO</code> - copy disc</li>
+  <li><code class="language-plaintext highlighter-rouge">relabel DRIVE NAME</code> - rename a disc</li>
+  <li><code class="language-plaintext highlighter-rouge">info</code> - display disc drive information</li>
+  <li><code class="language-plaintext highlighter-rouge">install DRIVE</code> - Converts Amiga format disc to bootable disks</li>
+  <li><code class="language-plaintext highlighter-rouge">type FROM</code> - Displays a ASCII file on screen</li>
+  <li><code class="language-plaintext highlighter-rouge">join</code> - Concatenate (joins) up to 15 files to one</li>
+  <li><code class="language-plaintext highlighter-rouge">serach FROM</code> - Search for a string</li>
+  <li><code class="language-plaintext highlighter-rouge">sort FROM TO</code> - Sort command sorts text files</li>
+  <li><code class="language-plaintext highlighter-rouge">protect FILE FLAGS</code> - Set single protection bit on files</li>
+  <li><code class="language-plaintext highlighter-rouge">filenote FILE COMMENT</code> - Set a comment on a file</li>
+  <li><code class="language-plaintext highlighter-rouge">setdate</code> - Set date on file</li>
+  <li><code class="language-plaintext highlighter-rouge">diskdoctor DRIVE</code> - Attemts to save disc with read/write errors</li>
+  <li><code class="language-plaintext highlighter-rouge">newcli</code> - Opens a new cli task</li>
+  <li><code class="language-plaintext highlighter-rouge">endcli</code> - CLose current cli task</li>
+  <li><code class="language-plaintext highlighter-rouge">execute</code> - Executes a script file</li>
+</ul>
+
+<p>I highly recomend you to read <a href="http://tele-work.hu/AmigaDoc/AmigaDosInside&amp;out.pdf">Amiga Dos Inside &amp; Out</a>. One of the best sources to understand Amiga CLI.</p>]]></content><author><name></name></author><category term="amiga" /><category term="cli" /><category term="amiga" /><summary type="html"><![CDATA[Mostly written as a note to myself while I’m configurering my Amiga 600HD.]]></summary></entry></feed>
