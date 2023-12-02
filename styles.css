@@ -24,6 +24,10 @@ span.p, span.no, span.n, span.o, span.c1, span.nv {
   color: #fff;
 }
 
+span.ss {
+  color: #f59b4e;
+}
+
 span.s1, span.s2, span.mi {
   color: #c3e88d;
 }
@@ -47,5 +51,9 @@ span.s1, span.s2, span.mi {
 }
 
 code.language-bash {
+  color: #fff;
+}
+
+code.language-html {
   color: #fff;
 }
