@@ -9,7 +9,7 @@ permalink: /about
 Hi! I’m Niklas Nilsson. I'm a software engineer at Ericsson where i write sofware for the gNB (Next Generation NodeB) - in 5G telecom systems. I’m interested in finding better ways to build maintainable software in small and efficient teams.
 
 ##### Leadership
-Positive, team player and communicative leader. As a person, I am open, cooperative, extrovert and willing to work with people of different backgrounds and genders.
+Positive, team player and communicative leader. As a person, I am open, cooperative, extrovert and eager to work with people of different backgrounds and genders. Divercity will in my eyes always be the best building block for a strong team.
 
 My ambition is to create a work environment where everyone is seen and feels committed to the common goal and everyone have a change to reach their full potential by feeling secure and heard. 
 
