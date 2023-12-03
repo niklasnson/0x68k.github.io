@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Publish a prebuilt jekyll project</title>
+    <title>Normalizes method in Rails 7.1</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles.css">
   </head>
@@ -68,21 +68,37 @@
       <div class="col-md-9">
 
 
-        <h3>Publish a prebuilt jekyll project</h3>
+        <h3>Normalizes method in Rails 7.1</h3>
         <hr />
-        <p class="mt-3">Posted: October 2, 2022</p>        
+        <p class="mt-3">Posted: December 3, 2023</p>        
         <hr />
 
         <article class="post-content">
-          <p>Jekyll and GitHub is a powerful combination, with easy you can publish a blog and the HTML will be built when you push. But you may run into issues when you use plugins that are not whitelisted by GitHub e.g the great archive gem.</p>
+          <p>I’m refactoring my normalizes methods in Rails with tne new <a href="https://edgeapi.rubyonrails.org/classes/ActiveRecord/Normalization/ClassMethods.html#method-i-normalizes">normalizes</a> method. Lets take a look together.</p>
 
-<p>The solution then is to build the HTML version locally and then push it to GitHub and make GitHub serve that as the webpage.</p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
+  <span class="n">normalizes</span> <span class="ss">:email</span><span class="p">,</span> <span class="ss">with: </span><span class="o">-&gt;</span> <span class="n">email</span> <span class="p">{</span> <span class="n">email</span><span class="p">.</span><span class="nf">strip</span><span class="p">.</span><span class="nf">downcase</span> <span class="p">}</span>
+<span class="k">end</span>
 
-<p>Im using a new branch <code class="language-plaintext highlighter-rouge">gh-pages</code> for this, beeing on master i run <code class="language-plaintext highlighter-rouge">jekyll build ~/temp_buil</code> and then i replace the content in the gh-pages branch with this. Then i publlish the branch gh-pages.</p>
+<span class="n">user</span> <span class="o">=</span> <span class="no">User</span><span class="p">.</span><span class="nf">create</span><span class="p">(</span><span class="ss">email: </span><span class="s2">" CRUISE-CONTROL@EXAMPLE.COM</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+<span class="n">user</span><span class="p">.</span><span class="nf">email</span>                  <span class="c1"># =&gt; "cruise-control@example.com"</span></code></pre></figure>
 
-<p>On GitHub go to settings, pages and select “deploy from branch” and set it to use the gh-pages branch.</p>
+<p>Code in my project before the refactoring, for the username i use the unicode_normalice function to return a normalized form of str, using Unicode normalizations NFC, NFD, NFKC, or NFKD.</p>
 
-<p>You could turn this into a bash script.</p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="k">def</span> <span class="nf">normalize_username</span>
+    <span class="n">username</span><span class="p">.</span><span class="nf">unicode_normalize!</span>
+    <span class="nb">self</span><span class="p">.</span><span class="nf">username_lower</span> <span class="o">=</span> <span class="n">username</span><span class="p">.</span><span class="nf">downcase</span>
+  <span class="k">end</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>After refactoring the code it looks like this:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="no">ApplicationRecord</span>
+  <span class="n">normalizes</span> <span class="ss">:username</span><span class="p">,</span> <span class="ss">with: </span><span class="o">-&gt;</span> <span class="n">username</span> <span class="p">{</span> <span class="n">username</span><span class="p">.</span><span class="nf">unicode_normalize</span><span class="p">.</span><span class="nf">strip</span><span class="p">.</span><span class="nf">downcase</span> <span class="p">}</span>
+<span class="k">end</span> </code></pre></figure>
+
+<p>And we have a bit more clean code with less functions to test.</p>
+
 
         </article>
       </div>
@@ -93,10 +109,10 @@
             <ul>
              
 
-              <li><a href='/archives/tag/jekyll'>jekyll</a></li>
+              <li><a href='/archives/tag/rails'>rails</a></li>
              
 
-              <li><a href='/archives/tag/git'>git</a></li>
+              <li><a href='/archives/tag/rails'>rails</a></li>
             
             </ul>
           </div>
@@ -108,13 +124,13 @@
             <h5 class="card-title">Related stories</h5>          
             <ul>
               
-                <li><a href="/ruby/2023/12/03/normalizes-method-in-rails-7-1.html">Normalizes method in Rails 7.1</a></li>
-              
                 <li><a href="/ruby/snippets/2023/12/02/next-and-previous-buttons-for-active-record.html">Next and previous buttons for active record</a></li>
               
                 <li><a href="/security/2023/11/26/detect-suspicious-logins.html">Detect suspicious logins</a></li>
               
                 <li><a href="/snippet/2022/12/24/compressing-html.html">Compressing HTML</a></li>
+              
+                <li><a href="/jekyll/bash/ruby/2022/10/02/publish-a-prebuilt-jekyll-project.html">Publish a prebuilt jekyll project</a></li>
               
                 <li><a href="/git/snippets/2021/12/21/overwrite-local-changes-in-git.html">Overwrite local changes in Git</a></li>
               
