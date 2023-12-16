@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Installing KDE Frameworks
-categories: [open-source, project]
-tags: [ruby, rspec, json, rails, scripting, testing]
+categories: [open-source, KDE]
+tags: [cpp, kde, kde-community]
 ---
 
 After following the instructions found at [Get Involved/development/Set up a development environment](https://community.kde.org/Get_Involved/development/Set_up_a_development_environment). I got some strange errors running my sample CMAKE file.
