@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-23T18:55:32+01:00</updated><id>/feed.xml</id><title type="html">Niklas Nilsson</title><entry><title type="html">Updated SDL2Bootstrap</title><link href="/open-source/project/2025/02/23/updated-sdl2bootstrap.html" rel="alternate" type="text/html" title="Updated SDL2Bootstrap" /><published>2025-02-23T00:00:00+01:00</published><updated>2025-02-23T00:00:00+01:00</updated><id>/open-source/project/2025/02/23/updated-sdl2bootstrap</id><content type="html" xml:base="/open-source/project/2025/02/23/updated-sdl2bootstrap.html"><![CDATA[<p>I updated my <a href="https://github.com/niklasnson/SDL2Bootstrap">SDL2 Bootstrap</a>, i will start working on a small game, just to do some other programming than i normally do in C++. The game will live at <a href="https://github.com/niklasnson/missile_command.cpp">GitHub</a>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-05T06:42:26+02:00</updated><id>/feed.xml</id><title type="html">Niklas Nilsson</title><entry><title type="html">Install Qt on Ubuntu 24.04.2</title><link href="/open-source/project/2025/07/05/install-qt-on-ubuntu-24-04-2.html" rel="alternate" type="text/html" title="Install Qt on Ubuntu 24.04.2" /><published>2025-07-05T00:00:00+02:00</published><updated>2025-07-05T00:00:00+02:00</updated><id>/open-source/project/2025/07/05/install-qt-on-ubuntu-24-04-2</id><content type="html" xml:base="/open-source/project/2025/07/05/install-qt-on-ubuntu-24-04-2.html"><![CDATA[<p>This is how i installed Qt on Ubuntu 24.04.2.</p>
+
+<ul>
+  <li>First step go to <a href="https://www.qt.io/">Qt.io</a></li>
+  <li>Click on the “Download. Try.” button.</li>
+  <li>Click on “Community User”</li>
+  <li>Scroll down to “Looking for Qt Binaries” and click download”</li>
+  <li>Download (click) the Linux button.</li>
+</ul>
+
+<p>Now ytou will have a <code class="language-plaintext highlighter-rouge">qt-online-installer-linux-x64-4.10.0.run</code>
+Make the file executable by running <code class="language-plaintext highlighter-rouge">chmod +x qt-online-installer-linux-x64-4.10.0.run</code></p>
+
+<p>You will need to create a Qt account and after this it will be installed.</p>]]></content><author><name></name></author><category term="open-source" /><category term="project" /><category term="Qt" /><category term="Ubuntu" /><summary type="html"><![CDATA[This is how i installed Qt on Ubuntu 24.04.2.]]></summary></entry><entry><title type="html">Updated SDL2Bootstrap</title><link href="/open-source/project/2025/02/23/updated-sdl2bootstrap.html" rel="alternate" type="text/html" title="Updated SDL2Bootstrap" /><published>2025-02-23T00:00:00+01:00</published><updated>2025-02-23T00:00:00+01:00</updated><id>/open-source/project/2025/02/23/updated-sdl2bootstrap</id><content type="html" xml:base="/open-source/project/2025/02/23/updated-sdl2bootstrap.html"><![CDATA[<p>I updated my <a href="https://github.com/niklasnson/SDL2Bootstrap">SDL2 Bootstrap</a>, i will start working on a small game, just to do some other programming than i normally do in C++. The game will live at <a href="https://github.com/niklasnson/missile_command.cpp">GitHub</a>.</p>
 
 <p>My thought is to have a easy setup to start doing a new game with the basic skeleton that you might want to have.</p>]]></content><author><name></name></author><category term="open-source" /><category term="project" /><category term="C++" /><category term="SDL2" /><category term="GameDev" /><summary type="html"><![CDATA[I updated my SDL2 Bootstrap, i will start working on a small game, just to do some other programming than i normally do in C++. The game will live at GitHub.]]></summary></entry><entry><title type="html">epilogue.rb</title><link href="/open-source/project/2025/02/08/epilogue-rb.html" rel="alternate" type="text/html" title="epilogue.rb" /><published>2025-02-08T00:00:00+01:00</published><updated>2025-02-08T00:00:00+01:00</updated><id>/open-source/project/2025/02/08/epilogue-rb</id><content type="html" xml:base="/open-source/project/2025/02/08/epilogue-rb.html"><![CDATA[<p>I just started working a new project, i spent time thinking about a web based notes system for a while and im thinking it will be a fun project to do in Rails 8.0. I have started working on scaffolding the application and as soon as i have made the first basic functions i will make the code public on github.</p>
 
@@ -101,32 +114,4 @@ libkf5kdelibs4support-dev</code></pre></figure>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">  <span class="nv">$ </span>git fetch <span class="nt">--all</span>
   <span class="nv">$ </span>get reset <span class="nt">--hard</span> origin/branch
-  <span class="nv">$ </span>git merge <span class="s1">'@{u}'</span></code></pre></figure>]]></content><author><name></name></author><category term="git" /><category term="snippets" /><category term="git" /><summary type="html"><![CDATA[If tyou need to discard all local changes and just reset overwrite everything with a copy from the rmeote branch this is the way to do it. For me it was needed with the gh-pages branch of this project, depinding on what machine i last worked on the head would differ from computer to computer so i just need to update the head avoiding having to do a merge and fix a lot of meaningless conflicts.]]></summary></entry><entry><title type="html">Amiga Dos Inside &amp;amp; Out</title><link href="/amiga/2021/06/10/amiga-dos-inside-out.html" rel="alternate" type="text/html" title="Amiga Dos Inside &amp;amp; Out" /><published>2021-06-10T00:00:00+02:00</published><updated>2021-06-10T00:00:00+02:00</updated><id>/amiga/2021/06/10/amiga-dos-inside-out</id><content type="html" xml:base="/amiga/2021/06/10/amiga-dos-inside-out.html"><![CDATA[<p>Mostly written as a note to myself while I’m configurering my Amiga 600HD.</p>
-
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">dir</code> -  directory</li>
-  <li><code class="language-plaintext highlighter-rouge">endcli</code> -  closedown cli and go to workbench</li>
-  <li><code class="language-plaintext highlighter-rouge">format DRIVE &lt;disk&gt; NAME &lt;name&gt; [NOICONS] </code> - format drive</li>
-  <li><code class="language-plaintext highlighter-rouge">cd DIR</code> - chanage directory</li>
-  <li><code class="language-plaintext highlighter-rouge">makedir /A</code> - make directory</li>
-  <li><code class="language-plaintext highlighter-rouge">delete </code> - remove directory</li>
-  <li><code class="language-plaintext highlighter-rouge">list</code> - list files and information</li>
-  <li><code class="language-plaintext highlighter-rouge">rename FROM TO</code> - rename file or folder</li>
-  <li><code class="language-plaintext highlighter-rouge">diskcopy FROM TO</code> - copy disc</li>
-  <li><code class="language-plaintext highlighter-rouge">relabel DRIVE NAME</code> - rename a disc</li>
-  <li><code class="language-plaintext highlighter-rouge">info</code> - display disc drive information</li>
-  <li><code class="language-plaintext highlighter-rouge">install DRIVE</code> - Converts Amiga format disc to bootable disks</li>
-  <li><code class="language-plaintext highlighter-rouge">type FROM</code> - Displays a ASCII file on screen</li>
-  <li><code class="language-plaintext highlighter-rouge">join</code> - Concatenate (joins) up to 15 files to one</li>
-  <li><code class="language-plaintext highlighter-rouge">serach FROM</code> - Search for a string</li>
-  <li><code class="language-plaintext highlighter-rouge">sort FROM TO</code> - Sort command sorts text files</li>
-  <li><code class="language-plaintext highlighter-rouge">protect FILE FLAGS</code> - Set single protection bit on files</li>
-  <li><code class="language-plaintext highlighter-rouge">filenote FILE COMMENT</code> - Set a comment on a file</li>
-  <li><code class="language-plaintext highlighter-rouge">setdate</code> - Set date on file</li>
-  <li><code class="language-plaintext highlighter-rouge">diskdoctor DRIVE</code> - Attemts to save disc with read/write errors</li>
-  <li><code class="language-plaintext highlighter-rouge">newcli</code> - Opens a new cli task</li>
-  <li><code class="language-plaintext highlighter-rouge">endcli</code> - CLose current cli task</li>
-  <li><code class="language-plaintext highlighter-rouge">execute</code> - Executes a script file</li>
-</ul>
-
-<p>I highly recomend you to read <a href="http://tele-work.hu/AmigaDoc/AmigaDosInside&amp;out.pdf">Amiga Dos Inside &amp; Out</a>. One of the best sources to understand Amiga CLI.</p>]]></content><author><name></name></author><category term="amiga" /><category term="cli" /><category term="amiga" /><summary type="html"><![CDATA[Mostly written as a note to myself while I’m configurering my Amiga 600HD.]]></summary></entry></feed>
+  <span class="nv">$ </span>git merge <span class="s1">'@{u}'</span></code></pre></figure>]]></content><author><name></name></author><category term="git" /><category term="snippets" /><category term="git" /><summary type="html"><![CDATA[If tyou need to discard all local changes and just reset overwrite everything with a copy from the rmeote branch this is the way to do it. For me it was needed with the gh-pages branch of this project, depinding on what machine i last worked on the head would differ from computer to computer so i just need to update the head avoiding having to do a merge and fix a lot of meaningless conflicts.]]></summary></entry></feed>
