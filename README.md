@@ -1,6 +1,6 @@
-# niklasnson.github.io
+# x068k.github.io
 
-This is the source for my personal blog **niklasnson.com**. It uses some unsoported plugins so it must be built localy and published to GitHub, this is done via the script `scripts/publish.sh` 
+This is the source for my personal blog **niklasnson.com**. It uses some unsoported plugins so it must be built localy and published to GitHub, this is done via the script `scripts/publish.sh`
 
 ## Installation
 
@@ -16,7 +16,7 @@ This is the source for my personal blog **niklasnson.com**. It uses some unsopor
 ## Create a new draft
 ```
   $ rake draft
-``` 
+```
 
 ## To setup a new local branch
 

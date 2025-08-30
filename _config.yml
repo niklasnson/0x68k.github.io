@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Niklas Nilsson
+title: Niklas Hilding
 email: niklasnson@me.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -31,7 +31,7 @@ gems:
   - jekyll-tagging-related_posts
 
 jekyll-archives:
-  enabled: 
+  enabled:
     - tags
     - categories
   layouts:
