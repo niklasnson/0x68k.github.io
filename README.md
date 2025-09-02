@@ -25,4 +25,5 @@ This is the source for my personal blog **niklasnson.com**. It uses some unsopor
 
 ```
 
-And then edit the page created in posts directory
+And then edit the page created in posts directory.
+
