@@ -9,6 +9,10 @@ tmp_dir="temp_$last_SHA"
 SITE="gh-pages"
 SOURCE="main"
 
+echo " Publishing the blog to Github.com"
+echo " ---------------------------------"
+
+
 # Build the Jekyll site directly to a temporary folder
 jekyll build -d ~/$tmp_dir > /dev/null 2>&1
 if [ $? = 0 ]; then
