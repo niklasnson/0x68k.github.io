@@ -1,0 +1,59 @@
+figure.highlight {
+  padding: 0.75em;
+  background: #263238;
+}
+
+figure > pre {
+  margin-bottom: 0;
+}
+
+code.language-ruby {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+span.k {
+  color: #c792ea;
+}
+
+span.nf, span.nb, span.nc {
+  color: #82aaff;
+}
+
+span.p, span.no, span.n, span.o, span.c1, span.nv {
+  color: #fff;
+}
+
+span.ss {
+  color: #f59b4e;
+}
+
+span.s1, span.s2, span.mi {
+  color: #c3e88d;
+}
+
+.archive ul {
+  list-style-type: none;
+  padding: 0; 
+}
+
+.archive time {
+  color: #888;
+  display: inline-block;
+  font-size: 0.8em;
+  text-align: right;
+  text-transform: uppercase;
+  padding-right: 0.4em;
+}
+
+.tags ul {
+  margin-bottom: 0;
+}
+
+code.language-bash {
+  color: #fff;
+}
+
+code.language-html {
+  color: #fff;
+}
