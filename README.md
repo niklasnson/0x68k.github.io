@@ -12,6 +12,8 @@ This is the source for my personal blog **0x68k.com**. It uses some unsoported p
   $ rake new
 ```
 
+And then edit the page created in posts directory.
+
 ## Create a new draft
 ```
   $ rake draft
@@ -28,9 +30,12 @@ This is the source for my personal blog **0x68k.com**. It uses some unsoported p
 ## Run the server
 ```
   $ jekyll s
+
 ```
+## License
 
+The following directories and their contents are Copyright Niklas Nilsson.
+You may not reuse anything therein without my permission:
 
-
-And then edit the page created in posts directory.
-
+* \_posts/
+* img/
