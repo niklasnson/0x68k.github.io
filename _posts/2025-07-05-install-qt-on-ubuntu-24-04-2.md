@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Install Qt on Ubuntu 24.04.2
-categories: [open-source, project]
-tags: [Qt, Ubuntu]
+categories: pen-source project
+tags: Qt Ubuntu
 ---
 
 This is how i installed Qt on Ubuntu 24.04.2.

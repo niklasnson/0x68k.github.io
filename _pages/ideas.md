@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Ideas I'm Exploring
-permalink: /ideas
+title: ideas
+permalink: /ideas/
+resource: true
 ---
 
 If you are intrested in one of the topics, please reach out!

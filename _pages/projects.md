@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Active projects
-permalink: /projects
+title: projects
+permalink: /projects/
+resource: true
 ---
 A List of active projects that I am currently working on, projects are hosted on GitHub, but some of them are private.
 

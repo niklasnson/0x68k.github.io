@@ -2,16 +2,21 @@
 
   <div class="container my-5">
     <div class="row">
-      <div class="col-md-8 mx-auto">
-        <article>
-          <header class="mb-3"> 
-            <h2>{{ page.title }}</h2>
-            <hr />
-          </header>
+      <div class="col-md-9 mx-auto">
+        <article class="page-content">
           {{ content }}
         </article>
+      </div>
+      <div class="col-md-3 ms-auto">
+        <div class="card tags">
+          <div class="card-body">
+            <h5 class="card-title">Tags</h5>
+              dsds
+            </ul>
+          </div>
+
       </div>
     </div>
   </div>
 
-{% include footer.html %}  
+{% include footer.html %}

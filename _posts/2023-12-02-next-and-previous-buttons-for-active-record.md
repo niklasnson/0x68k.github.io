@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Next and previous buttons for active record
-categories: [ruby, snippets]
-tags: [ruby, rails]
+categories: ruby snippets
+tags: ruby rails
 ---
 Having buttons to go to the next or back out of an actice record is a desired function, for example, when creating a photo album. So how can one create this functionality in Rails?
 

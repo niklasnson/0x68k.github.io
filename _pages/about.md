@@ -1,10 +1,13 @@
 ---
 layout: page
-title: Hi there 👋
-permalink: /about
+title: about
+permalink: /about/
+resource: true
 ---
 
-<img class="img-fluid" src="/img/prof_pic.jpg">
+<header class="mb-3">
+    <h3 class="border-bottom">Hi there 👋</h3>
+</header>
 
 Hi! I'm NIklas Nilsson. I'm a consultant team leader and software engineer with Ericsson and Saab as my most recent placements. I’m interested in finding better ways to build maintainable software in small and efficient teams.
 
@@ -21,7 +24,7 @@ Under [Projects](/projects) you can find a list of current projects im working o
 
 ## Amiga and retro computing
 <hr />
-<img class="img-fluid" src="/img/90250796_10157024841761723_6919638784296353792_n.jpg">
+<img class="img-fluid" src="/assets/img/90250796_10157024841761723_6919638784296353792_n.jpg">
 
 I have a strong intrest in retro computers; specific the Commodore Amiga computers. I collect hardware and use them for games, programming and BBS:ing (pre-internet communication).
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: I was this old when i found tmux
-categories: [open-source, project]
-tags: [linux, ubuntu]
+categories: open-source project
+tags: linux ubuntu
 ---
 
 Tmux is a terminal multiplexer: it enables a number of terminals to be created, accessed. and conmntrolled from a single screen. **tmux** may be detached froma screen and continue running in the background, then lates reattached.
@@ -14,7 +14,7 @@ Tmux is a terminal multiplexer: it enables a number of terminals to be created, 
 * Panel synchronization
 * Scriptability, which allows me to create custom tmux sessions for different purposes
 
-<img class="img-fluid" src="/img/2025-09-04-i-was-this-old-when-i-found-tmux.png">
+    <img class="img-fluid" src="/assets/img/2025-09-04-i-was-this-old-when-i-found-tmux.png">
 
 #### Install tmux
 

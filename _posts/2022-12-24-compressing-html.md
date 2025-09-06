@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Compressing HTML
-categories: [snippet]
+categories: snippet
 tags: ruby
 ---
 

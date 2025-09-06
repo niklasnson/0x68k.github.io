@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Amiga Dos Inside and Out
-categories: [amiga]
-tags: [cli, amiga]
+categories: amiga
+tags: cli amiga
 ---
 
 Mostly written as a note to myself while I'm configurering my Amiga 600HD.
