@@ -4,6 +4,7 @@ gem "jekyll"
 gem "minima"
 gem 'jekyll-archives'
 gem 'jekyll-tagging-related_posts'
+gem 'jekyll-feed'
 
 group :jekyll_plugins do
   gem "jekyll-feed"

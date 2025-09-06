@@ -18,6 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+lang: en
+url: https://0x68k.com/
+baseurl: /
+icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 title: Niklas Hilding
 email: niklas@0x68k.com
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -26,6 +33,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 plugins:
   - jekyll-feed
   - jekyll-archives
+  - jekyll-feed
 
 gems:
   - jekyll-tagging-related_posts
@@ -41,6 +49,12 @@ jekyll-archives:
     tag: '/archives/tag/:name/'
     category: '/archives/category/:name/'
 
+# -----------------------------------------------------------------------------
+# RSS Feed
+# -----------------------------------------------------------------------------
+# will use title and url fields
+# Take a look to https://github.com/jekyll/jekyll-feed for more customization
+
 include:
   - _pages
   - _posts
@@ -51,11 +65,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-
-# -----------------------------------------------------------------------------
-# Site settings
-# -----------------------------------------------------------------------------
-lang: en
-url: https://0x68k.com/
-baseurl: /
-
+# Sitemap settings
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
