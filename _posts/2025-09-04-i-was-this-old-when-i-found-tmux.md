@@ -3,6 +3,9 @@ layout: post
 title: I was this old when i found tmux
 categories: open-source project
 tags: linux ubuntu
+latest_posts:
+  enabled: true
+  limit: 5# leave blank to include all the blog posts
 ---
 
 Tmux is a terminal multiplexer: it enables a number of terminals to be created, accessed. and conmntrolled from a single screen. **tmux** may be detached froma screen and continue running in the background, then lates reattached.

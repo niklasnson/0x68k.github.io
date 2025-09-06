@@ -3,6 +3,9 @@ layout: page
 title: about
 permalink: /about/
 resource: true
+latest_posts:
+  enabled: true
+  limit: 5# leave blank to include all the blog posts
 ---
 
 <header class="mb-3">

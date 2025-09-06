@@ -3,6 +3,9 @@ layout: post
 title: Detect suspicious logins
 categories: security
 tags: ruby rails
+latest_posts:
+  enabled: true
+  limit: 5# leave blank to include all the blog posts
 ---
 
 For the project im currently working on i wanted to add some additinal security by detecting suspicious logins, after a lot of ideas of looking on the geographical origin of the request i ended up in looking on the IP address, you would expect that you will get some possitive faults when a user uses a diffrent device to login - but i dont think this will be a verry common for more then 1-3 devices issue.

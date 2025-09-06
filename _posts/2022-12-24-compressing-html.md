@@ -3,6 +3,9 @@ layout: post
 title: Compressing HTML
 categories: snippet
 tags: ruby
+latest_posts:
+  enabled: true
+  limit: 5# leave blank to include all the blog posts
 ---
 
 Small snippet to compress HTML in Ruby. Returning from function is a string with the basic compressed HTML.

@@ -3,6 +3,9 @@ layout: page
 title: projects
 permalink: /projects/
 resource: true
+latest_posts:
+  enabled: true
+  limit: 5# leave blank to include all the blog posts
 ---
 <header class="mb-3">
     <hr>

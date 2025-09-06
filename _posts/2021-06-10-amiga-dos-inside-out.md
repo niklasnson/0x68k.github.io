@@ -3,6 +3,9 @@ layout: post
 title: Amiga Dos Inside and Out
 categories: amiga
 tags: cli amiga
+latest_posts:
+  enabled: true
+  limit: 5# leave blank to include all the blog posts
 ---
 
 Mostly written as a note to myself while I'm configurering my Amiga 600HD.

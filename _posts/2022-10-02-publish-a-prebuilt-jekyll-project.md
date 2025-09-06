@@ -3,6 +3,9 @@ layout: post
 title: Publish a prebuilt jekyll project
 categories: jekyll bash ruby
 tags: jekyll git
+latest_posts:
+  enabled: true
+  limit: 5# leave blank to include all the blog posts
 ---
 
 Jekyll and GitHub is a powerful combination, with easy you can publish a blog and the HTML will be built when you push. But you may run into issues when you use plugins that are not whitelisted by GitHub e.g the great archive gem.

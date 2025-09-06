@@ -1,8 +1,10 @@
 ---
 layout: default
 title: Niklas Nilsson
+latest_posts:
+  enabled: true
+  limit: 5# leave blank to include all the blog posts
 ---
-
 <div class="archive">
   <h5>{{ site.posts.first.date | date: '%Y' }}</h2>
     {%for post in site.posts %}

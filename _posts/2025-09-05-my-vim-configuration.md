@@ -3,6 +3,9 @@ layout: post
 title: My Vim configuration
 categories: open-source project
 tags: vim words
+latest_posts:
+  enabled: true
+  limit: 5# leave blank to include all the blog posts
 ---
 
 I recently changed clients and now have an assignment where I configure and troubleshoot several Linux systems. It is part of my daily work but I also do a lot of development in Python and C++, at my previous job the recommended editor was VSCodium and we had a lot of special plugins that made the work easier. That is why I chose to change my primary editor to VSCodium, I know it is not a compulsion but I have always found it easiest to work in one and the same editor both at work and in my free time.

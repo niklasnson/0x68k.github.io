@@ -3,6 +3,9 @@ layout: post
 title: Normalizes method in Rails 7.1
 categories: ruby
 tags: rails rails
+latest_posts:
+  enabled: true
+  limit: 5# leave blank to include all the blog posts
 ---
 
 I'm refactoring my normalizes methods in Rails with tne new [normalizes](https://edgeapi.rubyonrails.org/classes/ActiveRecord/Normalization/ClassMethods.html#method-i-normalizes) method. Lets take a look together.

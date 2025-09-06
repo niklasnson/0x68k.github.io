@@ -1,31 +1,18 @@
-{% include header.html %}
+{% include header.liquid %}
 
-  <div class="container my-5">
-    <div class="row">
-      <div class="col-md-9 mx-auto">
-        <article class="page-content">
-          {{ content }}
-        </article>
-      </div>
-      <div class="col-md-3 ms-auto">
-        <div class="card tags">
-          <div class="card-body">
-            <h5 class="card-title border-bottom pb-3 mb-3">Hi there 👋</h5>
-            <p><img src="/assets/img/prof_pic.jpg" class="rounded img-fluid pb-2">Hi! I’m NIklas Nilsson. I’m a consultant team leader and software engineer.<br/><br/>I’m interested in finding better ways to build maintainable software in small and efficient teams.<br/><br/>This is my personal blog about devlopment, leadership, life and trainging.</p>
-          </div>
-        </div>
-        <div class="card tags mt-4">
-          <div class="card-body">
-            <h5 class="card-title border-bottom pb-3 mb-3">Posts categories</h5>
-            <ul class="list-unstyled">
-            {% for category in site.categories %}
-            <li><a class="text-capitalize link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" href='/archives/category/{{category|first}}'>{{ category|first }}</a></li>
-            {% endfor %}
-            </ul>
-          </div>
-        </div>
-      </div>
+<div class="container my-5">
+  <div class="row">
+    <div class="col-md-9 mx-auto">
+      <article class="page-content">
+        {{ content }}
+      </article>
+    </div>
+    <div class="col-md-3 ms-auto">
+      {% include latest_posts.liquid %}
+      {% include author.liquid %}
+      {% include categories.liquid %}
     </div>
   </div>
+</div>
 
-{% include footer.html %}
+{% include footer.liquid %}
