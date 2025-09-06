@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-09-06T02:59:34+02:00</updated><id>/feed.xml</id><title type="html">Niklas Hilding</title><entry><title type="html">My Vim configuration and wow</title><link href="/open-source/project/2025/09/05/my-vim-configuration-and-wow.html" rel="alternate" type="text/html" title="My Vim configuration and wow" /><published>2025-09-05T00:00:00+02:00</published><updated>2025-09-05T00:00:00+02:00</updated><id>/open-source/project/2025/09/05/my-vim-configuration-and-wow</id><content type="html" xml:base="/open-source/project/2025/09/05/my-vim-configuration-and-wow.html"><![CDATA[<p>I recently changed clients and now have an assignment where I configure and troubleshoot several Linux systems. It is part of my daily work but I also do a lot of development in Python and C++, at my previous job the recommended editor was VSCodium and we had a lot of special plugins that made the work easier. That is why I chose to change my primary editor to VSCodium, I know it is not a compulsion but I have always found it easiest to work in one and the same editor both at work and in my free time.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-09-06T05:35:31+02:00</updated><id>/feed.xml</id><title type="html">Niklas Hilding</title><entry><title type="html">My Vim configuration and wow</title><link href="/open-source/project/2025/09/05/my-vim-configuration-and-wow.html" rel="alternate" type="text/html" title="My Vim configuration and wow" /><published>2025-09-05T00:00:00+02:00</published><updated>2025-09-05T00:00:00+02:00</updated><id>/open-source/project/2025/09/05/my-vim-configuration-and-wow</id><content type="html" xml:base="/open-source/project/2025/09/05/my-vim-configuration-and-wow.html"><![CDATA[<p>I recently changed clients and now have an assignment where I configure and troubleshoot several Linux systems. It is part of my daily work but I also do a lot of development in Python and C++, at my previous job the recommended editor was VSCodium and we had a lot of special plugins that made the work easier. That is why I chose to change my primary editor to VSCodium, I know it is not a compulsion but I have always found it easiest to work in one and the same editor both at work and in my free time.</p>
 
 <p>But my new assignment makes it much easier to use Vim instead of any other editor. This is a small walkthrough of the configuration I use at home. Due to security class, I can’t really use the same configuration at work.</p>
 
 <h4 id="nerdtree">NERDTree</h4>
-<p><img class="img-fluid" src="/img/2025-09-05-my-vim-configuration-and-wow_1.png" /></p>
+<p><img class="img-fluid" src="/assets/img/2025-09-05-my-vim-configuration-and-wow_1.png" /></p>
 
 <p>The NERDTree is a file system explorer for the Vim editor.</p>
 
 <h4 id="ctrlp">CtrlP</h4>
-<p><img class="img-fluid" src="/img/2025-09-05-my-vim-configuration-and-wow_2.png" /></p>
+<p><img class="img-fluid" src="/assets/img/2025-09-05-my-vim-configuration-and-wow_2.png" /></p>
 
 <p>CtrlP is a great fuzzy file finder for Vim. As a complement to NERDtree, I think it’s perfect. When I’m comfortable in projects, it’s easier and faster to open files by name than to click through to the files.</p>
 
 <h4 id="fzf">Fzf</h4>
-<p><img class="img-fluid" src="/img/2025-09-05-my-vim-configuration-and-wow_3.png" /></p>
+<p><img class="img-fluid" src="/assets/img/2025-09-05-my-vim-configuration-and-wow_3.png" /></p>
 
 <p>fzf itself is not a Vim plugin, and the official repository only provides the basic wrapper function for Vim. It’s up to the users to write their own Vim commands with it.</p>
 
@@ -25,10 +25,12 @@
   <li>Splitting window in several panes</li>
   <li>Automatic layouts</li>
   <li>Panel synchronization</li>
-  <li>Scriptability, which allows me to create custom tmux sessions for different purposes</li>
-</ul>
+  <li>
+    <p>Scriptability, which allows me to create custom tmux sessions for different purposes</p>
 
-<p><img class="img-fluid" src="/img/2025-09-04-i-was-this-old-when-i-found-tmux.png" /></p>
+    <p><img class="img-fluid" src="/assets/img/2025-09-04-i-was-this-old-when-i-found-tmux.png" /></p>
+  </li>
+</ul>
 
 <h4 id="install-tmux">Install tmux</h4>
 
@@ -55,7 +57,7 @@
   <li>Ctrl+B : — Enter the command line to type commands. Tab completion is available.</li>
   <li>Ctrl+B ? — View all keybindings. Press Q to exit.</li>
   <li>Ctrl+B W — Open a panel to navigate across windows in multiple sessions.</li>
-</ul>]]></content><author><name></name></author><category term="open-source" /><category term="project" /><category term="linux" /><category term="ubuntu" /><summary type="html"><![CDATA[Tmux is a terminal multiplexer: it enables a number of terminals to be created, accessed. and conmntrolled from a single screen. tmux may be detached froma screen and continue running in the background, then lates reattached.]]></summary></entry><entry><title type="html">Install Qt on Ubuntu 24.04.2</title><link href="/open-source/project/2025/07/05/install-qt-on-ubuntu-24-04-2.html" rel="alternate" type="text/html" title="Install Qt on Ubuntu 24.04.2" /><published>2025-07-05T00:00:00+02:00</published><updated>2025-07-05T00:00:00+02:00</updated><id>/open-source/project/2025/07/05/install-qt-on-ubuntu-24-04-2</id><content type="html" xml:base="/open-source/project/2025/07/05/install-qt-on-ubuntu-24-04-2.html"><![CDATA[<p>This is how i installed Qt on Ubuntu 24.04.2.</p>
+</ul>]]></content><author><name></name></author><category term="open-source" /><category term="project" /><category term="linux" /><category term="ubuntu" /><summary type="html"><![CDATA[Tmux is a terminal multiplexer: it enables a number of terminals to be created, accessed. and conmntrolled from a single screen. tmux may be detached froma screen and continue running in the background, then lates reattached.]]></summary></entry><entry><title type="html">Install Qt on Ubuntu 24.04.2</title><link href="/pen-source/project/2025/07/05/install-qt-on-ubuntu-24-04-2.html" rel="alternate" type="text/html" title="Install Qt on Ubuntu 24.04.2" /><published>2025-07-05T00:00:00+02:00</published><updated>2025-07-05T00:00:00+02:00</updated><id>/pen-source/project/2025/07/05/install-qt-on-ubuntu-24-04-2</id><content type="html" xml:base="/pen-source/project/2025/07/05/install-qt-on-ubuntu-24-04-2.html"><![CDATA[<p>This is how i installed Qt on Ubuntu 24.04.2.</p>
 
 <ul>
   <li>First step go to <a href="https://www.qt.io/">Qt.io</a></li>
@@ -68,7 +70,7 @@
 <p>Now ytou will have a <code class="language-plaintext highlighter-rouge">qt-online-installer-linux-x64-4.10.0.run</code>
 Make the file executable by running <code class="language-plaintext highlighter-rouge">chmod +x qt-online-installer-linux-x64-4.10.0.run</code></p>
 
-<p>You will need to create a Qt account and after this it will be installed.</p>]]></content><author><name></name></author><category term="open-source" /><category term="project" /><category term="Qt" /><category term="Ubuntu" /><summary type="html"><![CDATA[This is how i installed Qt on Ubuntu 24.04.2.]]></summary></entry><entry><title type="html">Updated SDL2Bootstrap</title><link href="/open-source/project/2025/02/23/updated-sdl2bootstrap.html" rel="alternate" type="text/html" title="Updated SDL2Bootstrap" /><published>2025-02-23T00:00:00+01:00</published><updated>2025-02-23T00:00:00+01:00</updated><id>/open-source/project/2025/02/23/updated-sdl2bootstrap</id><content type="html" xml:base="/open-source/project/2025/02/23/updated-sdl2bootstrap.html"><![CDATA[<p>I updated my <a href="https://github.com/niklasnson/SDL2Bootstrap">SDL2 Bootstrap</a>, i will start working on a small game, just to do some other programming than i normally do in C++. The game will live at <a href="https://github.com/niklasnson/missile_command.cpp">GitHub</a>.</p>
+<p>You will need to create a Qt account and after this it will be installed.</p>]]></content><author><name></name></author><category term="pen-source" /><category term="project" /><category term="Qt" /><category term="Ubuntu" /><summary type="html"><![CDATA[This is how i installed Qt on Ubuntu 24.04.2.]]></summary></entry><entry><title type="html">Updated SDL2Bootstrap</title><link href="/open-source/project/2025/02/23/updated-sdl2bootstrap.html" rel="alternate" type="text/html" title="Updated SDL2Bootstrap" /><published>2025-02-23T00:00:00+01:00</published><updated>2025-02-23T00:00:00+01:00</updated><id>/open-source/project/2025/02/23/updated-sdl2bootstrap</id><content type="html" xml:base="/open-source/project/2025/02/23/updated-sdl2bootstrap.html"><![CDATA[<p>I updated my <a href="https://github.com/niklasnson/SDL2Bootstrap">SDL2 Bootstrap</a>, i will start working on a small game, just to do some other programming than i normally do in C++. The game will live at <a href="https://github.com/niklasnson/missile_command.cpp">GitHub</a>.</p>
 
 <p>My thought is to have a easy setup to start doing a new game with the basic skeleton that you might want to have.</p>]]></content><author><name></name></author><category term="open-source" /><category term="project" /><category term="C++" /><category term="SDL2" /><category term="GameDev" /><summary type="html"><![CDATA[I updated my SDL2 Bootstrap, i will start working on a small game, just to do some other programming than i normally do in C++. The game will live at GitHub.]]></summary></entry><entry><title type="html">epilogue.rb</title><link href="/open-source/project/2025/02/08/epilogue-rb.html" rel="alternate" type="text/html" title="epilogue.rb" /><published>2025-02-08T00:00:00+01:00</published><updated>2025-02-08T00:00:00+01:00</updated><id>/open-source/project/2025/02/08/epilogue-rb</id><content type="html" xml:base="/open-source/project/2025/02/08/epilogue-rb.html"><![CDATA[<p>I just started working a new project, i spent time thinking about a web based notes system for a while and im thinking it will be a fun project to do in Rails 8.0. I have started working on scaffolding the application and as soon as i have made the first basic functions i will make the code public on github.</p>
 
@@ -78,9 +80,9 @@ Make the file executable by running <code class="language-plaintext highlighter-
 fatal: not a git repository <span class="o">(</span>or any of the parent directories<span class="o">)</span>: .git
 fatal: not a git repository <span class="o">(</span>or any of the parent directories<span class="o">)</span>: .git
 <span class="nt">--</span> Could NOT find KF5CoreAddons <span class="o">(</span>missing: KF5CoreAddons_DIR<span class="o">)</span>
-<span class="nt">--</span> Could NOT find KF5CoreAddons: found neither KF5CoreAddonsConfig.cmake nor kf5coreaddons-config.cmake 
+<span class="nt">--</span> Could NOT find KF5CoreAddons: found neither KF5CoreAddonsConfig.cmake nor kf5coreaddons-config.cmake
 <span class="nt">--</span> Could NOT find KF5I18n <span class="o">(</span>missing: KF5I18n_DIR<span class="o">)</span>
-<span class="nt">--</span> Could NOT find KF5I18n: found neither KF5I18nConfig.cmake nor kf5i18n-config.cmake 
+<span class="nt">--</span> Could NOT find KF5I18n: found neither KF5I18nConfig.cmake nor kf5i18n-config.cmake
 CMake Error at /usr/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:230 <span class="o">(</span>message<span class="o">)</span>:
   Could NOT find KF5 <span class="o">(</span>missing: CoreAddons I18n<span class="o">)</span> <span class="o">(</span>found suitable version
   <span class="s2">"5.110.0"</span>, minimum required is <span class="s2">"5.78.0"</span><span class="o">)</span>
@@ -91,11 +93,11 @@ Call Stack <span class="o">(</span>most recent call first<span class="o">)</span
 
 <p>After while i found a this <a href="https://github.com/ktechlab/ktechlab/issues/53">issue</a> where i found out to add the following development packages.</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">libkf5doctools-dev 
-libkf5texteditor-dev 
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">libkf5doctools-dev
+libkf5texteditor-dev
 libkf5kdelibs4support-dev</code></pre></figure>
 
-<p>Now i can run my cmake file without any errors.</p>]]></content><author><name></name></author><category term="open-source" /><category term="KDE" /><category term="cpp" /><category term="kde" /><category term="kde-community" /><summary type="html"><![CDATA[After following the instructions found at Get Involved/development/Set up a development environment. I got some strange errors running my sample CMAKE file.]]></summary></entry><entry><title type="html">Normalizes method in Rails 7.1</title><link href="/ruby/2023/12/03/normalizes-method-in-rails-7-1.html" rel="alternate" type="text/html" title="Normalizes method in Rails 7.1" /><published>2023-12-03T00:00:00+01:00</published><updated>2023-12-03T00:00:00+01:00</updated><id>/ruby/2023/12/03/normalizes-method-in-rails-7-1</id><content type="html" xml:base="/ruby/2023/12/03/normalizes-method-in-rails-7-1.html"><![CDATA[<p>I’m refactoring my normalizes methods in Rails with tne new <a href="https://edgeapi.rubyonrails.org/classes/ActiveRecord/Normalization/ClassMethods.html#method-i-normalizes">normalizes</a> method. Lets take a look together.</p>
+<p>Now i can run my cmake file without any errors.</p>]]></content><author><name></name></author><category term="open-source" /><category term="KDE" /><category term="cpp," /><category term="kde" /><category term="kde-community" /><summary type="html"><![CDATA[After following the instructions found at Get Involved/development/Set up a development environment. I got some strange errors running my sample CMAKE file.]]></summary></entry><entry><title type="html">Normalizes method in Rails 7.1</title><link href="/ruby/2023/12/03/normalizes-method-in-rails-7-1.html" rel="alternate" type="text/html" title="Normalizes method in Rails 7.1" /><published>2023-12-03T00:00:00+01:00</published><updated>2023-12-03T00:00:00+01:00</updated><id>/ruby/2023/12/03/normalizes-method-in-rails-7-1</id><content type="html" xml:base="/ruby/2023/12/03/normalizes-method-in-rails-7-1.html"><![CDATA[<p>I’m refactoring my normalizes methods in Rails with tne new <a href="https://edgeapi.rubyonrails.org/classes/ActiveRecord/Normalization/ClassMethods.html#method-i-normalizes">normalizes</a> method. Lets take a look together.</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
   <span class="n">normalizes</span> <span class="ss">:email</span><span class="p">,</span> <span class="ss">with: </span><span class="o">-&gt;</span> <span class="n">email</span> <span class="p">{</span> <span class="n">email</span><span class="p">.</span><span class="nf">strip</span><span class="p">.</span><span class="nf">downcase</span> <span class="p">}</span>
@@ -116,7 +118,7 @@ libkf5kdelibs4support-dev</code></pre></figure>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="no">ApplicationRecord</span>
   <span class="n">normalizes</span> <span class="ss">:username</span><span class="p">,</span> <span class="ss">with: </span><span class="o">-&gt;</span> <span class="n">username</span> <span class="p">{</span> <span class="n">username</span><span class="p">.</span><span class="nf">unicode_normalize</span><span class="p">.</span><span class="nf">strip</span><span class="p">.</span><span class="nf">downcase</span> <span class="p">}</span>
-<span class="k">end</span> </code></pre></figure>
+<span class="k">end</span></code></pre></figure>
 
 <p>And we have a bit more clean code with less functions to test.</p>]]></content><author><name></name></author><category term="ruby" /><category term="rails" /><category term="rails" /><summary type="html"><![CDATA[I’m refactoring my normalizes methods in Rails with tne new normalizes method. Lets take a look together.]]></summary></entry><entry><title type="html">Next and previous buttons for active record</title><link href="/ruby/snippets/2023/12/02/next-and-previous-buttons-for-active-record.html" rel="alternate" type="text/html" title="Next and previous buttons for active record" /><published>2023-12-02T00:00:00+01:00</published><updated>2023-12-02T00:00:00+01:00</updated><id>/ruby/snippets/2023/12/02/next-and-previous-buttons-for-active-record</id><content type="html" xml:base="/ruby/snippets/2023/12/02/next-and-previous-buttons-for-active-record.html"><![CDATA[<p>Having buttons to go to the next or back out of an actice record is a desired function, for example, when creating a photo album. So how can one create this functionality in Rails?</p>
 

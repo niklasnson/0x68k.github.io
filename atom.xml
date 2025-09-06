@@ -4,7 +4,7 @@
  <title>Niklas Nilsson</title>
  <link href="https://0x68k.com/atom.xml" rel="self"/>
  <link href="https://0x68k.com/"/>
- <updated>2025-09-06T02:59:34+02:00</updated>
+ <updated>2025-09-06T05:35:31+02:00</updated>
  <id>https://0x68k.com/</id>
  <author>
    <name>NIklas Nilsson</name>
@@ -22,17 +22,17 @@
 &lt;p&gt;But my new assignment makes it much easier to use Vim instead of any other editor. This is a small walkthrough of the configuration I use at home. Due to security class, I can’t really use the same configuration at work.&lt;/p&gt;
 
 &lt;h4 id=&quot;nerdtree&quot;&gt;NERDTree&lt;/h4&gt;
-&lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/img/2025-09-05-my-vim-configuration-and-wow_1.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/2025-09-05-my-vim-configuration-and-wow_1.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The NERDTree is a file system explorer for the Vim editor.&lt;/p&gt;
 
 &lt;h4 id=&quot;ctrlp&quot;&gt;CtrlP&lt;/h4&gt;
-&lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/img/2025-09-05-my-vim-configuration-and-wow_2.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/2025-09-05-my-vim-configuration-and-wow_2.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;CtrlP is a great fuzzy file finder for Vim. As a complement to NERDtree, I think it’s perfect. When I’m comfortable in projects, it’s easier and faster to open files by name than to click through to the files.&lt;/p&gt;
 
 &lt;h4 id=&quot;fzf&quot;&gt;Fzf&lt;/h4&gt;
-&lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/img/2025-09-05-my-vim-configuration-and-wow_3.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/2025-09-05-my-vim-configuration-and-wow_3.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;fzf itself is not a Vim plugin, and the official repository only provides the basic wrapper function for Vim. It’s up to the users to write their own Vim commands with it.&lt;/p&gt;
 
@@ -54,10 +54,12 @@
   &lt;li&gt;Splitting window in several panes&lt;/li&gt;
   &lt;li&gt;Automatic layouts&lt;/li&gt;
   &lt;li&gt;Panel synchronization&lt;/li&gt;
-  &lt;li&gt;Scriptability, which allows me to create custom tmux sessions for different purposes&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Scriptability, which allows me to create custom tmux sessions for different purposes&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/img/2025-09-04-i-was-this-old-when-i-found-tmux.png&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/assets/img/2025-09-04-i-was-this-old-when-i-found-tmux.png&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h4 id=&quot;install-tmux&quot;&gt;Install tmux&lt;/h4&gt;
 
@@ -91,9 +93,9 @@
  
  <entry>
    <title>Install Qt on Ubuntu 24.04.2</title>
-   <link href="https://0x68k.com/open-source/project/2025/07/05/install-qt-on-ubuntu-24-04-2.html"/>
+   <link href="https://0x68k.com/pen-source/project/2025/07/05/install-qt-on-ubuntu-24-04-2.html"/>
    <updated>2025-07-05T00:00:00+02:00</updated>
-   <id>https://0x68k.com/open-source/project/2025/07/05/install-qt-on-ubuntu-24-04-2</id>
+   <id>https://0x68k.com/pen-source/project/2025/07/05/install-qt-on-ubuntu-24-04-2</id>
    <content type="html">&lt;p&gt;This is how i installed Qt on Ubuntu 24.04.2.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -145,9 +147,9 @@ Make the file executable by running &lt;code class=&quot;language-plaintext high
 fatal: not a git repository &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;or any of the parent directories&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;: .git
 fatal: not a git repository &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;or any of the parent directories&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;: .git
 &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; Could NOT find KF5CoreAddons &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;missing: KF5CoreAddons_DIR&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; Could NOT find KF5CoreAddons: found neither KF5CoreAddonsConfig.cmake nor kf5coreaddons-config.cmake 
+&lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; Could NOT find KF5CoreAddons: found neither KF5CoreAddonsConfig.cmake nor kf5coreaddons-config.cmake
 &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; Could NOT find KF5I18n &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;missing: KF5I18n_DIR&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; Could NOT find KF5I18n: found neither KF5I18nConfig.cmake nor kf5i18n-config.cmake 
+&lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; Could NOT find KF5I18n: found neither KF5I18nConfig.cmake nor kf5i18n-config.cmake
 CMake Error at /usr/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:230 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;message&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:
   Could NOT find KF5 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;missing: CoreAddons I18n&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;found suitable version
   &lt;span class=&quot;s2&quot;&gt;&quot;5.110.0&quot;&lt;/span&gt;, minimum required is &lt;span class=&quot;s2&quot;&gt;&quot;5.78.0&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
@@ -158,8 +160,8 @@ Call Stack &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;most recent call first&
 
 &lt;p&gt;After while i found a this &lt;a href=&quot;https://github.com/ktechlab/ktechlab/issues/53&quot;&gt;issue&lt;/a&gt; where i found out to add the following development packages.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;libkf5doctools-dev 
-libkf5texteditor-dev 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;libkf5doctools-dev
+libkf5texteditor-dev
 libkf5kdelibs4support-dev&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Now i can run my cmake file without any errors.&lt;/p&gt;
@@ -192,7 +194,7 @@ libkf5kdelibs4support-dev&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ApplicationRecord&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;normalizes&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:username&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;with: &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;username&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;unicode_normalize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;strip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;downcase&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;And we have a bit more clean code with less functions to test.&lt;/p&gt;
 

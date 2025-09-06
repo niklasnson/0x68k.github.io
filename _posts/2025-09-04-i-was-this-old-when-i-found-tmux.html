@@ -1,0 +1,260 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>I was this old when i found tmux</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+
+    <header class="mb-4 border-bottom">
+      <nav class="navbar navbar-expand-md navbar-light bg-white absolute-top">
+        <div class="container">
+
+          <button class="navbar-toggler order-2 order-md-1" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbar-left navbar-right" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse order-3 order-md-2" id="navbar-left">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown02">
+                  
+                    <a class="dropdown-item text-uppercase" href="/archives/category/amiga">amiga</a>
+                  
+                    <a class="dropdown-item text-uppercase" href="/archives/category/git">git</a>
+                  
+                    <a class="dropdown-item text-uppercase" href="/archives/category/snippets">snippets</a>
+                  
+                    <a class="dropdown-item text-uppercase" href="/archives/category/jekyll">jekyll</a>
+                  
+                    <a class="dropdown-item text-uppercase" href="/archives/category/bash">bash</a>
+                  
+                    <a class="dropdown-item text-uppercase" href="/archives/category/ruby">ruby</a>
+                  
+                    <a class="dropdown-item text-uppercase" href="/archives/category/snippet">snippet</a>
+                  
+                    <a class="dropdown-item text-uppercase" href="/archives/category/security">security</a>
+                  
+                    <a class="dropdown-item text-uppercase" href="/archives/category/open-source">open-source</a>
+                  
+                    <a class="dropdown-item text-uppercase" href="/archives/category/KDE">KDE</a>
+                  
+                    <a class="dropdown-item text-uppercase" href="/archives/category/project">project</a>
+                  
+                    <a class="dropdown-item text-uppercase" href="/archives/category/pen-source">pen-source</a>
+                  
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <a class="navbar-brand mx-auto order-1 order-md-3" href="/index.html">Niklas Nilsson</a>
+
+          <div class="collapse navbar-collapse order-4 order-md-4" id="navbar-right">
+            <ul class="navbar-nav ms-auto">
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  <li class="nav-item"><a class="nav-link text-capitalize link-underline-opacity-0" href="/about/">about</a></li>
+                
+              
+                
+              
+                
+                  <li class="nav-item"><a class="nav-link text-capitalize link-underline-opacity-0" href="/cv/">cv</a></li>
+                
+              
+                
+                  <li class="nav-item"><a class="nav-link text-capitalize link-underline-opacity-0" href="/ideas/">ideas</a></li>
+                
+              
+                
+              
+                
+                  <li class="nav-item"><a class="nav-link text-capitalize link-underline-opacity-0" href="/projects/">projects</a></li>
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <h3>I was this old when i found tmux</h3>
+        <hr />
+        <p class="mt-3">Posted: </p>
+        <hr />
+
+        <article class="post-content">
+          <p>Tmux is a terminal multiplexer: it enables a number of terminals to be created, accessed. and conmntrolled from a single screen. <strong>tmux</strong> may be detached froma screen and continue running in the background, then lates reattached.</p>
+
+<ul>
+  <li>Fully customizable status bar</li>
+  <li>Multiple window management</li>
+  <li>Splitting window in several panes</li>
+  <li>Automatic layouts</li>
+  <li>Panel synchronization</li>
+  <li>
+    <p>Scriptability, which allows me to create custom tmux sessions for different purposes</p>
+
+    <p><img class="img-fluid" src="/assets/img/2025-09-04-i-was-this-old-when-i-found-tmux.png" /></p>
+  </li>
+</ul>
+
+<h4 id="install-tmux">Install tmux</h4>
+
+<p>Tmux is avelibal in most distributions. I use Ubuntu so i install will <code class="language-plaintext highlighter-rouge">apt</code></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">  <span class="nv">$ </span><span class="nb">sudo </span>apt <span class="nb">install </span>tmux</code></pre></figure>
+
+<h4 id="get-started">Get started</h4>
+<p>To start using tmux, type tmux on your terminal. This command launches a tmux server, creates a default session (number 0) with a single window, and attaches to it.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">  <span class="nv">$ </span>tmux</code></pre></figure>
+
+<h4 id="tmux-keybindings">Tmux keybindings</h4>
+
+<ul>
+  <li>Ctrl+B D — Detach from the current session.</li>
+  <li>Ctrl+B % — Split the window into two panes horizontally.</li>
+  <li>Ctrl+B “ — Split the window into two panes vertically.</li>
+  <li>Ctrl+B Arrow Key (Left, Right, Up, Down) — Move between panes.</li>
+  <li>Ctrl+B X — Close pane.</li>
+  <li>Ctrl+B C — Create a new window.</li>
+  <li>Ctrl+B N or P — Move to the next or previous window.</li>
+  <li>Ctrl+B 0 (1,2…) — Move to a specific window by number.</li>
+  <li>Ctrl+B : — Enter the command line to type commands. Tab completion is available.</li>
+  <li>Ctrl+B ? — View all keybindings. Press Q to exit.</li>
+  <li>Ctrl+B W — Open a panel to navigate across windows in multiple sessions.</li>
+</ul>
+
+
+        </article>
+      </div>
+      <div class="col-md-3 ms-auto">
+        <div class="card tags">
+          <div class="card-body">
+            <h5 class="card-title border-bottom pb-3 mb-3">Tags</h5>
+            <ul class="list-unstyled">
+            
+              <li><a class="text-capitalize link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" href='/archives/tag/linux ubuntu'>linux ubuntu</a></li>
+            
+            </ul>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <footer class="py-5">
+      <div class="d-flex flex-column flex-sm-row justify-content-between border-top py-3">
+        <p>© 2023 Niklas Nilsson. All rights reserved.  Lets connect on <a href="https://www.linkedin.com/in/niklas-nson/">LinkedIn</a> or <a href="https://github.com/niklasnson">GitHub</a></p>
+      </div>
+    </footer>
+  </div>
+</html>
+
+
