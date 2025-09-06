@@ -24,7 +24,7 @@
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown02">
                   {% for category in site.categories %}
-                    <a class="dropdown-item text-uppercase" href="/archives/category/{{category|first}}">{{category|first}}</a>
+                    <a class="dropdown-item text-capitalize" href="/archives/category/{{category|first}}">{{category|first}}</a>
                   {% endfor %}
                 </div>
               </li>
