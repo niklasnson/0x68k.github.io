@@ -6,7 +6,9 @@ resource: true
 ---
 
 <header class="mb-3">
-    <h3 class="border-bottom">Hi there 👋</h3>
+    <hr>
+    <h3>About the author</h3>
+    <hr>
 </header>
 
 Hi! I'm NIklas Nilsson. I'm a consultant team leader and software engineer with Ericsson and Saab as my most recent placements. I’m interested in finding better ways to build maintainable software in small and efficient teams.

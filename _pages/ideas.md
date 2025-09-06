@@ -4,6 +4,11 @@ title: ideas
 permalink: /ideas/
 resource: true
 ---
+<header class="mb-3">
+    <hr>
+    <h3>Ideas im currently exploring</h3>
+    <hr>
+</header>
 
 If you are intrested in one of the topics, please reach out!
 

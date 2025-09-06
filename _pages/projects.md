@@ -4,6 +4,11 @@ title: projects
 permalink: /projects/
 resource: true
 ---
+<header class="mb-3">
+    <hr>
+    <h3>Projects</h3>
+    <hr>
+</header>
 A List of active projects that I am currently working on, projects are hosted on GitHub, but some of them are private.
 
 ##### **epilogue** - notes for everyone.
