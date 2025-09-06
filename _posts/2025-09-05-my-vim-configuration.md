@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Vim configuration and wow
+title: My Vim configuration
 categories: open-source project
 tags: vim words
 ---
