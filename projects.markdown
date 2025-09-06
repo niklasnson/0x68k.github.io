@@ -44,6 +44,7 @@ IDOFUN.COM is a social photosharing platform with high privacy in mind. Built to
 * Advanced ticket system with entrance interface.
 * Transfer tickets to other members.
 * Blog with posts and drafts.
+
 ---
 * [Sourcecode](https://github.com/niklasnson/nemesis-on-rails)
 * [Wiki](https://github.com/niklasnson/nemesis-on-rails/wiki)
