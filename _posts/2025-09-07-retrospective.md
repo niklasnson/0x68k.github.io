@@ -14,7 +14,7 @@ I'm turning 51 today, thought it could be egood idea to look at life and where I
 
 It's been a tough couple of years, mainly with my health fluctuating between bad and really bad. I had severe side effects from several of my medications. Sudden chills, mood swings and stomach and head pain. Constantly tired and blurred vision.
 
-But what perhaps hit me the hardest was that suddenly it felt like my strength was halved, all the progress I had made in recent years was suddenly gone. This is where I decided, I would take control of my well-being and I would make sure to get in better shape than anyone else. Just over a year ago I discovered Hyrox as a form of training, which has done a lot for my well-being and physical shape. But not only that, it has also helped me a lot mentally.
+But what perhaps hit me the hardest was that suddenly it felt like my strength was halved, all the progress I had made in recent years was suddenly gone. This is where I decided, I would take control of my well-being and I would make sure to get in better shape than ever before. Just over a year ago I discovered Hyrox as a form of training, which has done a lot for my well-being and physical shape. But not only that, it has also helped me a lot mentally.
 
 <img width="350" class="rounded mx-auto d-block" src="/assets/img/retrospective_b.JPEG">
 
