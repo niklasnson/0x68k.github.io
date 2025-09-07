@@ -17,13 +17,13 @@
               <img width="400" class="rounded mx-auto d-block" src="/assets/img/{{ page.image }}">
             {% endif %}
             {% if page.book_title %}
-              <p class="my-0 mx-0 fw-medium">Title: {{ page.book_title }}</p>
+              <p class="my-0 mx-0 fw-medium">Title: {{ page.book_review.title }}</p>
             {% endif %}
             {% if page.book_author %}
-              <p class="my-0 mx-0 fw-medium">Author: {{ page.book_author }}</p>
+              <p class="my-0 mx-0 fw-medium">Author: {{ page.book_review.author }}</p>
             {% endif %}
             {% if page.book_isbn %}
-              <p class="my-0 mx-0 fw-medium">ISBN: {{ page.book_isbn }}</p>
+              <p class="my-0 mx-0 fw-medium">ISBN: {{ page.book_review.isbn }}</p>
             {% endif %}
           </header>
 
@@ -40,7 +40,7 @@
             <h5 class="card-title border-bottom pb-3 mb-3">Categories</h5>
             <ul class="list-unstyled">
             {% for category in page.categories %}
-              <li><a class="text-capitalize link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" href='/archives/category/{{category}}'>{{ category }}</a></li>
+              <li><a class="text-capitalize link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" href='/archives/category/{{category}}'>{{ category }}</a></li>
             {% endfor %}
             </ul>
           </div>
@@ -51,7 +51,7 @@
             <h5 class="card-title border-bottom pb-3 mb-3">Tags</h5>
             <ul class="list-unstyled">
             {% for tag in page.tags %}
-              <li><a class="text-capitalize link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" href='/archives/tag/{{tag | downcase}}'>{{ tag }}</a></li>
+              <li><a class="text-capitalize link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" href='/archives/tag/{{tag | downcase}}'>{{ tag }}</a></li>
             {% endfor %}
             </ul>
           </div>
@@ -63,7 +63,7 @@
             <h5 class="card-title border-bottom pb-3 mb-3">Related stories</h5>
             <ul class="list-unstyled">
               {% for related_post in site.related_posts limit: 5 %}
-                <li><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" href="{{ related_post.url }}">{{ related_post.title }}</a></li>
+                <li><a class="link-offset-2 link-body-emphasis link-offset-3-hover link-underline link-underline-opacity-0" href="{{ related_post.url }}">{{ related_post.title }}</a></li>
               {% endfor %}
             </ul>
           </div>
@@ -72,6 +72,8 @@
       </div>
     </div>
   </div>
+
+
 
 {% include footer.liquid %}
 
