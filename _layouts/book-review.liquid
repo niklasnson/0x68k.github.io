@@ -16,13 +16,13 @@
             {% if page.image %}
               <img width="400" class="rounded mx-auto d-block" src="/assets/img/{{ page.image }}">
             {% endif %}
-            {% if page.book_title %}
+            {% if page.book_review.title%}
               <p class="my-0 mx-0 fw-medium">Title: {{ page.book_review.title }}</p>
             {% endif %}
-            {% if page.book_author %}
+            {% if page.book_review.author %}
               <p class="my-0 mx-0 fw-medium">Author: {{ page.book_review.author }}</p>
             {% endif %}
-            {% if page.book_isbn %}
+            {% if page.book_review.isbn %}
               <p class="my-0 mx-0 fw-medium">ISBN: {{ page.book_review.isbn }}</p>
             {% endif %}
           </header>
