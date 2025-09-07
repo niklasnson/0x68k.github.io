@@ -29,7 +29,7 @@ And then edit the page created in posts directory.
 
 ## Run the server
 ```
-  $ jekyll s
+  $ make run
 
 ```
 ## License
