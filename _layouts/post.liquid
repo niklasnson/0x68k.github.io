@@ -6,6 +6,9 @@
         <h3>{{ page.title }}</h3>
         <hr />
         <p class="mt-3">Posted: {{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • {{ page.author }}{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}</p>
+        {% if page.last_updated %}
+          <p>Last updated on {{ page.last_updated | date: '%B %d, %Y' }}</p>
+        {% endif %}
         <hr />
 
         <article class="post-content">
