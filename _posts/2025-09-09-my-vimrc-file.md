@@ -94,10 +94,6 @@ __tabular__ line up text, with ease.
 "
 "   1. Functions
 
-    function! FormatCodeWithCodestyler()
-      execute 'silent! !/proj/lte_twh/tools/codestyler/latest/bin/codestyler -a %' | edit
-    endfunction
-
     function! VisualSelection(direction, extra_filter) range
       let l:saved_reg = @"
       execute "normal! vgvy"
@@ -117,10 +113,7 @@ __tabular__ line up text, with ease.
 
 {%  endhighlight %}
 
-__FormatCodeWithCodestyler()__
-
-__VisualSelection(direction, extra_filter)__
-
+__VisualSelection(direction, extra_filter)__ search for the word under the cursor. Supe usefull after a an idea by Michael Naumann
 
 
 ##### OS specific settings
@@ -189,6 +182,8 @@ Now days im only using Linux machines, but i keep this - Codestyler is only avel
 
 ##### File compatibility and configuration issues
 
+Yes i loke the cursorline, and i search ignoreing case.
+
 {% highlight bash %}
 "-----------------------------------
 "
@@ -196,7 +191,11 @@ Now days im only using Linux machines, but i keep this - Codestyler is only avel
 
     let vim_markdown_folding_disabled = 1
 {%  endhighlight %}
-text
+
+Nothing special more then some preferences for vim_markdown plugin.
+
+##### Color, Look&Feel Configuration
+
 {% highlight bash %}
 "-----------------------------------
 "
@@ -219,6 +218,8 @@ text
     endif
 {%  endhighlight %}
 
+Yes i love Nord. Some old special config for font size when i was using a Mac and a Linux.
+
 ##### Modes
 
 {% highlight bash %}
@@ -226,14 +227,16 @@ text
 "
 "   6. Modes
 
+
     " Visual mode pressing * or # searches for the current selection
     " Super useful! From an idea by Michael Naumann
-    vnoremap <silent> * :<C-u>call VisualSelection('', '')<CR>/<C-R>=@/<CR><CR>
+    <silent> * :<C-u>call VisualSelection('', '')<CR>/<C-R>=@/<CR><CR>
     vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
 {%  endhighlight %}
 
-##### Plugins and key mappings
+Key mapping only in special modes.
 
+##### Plugins and key mappings
 
 {% highlight bash %}
 "-----------------------------------
@@ -299,6 +302,8 @@ text
    nnoremap <Leader>gd :Gdiffsplit<CR>
 
 {%  endhighlight %}
+
+Ctags and some personal bindings.
 
 #####  Moving around, bufferts and windows
 
