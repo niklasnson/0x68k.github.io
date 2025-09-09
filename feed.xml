@@ -1,4 +1,336 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-09-09T06:15:58+02:00</updated><id>/feed.xml</id><title type="html">Niklas Hilding</title><entry><title type="html">Programming the 6502 by Rodnay Zaks</title><link href="/book-review/6510asm/commodore64/2025/09/07/programming-the-6502-by-rodnay-zaks.html" rel="alternate" type="text/html" title="Programming the 6502 by Rodnay Zaks" /><published>2025-09-07T00:00:00+02:00</published><updated>2025-09-07T00:00:00+02:00</updated><id>/book-review/6510asm/commodore64/2025/09/07/programming-the-6502-by-rodnay-zaks</id><content type="html" xml:base="/book-review/6510asm/commodore64/2025/09/07/programming-the-6502-by-rodnay-zaks.html"><![CDATA[<p>I am most motivated to learn assembler programming on the 68000, but since I recently bought a Commodore 64 after thinking about having one for a long time, I started to think a little about whether I shouldn’t take the plunge and make some of those cool effects that I saw on the screen in my boyhood room as a young man.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-09-09T17:13:55+02:00</updated><id>/feed.xml</id><title type="html">Niklas Hilding</title><entry><title type="html">My .vimrc file</title><link href="/vim/2025/09/09/my-vimrc-file.html" rel="alternate" type="text/html" title="My .vimrc file" /><published>2025-09-09T00:00:00+02:00</published><updated>2025-09-09T00:00:00+02:00</updated><id>/vim/2025/09/09/my-vimrc-file</id><content type="html" xml:base="/vim/2025/09/09/my-vimrc-file.html"><![CDATA[<p>This is my <a href="https://github.com/niklasnson/dotfiles/blob/main/apps/vim/vimrc">.vimrc</a> file, as I mentioned earlier, I have a new job where working with Vim is again optimal, so I needed to go through my configuration and update it. I thought this could be a good exercise to do together.</p>
+
+<h4 id="plugins">Plugins</h4>
+
+<p>A couple of these plugins have been with me for a very long time and some I have only recently started using. There are a couple that are primarily useful for certain languages or tools. For me to install a plugin, it should add something special to my work.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="s2">"-----------------------------------
+"</span>
+<span class="s2">"   0. Plugins
+
+    call plug#begin()
+
+    Plug 'arcticicestudio/nord-vim'
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'ctrlpvim/ctrlp.vim'
+    Plug 'vim-ruby/vim-ruby'
+    Plug 'scrooloose/nerdtree'
+    Plug 'ddollar/nerdcommenter'
+    Plug 'tpope/vim-rails'
+    Plug 'preservim/tagbar'
+    Plug 'junegunn/fzf', { 'do': { -&gt; fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-ragtag'
+    Plug 'tpope/vim-surround'
+    Plug 'vim-test/vim-test'
+    Plug 'tpope/vim-commentary'
+    Plug 'godlygeek/tabular'
+    Plug 'preservim/vim-markdown'
+    Plug 'vim-test/vim-test'
+    Plug 'tpope/vim-commentary'
+
+    call plug#end()
+
+    "</span> Breif <span class="nb">help</span>
+    <span class="s2">"
+    "</span> :PlugInstall  - Install plugins
+    <span class="s2">" :PlugUpgrade  - Upgrade vim-plug itself
+    "</span> :PlugClean    - Remove unlisted plugin</code></pre></figure>
+
+<h5 id="ruby-and-ruby-on-rails">Ruby and Ruby on Rails</h5>
+<ul>
+  <li>vim-ruby/vim-ruby</li>
+  <li>tpope/vim-rails</li>
+  <li>vim-test/vim-test</li>
+</ul>
+
+<p><strong>Vim-Ruby</strong> contains Vim’s runtime files for ruby support. This includes syntax highlighting, indentation, omnicompletion, and various useful tools and mappings.</p>
+
+<p><strong>Vim-Rails</strong> enhanced syntax highlighting, easy navigation of the Rails directory structure, task runner etc. </p>
+
+<h5 id="file-handling">File handling</h5>
+<ul>
+  <li>ctrlpvim/ctrlp.vim</li>
+  <li>scrooloose/nerdtree</li>
+</ul>
+
+<p><strong>NERDTree</strong> is s a file system explorer for the Vim editor. Using this plugin, you can visually browse complex directory hierarchies, quickly open files for reading or editing, and perform basic file system operations.</p>
+
+<p><strong>CTRLP</strong> is a full path fuzzy file, buffer, mru, tag, … finder for Vim. When i can find my way around a project is the ultime time booster.</p>
+
+<h5 id="linters-and-language-tools">Linters and language tools</h5>
+<ul>
+  <li>tpope/vim-ragtag</li>
+  <li>preservim/vim-markdown</li>
+  <li>tpope/vim-commentary</li>
+  <li>tpope/vim-surround</li>
+</ul>
+
+<p><strong>Vim-Markdown</strong> provides syntax highlighting, matching rules and mappings for the original Markdown and extensions.</p>
+
+<p><strong>Vim_Commentary</strong> simply comment stuff out.</p>
+
+<h5 id="misc-tools">Misc tools</h5>
+<ul>
+  <li>tpope/vim-surround</li>
+  <li>godlygeek/tabular</li>
+</ul>
+
+<p><strong>Vim-Surrond</strong> is all about “surroundings”: parentheses, brackets, quotes, XML tags, and more. The plugin provides mappings to easily delete, change and add such surroundings in pairs.</p>
+
+<p><strong>tabular</strong> line up text, with ease.</p>
+
+<h4 id="functions">Functions</h4>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="s2">"-----------------------------------
+"</span>
+<span class="s2">"   1. Functions
+
+    function! VisualSelection(direction, extra_filter) range
+      let l:saved_reg = @"</span>
+      execute <span class="s2">"normal! vgvy"</span>
+
+      <span class="nb">let </span>l:pattern <span class="o">=</span> escape<span class="o">(</span>@<span class="s2">", "</span><span class="se">\\</span>/.<span class="k">*</span><span class="s1">'$^~[]")
+      let l:pattern = substitute(l:pattern, "\n$", "", "")
+
+      if a:direction == '</span>gv<span class="s1">'
+          call CmdLine("Ack '</span><span class="s2">" . l:pattern . "</span><span class="s1">' " )
+      elseif a:direction == '</span>replace<span class="s1">'
+          call CmdLine("%s" . '</span>/<span class="s1">'. l:pattern . '</span>/<span class="s1">')
+      endif
+
+      let @/ = l:pattern
+      let @" = l:saved_reg
+    endfunction</span></code></pre></figure>
+
+<p><strong>VisualSelection(direction, extra_filter)</strong> search for the word under the cursor. Supe usefull after a an idea by Michael Naumann</p>
+
+<h5 id="os-specific-settings">OS specific settings</h5>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="s2">"-----------------------------------
+"</span>
+<span class="s2">"   2. OS specific settings
+
+    if has('mac')
+    end
+    if has('linux')
+      nnoremap &lt;silent&gt; &lt;leader&gt;cf :&lt;c-u&gt;call FormatCodeWithCodestyler()&lt;cr&gt;
+    end</span></code></pre></figure>
+
+<p>Now days im only using Linux machines, but i keep this - Codestyler is only avelibal for Linux.</p>
+
+<h4 id="general-congifuration-options">General congifuration options</h4>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="s2">"-----------------------------------
+"</span>
+<span class="s2">"   3. General congifuration options
+
+    set history=50
+    "</span> Use spaces instead of tabs
+    <span class="nb">set </span>expandtab
+    <span class="s2">" Be smart when using tabs ;)
+    set smarttab
+    set tabstop=2
+    set shiftwidth=2
+    set softtabstop=2
+    "</span> Linebreak on 500 characters
+    <span class="nb">set </span>lbr
+    <span class="nb">set </span><span class="nv">tw</span><span class="o">=</span>500
+    <span class="nb">set </span>ai              <span class="s2">" Auto indent
+    set si              "</span> Smart indent
+    <span class="nb">set </span>wrap            <span class="s2">" Wrap lines
+    set so=7            "</span> Set 7 lines to the cursor - when moving vertically using j/k
+    <span class="nb">set </span>number
+    <span class="nb">set </span><span class="nv">numberwidth</span><span class="o">=</span>5
+    <span class="nb">set </span>cursorline
+    <span class="nb">set </span>autowrite       <span class="s2">" Automatically :write before running commands
+    set tags=./tags
+    set autoindent		  "</span> always <span class="nb">set </span>autoindenting on
+    <span class="nb">set </span>showcmd		      <span class="s2">" display incomplete commands
+    "</span> Buffert settings
+    <span class="nb">set </span>autoread        <span class="s2">" Auto-reload buffers when file changed on disk
+    set nobackup        "</span> Don<span class="s1">'t use backup files
+    set nowritebackup   " Don'</span>t backup the file <span class="k">while </span>editing
+    <span class="nb">set </span>noswapfile      <span class="s2">" Don't create swapfiles for new buffers
+    "</span> Ignore <span class="k">case</span> when searching
+    <span class="nb">set </span>ignorecase
+    <span class="s2">" With a map leader it's possible to do extra key combinations
+    "</span> like &lt;leader&gt;w saves the current file
+    <span class="nb">let </span>mapleader <span class="o">=</span> <span class="s2">","</span>
+    <span class="s2">" Configure backspace so it acts as it should act
+    set backspace=eol,start,indent
+    set whichwrap+=&lt;,&gt;,h,l</span></code></pre></figure>
+
+<h5 id="file-compatibility-and-configuration-issues">File compatibility and configuration issues</h5>
+
+<p>Yes i loke the cursorline, and i search ignoreing case.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="s2">"-----------------------------------
+"</span>
+<span class="s2">"   4. File compatibility and configuration issues
+
+    let vim_markdown_folding_disabled = 1</span></code></pre></figure>
+
+<p>Nothing special more then some preferences for vim_markdown plugin.</p>
+
+<h5 id="color-lookfeel-configuration">Color, Look&amp;Feel Configuration</h5>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="s2">"-----------------------------------
+"</span>
+<span class="s2">"   5. Color, Look&amp;Feel Configuration
+
+    syntax enable         "</span> <span class="nb">enable </span>syntax highlighting
+    colorscheme nord
+    au BufRead,BufNewFile <span class="o">{</span>Gemfile,Rakefile,Vagrantfile,Thorfile,Procfile,Guardfile,config.ru,<span class="k">*</span>.rake<span class="o">}</span> <span class="nb">set </span><span class="nv">ft</span><span class="o">=</span>ruby
+    autocmd BufWritePre <span class="k">*</span> :%s/<span class="se">\s\+</span><span class="nv">$/</span>/e
+
+    <span class="s2">" Settings for gvim
+    if has("</span>gui_running<span class="s2">")
+      set guioptions-=T
+      if has('mac')
+        set guifont=Fira</span><span class="se">\ </span><span class="s2">Code:h14
+      end
+      if has('linux')
+       set guifont=Fira</span><span class="se">\ </span><span class="s2">Code</span><span class="se">\ </span><span class="s2">12
+      end
+    endif</span></code></pre></figure>
+
+<p>Yes i love Nord. Some old special config for font size when i was using a Mac and a Linux.</p>
+
+<h5 id="modes">Modes</h5>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="s2">"-----------------------------------
+"</span>
+<span class="s2">"   6. Modes
+
+
+    "</span> Visual mode pressing <span class="k">*</span> or <span class="c"># searches for the current selection</span>
+    <span class="s2">" Super useful! From an idea by Michael Naumann
+    &lt;silent&gt; * :&lt;C-u&gt;call VisualSelection('', '')&lt;CR&gt;/&lt;C-R&gt;=@/&lt;CR&gt;&lt;CR&gt;
+    vnoremap &lt;silent&gt; # :&lt;C-u&gt;call VisualSelection('', '')&lt;CR&gt;?&lt;C-R&gt;=@/&lt;CR&gt;&lt;CR&gt;</span></code></pre></figure>
+
+<p>Key mapping only in special modes.</p>
+
+<h5 id="plugins-and-key-mappings">Plugins and key mappings</h5>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="s2">"-----------------------------------
+"</span>
+<span class="s2">"   7. Plugins and key mappings
+
+    "</span> Plugin settings
+    <span class="nb">let </span>g:ctrlp_custom_ignore <span class="o">=</span> <span class="s1">'\v[\/]\.(git|tmp|storage|vendor|node_modules|coverage|log|public)$'</span>
+
+    <span class="s2">" Key mappings
+    nnoremap &lt;C-s&gt; :Ag&lt;space&gt;
+    nnoremap &lt;leader&gt;n :NERDTreeFocus&lt;CR&gt;
+    nnoremap &lt;C-n&gt; :NERDTree&lt;CR&gt;
+    nnoremap &lt;C-t&gt; :NERDTreeToggle&lt;CR&gt;
+    nnoremap &lt;C-f&gt; :NERDTreeFind&lt;CR&gt;
+    nmap &lt;Leader&gt;r :NERDTreeFocus&lt;cr&gt;R&lt;c-w&gt;&lt;c-p&gt;
+    let g:ctrlp_custom_ignore = {
+      </span><span class="se">\ </span><span class="s2">'dir':  '</span><span class="se">\.</span><span class="s2">git</span><span class="nv">$\</span><span class="s2">|</span><span class="se">\.</span><span class="s2">yardoc</span><span class="se">\|</span><span class="s2">node_modules</span><span class="se">\|</span><span class="s2">log</span><span class="se">\|</span><span class="s2">tmp</span><span class="nv">$'</span><span class="s2">,
+      </span><span class="se">\ </span><span class="s2">'file': '</span><span class="se">\.</span><span class="s2">so</span><span class="nv">$\</span><span class="s2">|</span><span class="se">\.</span><span class="s2">dat</span><span class="nv">$|</span><span class="se">\.</span><span class="s2">DS_Store</span><span class="nv">$'</span><span class="s2">
+      </span><span class="se">\ </span><span class="s2">}
+    nmap &lt;F8&gt; :TagbarToggle&lt;CR&gt;
+    "</span> Vim-Test
+
+    <span class="nb">let test</span><span class="c">#strategy = "vimterminal"</span>
+
+    nmap &lt;silent&gt; &lt;leader&gt;t :TestNearest&lt;CR&gt;
+    nmap &lt;silent&gt; &lt;leader&gt;T :TestFile&lt;CR&gt;
+    nmap &lt;silent&gt; &lt;leader&gt;a :TestSuite&lt;CR&gt;
+    nmap &lt;silent&gt; &lt;leader&gt;l :TestLast&lt;CR
+    nmap &lt;silent&gt; &lt;leader&gt;g :TestVisit&lt;CR&gt;
+    nnoremap &lt;leader&gt;ev :split <span class="nv">$MYVIMRC</span>&lt;cr&gt;
+    nnoremap &lt;leader&gt;sv :source <span class="nv">$MYVIMRC</span>&lt;cr&gt;
+    <span class="s2">" Git grep visually selected text
+   vnoremap &lt;leader&gt;gg y:Ggrep &lt;c-r&gt;"</span>&lt;cr&gt;
+   <span class="s2">" Move a line of text using ALT+[jk] or Command+[jk] on mac (Normal mode)
+   nmap &lt;M-j&gt; mz:m+&lt;cr&gt;</span><span class="sb">`</span>z
+   nmap &lt;M-k&gt; mz:m-2&lt;cr&gt;<span class="sb">`</span><span class="s2">z
+   vmap &lt;M-j&gt; :m'&gt;+&lt;cr&gt;</span><span class="sb">`</span>&lt;my<span class="sb">`</span><span class="s2">&gt;mzgv</span><span class="sb">`</span>yo<span class="sb">`</span><span class="s2">z
+   vmap &lt;M-k&gt; :m'&lt;-2&lt;cr&gt;</span><span class="sb">`</span><span class="o">&gt;</span>my<span class="sb">`</span><span class="s2">&lt;mzgv</span><span class="sb">`</span>yo<span class="sb">`</span><span class="s2">z
+   if has("</span>mac<span class="s2">") || has("</span>macunix<span class="s2">")
+    nmap &lt;D-j&gt; &lt;M-j&gt;
+    nmap &lt;D-k&gt; &lt;M-k&gt;
+    vmap &lt;D-j&gt; &lt;M-j&gt;
+    vmap &lt;D-k&gt; &lt;M-k&gt;
+   endif
+   map &lt;Leader&gt;rt :!ctags -R --languages=ruby,javascript --exclude=vendor --exclude=node_modules --exclude=public --exclude=coverage .&lt;cr&gt;&lt;cr&gt;
+   noremap &lt;C-]&gt; &lt;F3&gt;
+   "</span> Ctrl+h &amp; Ctrl+l cycle between buffers <span class="k">in </span>the current <span class="nb">split
+   </span>noremap &lt;silent&gt; &lt;C-h&gt; :bprev&lt;CR&gt;
+   noremap &lt;silent&gt; &lt;C-l&gt; :bnext&lt;CR&gt;
+   <span class="s2">" &lt;Leader&gt;q Closes the current buffer
+   nnoremap &lt;silent&gt; &lt;Leader&gt;q :Bclose&lt;CR&gt;
+   "</span> &lt;Leader&gt;Q Closes the current window
+   nnoremap &lt;silent&gt; &lt;Leader&gt;Q &lt;C-w&gt;c
+   <span class="s2">"&lt;Leader&gt;Ctrl+q Force Closes the current buffer
+   nnoremap &lt;silent&gt; &lt;Leader&gt;&lt;C-q&gt; :Bclose!&lt;CR&gt;
+   nnoremap &lt;Leader&gt;gs :Git&lt;CR&gt;
+   nnoremap &lt;Leader&gt;gr :GRemove&lt;CR&gt;
+   nnoremap &lt;Leader&gt;gl :Gclog&lt;CR&gt;
+   nnoremap &lt;Leader&gt;gb :Git_blame&lt;CR&gt;
+   nnoremap &lt;Leader&gt;gm :GMove
+   vnoremap &lt;Leader&gt;gg :Git
+   nnoremap &lt;Leader&gt;gd :Gdiffsplit&lt;CR&gt;</span></code></pre></figure>
+
+<p>Ctags and some personal bindings.</p>
+
+<h5 id="moving-around-bufferts-and-windows">Moving around, bufferts and windows</h5>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="s2">"-----------------------------------
+"</span>
+<span class="s2">"   8. Moving around, bufferts and windows
+
+    "</span> Map &lt;Space&gt; to / <span class="o">(</span>search<span class="o">)</span> and Ctrl-&lt;Space&gt; to ? <span class="o">(</span>backwards search<span class="o">)</span>
+    map &lt;space&gt; /
+    map &lt;C-space&gt; ?
+    <span class="s2">" Disable highlight when &lt;leader&gt;&lt;cr&gt; is pressed
+    map &lt;silent&gt; &lt;leader&gt;&lt;cr&gt; :noh&lt;cr&gt;
+    "</span> Smart way to move between windows
+    map &lt;C-j&gt; &lt;C-W&gt;j
+    map &lt;C-k&gt; &lt;C-W&gt;k
+    map &lt;C-h&gt; &lt;C-W&gt;h
+    map &lt;C-l&gt; &lt;C-W&gt;l
+    <span class="s2">" Close the current buffer
+    map &lt;leader&gt;bd :Bclose&lt;cr&gt;:tabclose&lt;cr&gt;gT
+    "</span> Close all the buffers
+    map &lt;leader&gt;ba :bufdo bd&lt;cr&gt;
+    map &lt;leader&gt;l :bnext&lt;cr&gt;
+    map &lt;leader&gt;h :bprevious&lt;cr&gt;
+    <span class="s2">" Useful mappings for managing tabs
+    map &lt;leader&gt;tn :tabnew&lt;cr&gt;
+    map &lt;leader&gt;to :tabonly&lt;cr&gt;
+    map &lt;leader&gt;tc :tabclose&lt;cr&gt;
+    map &lt;leader&gt;tm :tabmove
+    map &lt;leader&gt;t&lt;leader&gt; :tabnext
+    nnoremap &lt;Leader&gt;b :buffers&lt;CR&gt;:buffer&lt;Space&gt;
+    nnoremap &lt;silent&gt; &lt;C-b&gt; :Buffers&lt;CR&gt;
+    "</span> Open new <span class="nb">split </span>panes to right and bottom, which feels more natural
+    <span class="nb">set </span>splitbelow
+    <span class="nb">set </span>splitright</code></pre></figure>
+
+<h5 id="general-information">General information</h5>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="s2">"-----------------------------------
+"</span>
+<span class="s2">"   9. General information
+
+"</span>    Building C-tags
+<span class="s2">"    ---------------
+"</span>    https://kulkarniamit.github.io/whatwhyhow/howto/use-vim-ctags.html
+<span class="s2">"
+"</span>    The silver surfer
+<span class="s2">"    -----------------
+"</span>    brew <span class="nb">install </span>the_silver_searcher
+
+<span class="s2">" Local config
+if filereadable(</span><span class="nv">$HOME</span><span class="s2"> . "</span>/.vimrc.local<span class="s2">")
+  source ~/.vimrc.local
+endif</span></code></pre></figure>]]></content><author><name></name></author><category term="vim" /><category term="vim" /><category term="vimrc" /><category term="config" /><summary type="html"><![CDATA[This is my .vimrc file, as I mentioned earlier, I have a new job where working with Vim is again optimal, so I needed to go through my configuration and update it. I thought this could be a good exercise to do together.]]></summary></entry><entry><title type="html">Programming the 6502 by Rodnay Zaks</title><link href="/book-review/6510asm/commodore64/2025/09/07/programming-the-6502-by-rodnay-zaks.html" rel="alternate" type="text/html" title="Programming the 6502 by Rodnay Zaks" /><published>2025-09-07T00:00:00+02:00</published><updated>2025-09-07T00:00:00+02:00</updated><id>/book-review/6510asm/commodore64/2025/09/07/programming-the-6502-by-rodnay-zaks</id><content type="html" xml:base="/book-review/6510asm/commodore64/2025/09/07/programming-the-6502-by-rodnay-zaks.html"><![CDATA[<p>I am most motivated to learn assembler programming on the 68000, but since I recently bought a Commodore 64 after thinking about having one for a long time, I started to think a little about whether I shouldn’t take the plunge and make some of those cool effects that I saw on the screen in my boyhood room as a young man.</p>
 
 <p>One of the floppy disks that came with the 1541-II disk drive that I bought shortly after contained TASM (Turbo Assembler) and then it felt like a sign that I should get started and learn.</p>
 
@@ -162,30 +494,4 @@ libkf5kdelibs4support-dev</code></pre></figure>
   <span class="n">normalizes</span> <span class="ss">:username</span><span class="p">,</span> <span class="ss">with: </span><span class="o">-&gt;</span> <span class="n">username</span> <span class="p">{</span> <span class="n">username</span><span class="p">.</span><span class="nf">unicode_normalize</span><span class="p">.</span><span class="nf">strip</span><span class="p">.</span><span class="nf">downcase</span> <span class="p">}</span>
 <span class="k">end</span></code></pre></figure>
 
-<p>And we have a bit more clean code with less functions to test.</p>]]></content><author><name></name></author><category term="ruby" /><category term="rails" /><category term="rails" /><summary type="html"><![CDATA[I’m refactoring my normalizes methods in Rails with tne new normalizes method. Lets take a look together.]]></summary></entry><entry><title type="html">Next and previous buttons for active record</title><link href="/ruby/snippets/2023/12/02/next-and-previous-buttons-for-active-record.html" rel="alternate" type="text/html" title="Next and previous buttons for active record" /><published>2023-12-02T00:00:00+01:00</published><updated>2023-12-02T00:00:00+01:00</updated><id>/ruby/snippets/2023/12/02/next-and-previous-buttons-for-active-record</id><content type="html" xml:base="/ruby/snippets/2023/12/02/next-and-previous-buttons-for-active-record.html"><![CDATA[<p>Having buttons to go to the next or back out of an actice record is a desired function, for example, when creating a photo album. So how can one create this functionality in Rails?</p>
-
-<p>Class:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="k">def</span> <span class="nf">next</span><span class="p">()</span>
-    <span class="no">Photo</span><span class="p">.</span><span class="nf">where</span><span class="p">(</span><span class="s2">"id &lt; ? AND user_id = ?"</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="n">user_id</span><span class="p">).</span><span class="nf">order</span><span class="p">(</span><span class="ss">id: :desc</span><span class="p">).</span><span class="nf">first</span>
-  <span class="k">end</span>
-
-  <span class="k">def</span> <span class="nf">previous</span><span class="p">()</span>
-    <span class="no">Photo</span><span class="p">.</span><span class="nf">where</span><span class="p">(</span><span class="s2">"id &gt; ? AND user_id = ?"</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="n">user_id</span><span class="p">).</span><span class="nf">order</span><span class="p">(</span><span class="ss">id: :asc</span><span class="p">).</span><span class="nf">first</span>
-  <span class="k">end</span></code></pre></figure>
-
-<p><em>In my case this is in the photo class</em></p>
-
-<p>View:</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"mb-auto"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;</span><span class="err">%</span> <span class="na">unless</span> <span class="err">@</span><span class="na">photo.previous.nil</span><span class="err">?</span> <span class="err">%</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;</span><span class="err">%=</span> <span class="na">link_to</span> <span class="err">"</span><span class="na">Previous</span><span class="err">",</span>
-            <span class="na">user_photo_url</span><span class="err">(</span><span class="na">user_username:</span> <span class="err">@</span><span class="na">photo.user.username_lower</span><span class="err">,</span> <span class="na">id:</span> <span class="err">@</span><span class="na">photo.previous.id</span><span class="err">),</span>
-              <span class="na">class:</span> <span class="err">"</span><span class="na">btn</span> <span class="na">btn-dark</span> <span class="na">btn-lg</span> <span class="na">border-0</span><span class="err">",</span> <span class="err">"</span><span class="na">data-photo-target</span><span class="err">"</span><span class="na">:</span> <span class="err">"</span><span class="na">previous</span><span class="err">"</span> <span class="err">%</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;</span><span class="err">%</span> <span class="na">end</span> <span class="err">%</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;/div&gt;</span></code></pre></figure>
-
-<p><em>This is from the view file</em></p>
-
-<p>So by retrieving higher or lower than the id that we have currently uploaded, we get the next and earlier, in my case I have also added user_id to filter on which user uploaded. This could of course be a different filter or be missing altogether.</p>]]></content><author><name></name></author><category term="ruby" /><category term="snippets" /><category term="ruby" /><category term="rails" /><summary type="html"><![CDATA[Having buttons to go to the next or back out of an actice record is a desired function, for example, when creating a photo album. So how can one create this functionality in Rails?]]></summary></entry></feed>
+<p>And we have a bit more clean code with less functions to test.</p>]]></content><author><name></name></author><category term="ruby" /><category term="rails" /><category term="rails" /><summary type="html"><![CDATA[I’m refactoring my normalizes methods in Rails with tne new normalizes method. Lets take a look together.]]></summary></entry></feed>
