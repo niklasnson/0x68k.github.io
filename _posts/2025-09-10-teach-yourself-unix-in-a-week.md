@@ -1,8 +1,8 @@
 ---
 layout: book-review
 title: Teach yourself unix in a week
-categories: open-source, project
-tags: ruby, rspec, json, rails, scripting, testing, 68kasm, 6510asm, hyrox, fitness, words
+categories: book-review
+tags: unix linux bash
 latest_posts:
    enabled: true
    limit: 5
