@@ -1,12 +1,32 @@
  <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Metadata, OpenGraph and Schema.org -->
+    <!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6W2HX5TZE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q6W2HX5TZE');
+</script>
+
+
+
     <title>Publish a prebuilt jekyll project</title>
+
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/main.css">
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="/assets/css/borland.css">
+
   </head>
   <body>
 
@@ -21,7 +41,7 @@
           <div class="collapse navbar-collapse order-3 order-md-2" id="navbar-left">
             <ul class="navbar-nav me-auto">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown02" daRta-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown02">
                   
                     <a class="dropdown-item text-capitalize" href="/archives/category/amiga">amiga</a>
@@ -263,7 +283,11 @@
 
 <p>The solution then is to build the HTML version locally and then push it to GitHub and make GitHub serve that as the webpage.</p>
 
-<p>Im using a new branch <code class="language-plaintext highlighter-rouge">gh-pages</code> for this, beeing on master i run <code class="language-plaintext highlighter-rouge">jekyll build ~/temp_buil</code> and then i replace the content in the gh-pages branch with this. Then i publlish the branch gh-pages.</p>
+<p>Im using a new branch <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>gh-pages
+</pre></td></tr></tbody></table></code> for this, beeing on master i run <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>jekyll build ~/temp_buil
+</pre></td></tr></tbody></table></code> and then i replace the content in the gh-pages branch with this. Then i publlish the branch gh-pages.</p>
 
 <p>On GitHub go to settings, pages and select “deploy from branch” and set it to use the gh-pages branch.</p>
 

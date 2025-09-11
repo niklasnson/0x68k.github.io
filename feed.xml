@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-09-10T19:47:08+02:00</updated><id>/feed.xml</id><title type="html">Niklas Hilding</title><entry><title type="html">Teach yourself unix in a week</title><link href="/book-review/2025/09/10/teach-yourself-unix-in-a-week.html" rel="alternate" type="text/html" title="Teach yourself unix in a week" /><published>2025-09-10T00:00:00+02:00</published><updated>2025-09-10T00:00:00+02:00</updated><id>/book-review/2025/09/10/teach-yourself-unix-in-a-week</id><content type="html" xml:base="/book-review/2025/09/10/teach-yourself-unix-in-a-week.html"><![CDATA[<p>In my current role, I manage several complex systems. To understand them better, I needed to update my knowledge of system administration. After all, it has been a couple of years since I attended university.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-09-11T19:50:25+02:00</updated><id>/feed.xml</id><title type="html">Niklas Hilding</title><entry><title type="html">Teach yourself unix in a week</title><link href="/book-review/2025/09/10/teach-yourself-unix-in-a-week.html" rel="alternate" type="text/html" title="Teach yourself unix in a week" /><published>2025-09-10T00:00:00+02:00</published><updated>2025-09-10T00:00:00+02:00</updated><id>/book-review/2025/09/10/teach-yourself-unix-in-a-week</id><content type="html" xml:base="/book-review/2025/09/10/teach-yourself-unix-in-a-week.html"><![CDATA[<p>In my current role, I manage several complex systems. To understand them better, I needed to update my knowledge of system administration. After all, it has been a couple of years since I attended university.</p>
 
 <p><em>This teach-yourself tutorial is designed to take readers from novices to experienced users in just seven days. All the major releases are explored, as well as UNIX features, commands, and tools, for immediate productivity in the UNIX environment.</em></p>
 
@@ -10,40 +10,40 @@
 
 <p>A couple of these plugins have been with me for a very long time and some I have only recently started using. There are a couple that are primarily useful for certain languages or tools. For me to install a plugin, it should add something special to my work.</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="s2">"-----------------------------------
-"</span>
-<span class="s2">"   0. Plugins
+<figure class="highlight"><pre><code class="language-vim" data-lang="vim"><span class="c">"-----------------------------------</span>
+<span class="c">"</span>
+<span class="c">"   0. Plugins</span>
 
-    call plug#begin()
+    <span class="k">call</span> plug#begin<span class="p">()</span>
 
-    Plug 'arcticicestudio/nord-vim'
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
-    Plug 'ctrlpvim/ctrlp.vim'
-    Plug 'vim-ruby/vim-ruby'
-    Plug 'scrooloose/nerdtree'
-    Plug 'ddollar/nerdcommenter'
-    Plug 'tpope/vim-rails'
-    Plug 'preservim/tagbar'
-    Plug 'junegunn/fzf', { 'do': { -&gt; fzf#install() } }
-    Plug 'junegunn/fzf.vim'
-    Plug 'tpope/vim-fugitive'
-    Plug 'tpope/vim-ragtag'
-    Plug 'tpope/vim-surround'
-    Plug 'vim-test/vim-test'
-    Plug 'tpope/vim-commentary'
-    Plug 'godlygeek/tabular'
-    Plug 'preservim/vim-markdown'
-    Plug 'vim-test/vim-test'
-    Plug 'tpope/vim-commentary'
+    Plug <span class="s1">'arcticicestudio/nord-vim'</span>
+    Plug <span class="s1">'vim-airline/vim-airline'</span>
+    Plug <span class="s1">'vim-airline/vim-airline-themes'</span>
+    Plug <span class="s1">'ctrlpvim/ctrlp.vim'</span>
+    Plug <span class="s1">'vim-ruby/vim-ruby'</span>
+    Plug <span class="s1">'scrooloose/nerdtree'</span>
+    Plug <span class="s1">'ddollar/nerdcommenter'</span>
+    Plug <span class="s1">'tpope/vim-rails'</span>
+    Plug <span class="s1">'preservim/tagbar'</span>
+    Plug <span class="s1">'junegunn/fzf'</span><span class="p">,</span> <span class="p">{</span> <span class="s1">'do'</span><span class="p">:</span> <span class="p">{</span> <span class="p">-&gt;</span> fzf#install<span class="p">()</span> <span class="p">}</span> <span class="p">}</span>
+    Plug <span class="s1">'junegunn/fzf.vim'</span>
+    Plug <span class="s1">'tpope/vim-fugitive'</span>
+    Plug <span class="s1">'tpope/vim-ragtag'</span>
+    Plug <span class="s1">'tpope/vim-surround'</span>
+    Plug <span class="s1">'vim-test/vim-test'</span>
+    Plug <span class="s1">'tpope/vim-commentary'</span>
+    Plug <span class="s1">'godlygeek/tabular'</span>
+    Plug <span class="s1">'preservim/vim-markdown'</span>
+    Plug <span class="s1">'vim-test/vim-test'</span>
+    Plug <span class="s1">'tpope/vim-commentary'</span>
 
-    call plug#end()
+    <span class="k">call</span> plug#end<span class="p">()</span>
 
-    "</span> Breif <span class="nb">help</span>
-    <span class="s2">"
-    "</span> :PlugInstall  - Install plugins
-    <span class="s2">" :PlugUpgrade  - Upgrade vim-plug itself
-    "</span> :PlugClean    - Remove unlisted plugin</code></pre></figure>
+    <span class="c">" Breif help</span>
+    <span class="c">"</span>
+    <span class="c">" :PlugInstall  - Install plugins</span>
+    <span class="c">" :PlugUpgrade  - Upgrade vim-plug itself</span>
+    <span class="c">" :PlugClean    - Remove unlisted plugin</span></code></pre></figure>
 
 <h5 id="ruby-and-ruby-on-rails">Ruby and Ruby on Rails</h5>
 <ul>
@@ -90,84 +90,84 @@
 
 <h4 id="functions">Functions</h4>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="s2">"-----------------------------------
-"</span>
-<span class="s2">"   1. Functions
+<figure class="highlight"><pre><code class="language-vim" data-lang="vim"><span class="c">"-----------------------------------</span>
+<span class="c">"</span>
+<span class="c">"   1. Functions</span>
 
-    function! VisualSelection(direction, extra_filter) range
-      let l:saved_reg = @"</span>
-      execute <span class="s2">"normal! vgvy"</span>
+    <span class="k">function</span><span class="p">!</span> VisualSelection<span class="p">(</span>direction<span class="p">,</span> extra_filter<span class="p">)</span> <span class="nb">range</span>
+      <span class="k">let</span> <span class="k">l</span><span class="p">:</span>saved_reg <span class="p">=</span> @"
+      <span class="nb">execute</span> <span class="s2">"normal! vgvy"</span>
 
-      <span class="nb">let </span>l:pattern <span class="o">=</span> escape<span class="o">(</span>@<span class="s2">", "</span><span class="se">\\</span>/.<span class="k">*</span><span class="s1">'$^~[]")
-      let l:pattern = substitute(l:pattern, "\n$", "", "")
+      <span class="k">let</span> <span class="k">l</span><span class="p">:</span>pattern <span class="p">=</span> <span class="nb">escape</span><span class="p">(</span>@<span class="s2">", "</span>\\/<span class="p">.</span>*'$^<span class="p">~[]</span>"<span class="p">)</span>
+      <span class="k">let</span> <span class="k">l</span><span class="p">:</span>pattern <span class="p">=</span> <span class="nb">substitute</span><span class="p">(</span><span class="k">l</span><span class="p">:</span>pattern<span class="p">,</span> <span class="s2">"\n$"</span><span class="p">,</span> <span class="s2">""</span><span class="p">,</span> <span class="s2">""</span><span class="p">)</span>
 
-      if a:direction == '</span>gv<span class="s1">'
-          call CmdLine("Ack '</span><span class="s2">" . l:pattern . "</span><span class="s1">' " )
-      elseif a:direction == '</span>replace<span class="s1">'
-          call CmdLine("%s" . '</span>/<span class="s1">'. l:pattern . '</span>/<span class="s1">')
-      endif
+      <span class="k">if</span> <span class="nv">a:direction</span> <span class="p">==</span> <span class="s1">'gv'</span>
+          <span class="k">call</span> CmdLine<span class="p">(</span><span class="s2">"Ack '"</span> <span class="p">.</span> <span class="k">l</span><span class="p">:</span>pattern <span class="p">.</span> <span class="s2">"' "</span> <span class="p">)</span>
+      <span class="k">elseif</span> <span class="nv">a:direction</span> <span class="p">==</span> <span class="s1">'replace'</span>
+          <span class="k">call</span> CmdLine<span class="p">(</span><span class="s2">"%s"</span> <span class="p">.</span> <span class="s1">'/'</span><span class="p">.</span> <span class="k">l</span><span class="p">:</span>pattern <span class="p">.</span> <span class="s1">'/'</span><span class="p">)</span>
+      <span class="k">endif</span>
 
-      let @/ = l:pattern
-      let @" = l:saved_reg
-    endfunction</span></code></pre></figure>
+      <span class="k">let</span> @/ <span class="p">=</span> <span class="k">l</span><span class="p">:</span>pattern
+      <span class="k">let</span> @" <span class="p">=</span> <span class="k">l</span><span class="p">:</span>saved_reg
+    <span class="k">endfunction</span></code></pre></figure>
 
 <p><strong>VisualSelection(direction, extra_filter)</strong> search for the word under the cursor. Supe usefull after a an idea by Michael Naumann</p>
 
 <h5 id="os-specific-settings">OS specific settings</h5>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="s2">"-----------------------------------
-"</span>
-<span class="s2">"   2. OS specific settings
+<figure class="highlight"><pre><code class="language-vim" data-lang="vim"><span class="c">"-----------------------------------</span>
+<span class="c">"</span>
+<span class="c">"   2. OS specific settings</span>
 
-    if has('mac')
+    <span class="k">if</span> <span class="nb">has</span><span class="p">(</span><span class="s1">'mac'</span><span class="p">)</span>
     end
-    if has('linux')
-      nnoremap &lt;silent&gt; &lt;leader&gt;cf :&lt;c-u&gt;call FormatCodeWithCodestyler()&lt;cr&gt;
-    end</span></code></pre></figure>
+    <span class="k">if</span> <span class="nb">has</span><span class="p">(</span><span class="s1">'linux'</span><span class="p">)</span>
+      nnoremap <span class="p">&lt;</span><span class="k">silent</span><span class="p">&gt;</span> <span class="p">&lt;</span>leader<span class="p">&gt;</span><span class="k">cf</span> <span class="p">:&lt;</span><span class="k">c</span><span class="p">-</span><span class="k">u</span><span class="p">&gt;</span><span class="k">call</span> FormatCodeWithCodestyler<span class="p">()&lt;</span><span class="k">cr</span><span class="p">&gt;</span>
+    end</code></pre></figure>
 
 <p>Now days im only using Linux machines, but i keep this - Codestyler is only avelibal for Linux.</p>
 
 <h4 id="general-congifuration-options">General congifuration options</h4>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="s2">"-----------------------------------
-"</span>
-<span class="s2">"   3. General congifuration options
+<figure class="highlight"><pre><code class="language-vim" data-lang="vim"><span class="c">"-----------------------------------</span>
+<span class="c">"</span>
+<span class="c">"   3. General congifuration options</span>
 
-    set history=50
-    "</span> Use spaces instead of tabs
-    <span class="nb">set </span>expandtab
-    <span class="s2">" Be smart when using tabs ;)
-    set smarttab
-    set tabstop=2
-    set shiftwidth=2
-    set softtabstop=2
-    "</span> Linebreak on 500 characters
-    <span class="nb">set </span>lbr
-    <span class="nb">set </span><span class="nv">tw</span><span class="o">=</span>500
-    <span class="nb">set </span>ai              <span class="s2">" Auto indent
-    set si              "</span> Smart indent
-    <span class="nb">set </span>wrap            <span class="s2">" Wrap lines
-    set so=7            "</span> Set 7 lines to the cursor - when moving vertically using j/k
-    <span class="nb">set </span>number
-    <span class="nb">set </span><span class="nv">numberwidth</span><span class="o">=</span>5
-    <span class="nb">set </span>cursorline
-    <span class="nb">set </span>autowrite       <span class="s2">" Automatically :write before running commands
-    set tags=./tags
-    set autoindent		  "</span> always <span class="nb">set </span>autoindenting on
-    <span class="nb">set </span>showcmd		      <span class="s2">" display incomplete commands
-    "</span> Buffert settings
-    <span class="nb">set </span>autoread        <span class="s2">" Auto-reload buffers when file changed on disk
-    set nobackup        "</span> Don<span class="s1">'t use backup files
-    set nowritebackup   " Don'</span>t backup the file <span class="k">while </span>editing
-    <span class="nb">set </span>noswapfile      <span class="s2">" Don't create swapfiles for new buffers
-    "</span> Ignore <span class="k">case</span> when searching
-    <span class="nb">set </span>ignorecase
-    <span class="s2">" With a map leader it's possible to do extra key combinations
-    "</span> like &lt;leader&gt;w saves the current file
-    <span class="nb">let </span>mapleader <span class="o">=</span> <span class="s2">","</span>
-    <span class="s2">" Configure backspace so it acts as it should act
-    set backspace=eol,start,indent
-    set whichwrap+=&lt;,&gt;,h,l</span></code></pre></figure>
+    <span class="k">set</span> <span class="k">history</span><span class="p">=</span><span class="m">50</span>
+    <span class="c">" Use spaces instead of tabs</span>
+    <span class="k">set</span> <span class="nb">expandtab</span>
+    <span class="c">" Be smart when using tabs ;)</span>
+    <span class="k">set</span> <span class="nb">smarttab</span>
+    <span class="k">set</span> <span class="nb">tabstop</span><span class="p">=</span><span class="m">2</span>
+    <span class="k">set</span> <span class="nb">shiftwidth</span><span class="p">=</span><span class="m">2</span>
+    <span class="k">set</span> <span class="nb">softtabstop</span><span class="p">=</span><span class="m">2</span>
+    <span class="c">" Linebreak on 500 characters</span>
+    <span class="k">set</span> <span class="nb">lbr</span>
+    <span class="k">set</span> <span class="nb">tw</span><span class="p">=</span><span class="m">500</span>
+    <span class="k">set</span> <span class="nb">ai</span>              " Auto <span class="nb">indent</span>
+    <span class="k">set</span> <span class="k">si</span>              " Smart <span class="nb">indent</span>
+    <span class="k">set</span> <span class="nb">wrap</span>            " Wrap <span class="nb">lines</span>
+    <span class="k">set</span> <span class="k">so</span><span class="p">=</span><span class="m">7</span>            " Set <span class="m">7</span> <span class="nb">lines</span> <span class="k">to</span> the <span class="nb">cursor</span> <span class="p">-</span> when moving vertically using <span class="k">j</span>/<span class="k">k</span>
+    <span class="k">set</span> <span class="k">number</span>
+    <span class="k">set</span> <span class="nb">numberwidth</span><span class="p">=</span><span class="m">5</span>
+    <span class="k">set</span> <span class="nb">cursorline</span>
+    <span class="k">set</span> <span class="nb">autowrite</span>       " Automatically <span class="p">:</span><span class="k">write</span> before running commands
+    <span class="k">set</span> <span class="k">tags</span><span class="p">=.</span>/<span class="k">tags</span>
+    <span class="k">set</span> <span class="nb">autoindent</span>		  " always <span class="k">set</span> autoindenting <span class="k">on</span>
+    <span class="k">set</span> <span class="nb">showcmd</span>		      " <span class="k">display</span> incomplete commands
+    <span class="c">" Buffert settings</span>
+    <span class="k">set</span> <span class="nb">autoread</span>        " Auto<span class="p">-</span>reload <span class="k">buffers</span> when <span class="k">file</span> changed <span class="k">on</span> disk
+    <span class="k">set</span> <span class="nb">nobackup</span>        " Don'<span class="k">t</span> use <span class="nb">backup</span> <span class="k">files</span>
+    <span class="k">set</span> <span class="nb">nowritebackup</span>   " Don'<span class="k">t</span> <span class="nb">backup</span> the <span class="k">file</span> <span class="k">while</span> editing
+    <span class="k">set</span> <span class="k">noswapfile</span>      " Don'<span class="k">t</span> create swapfiles <span class="k">for</span> <span class="k">new</span> <span class="k">buffers</span>
+    <span class="c">" Ignore case when searching</span>
+    <span class="k">set</span> <span class="nb">ignorecase</span>
+    <span class="c">" With a map leader it's possible to do extra key combinations</span>
+    <span class="c">" like &lt;leader&gt;w saves the current file</span>
+    <span class="k">let</span> mapleader <span class="p">=</span> <span class="s2">","</span>
+    <span class="c">" Configure backspace so it acts as it should act</span>
+    <span class="k">set</span> <span class="nb">backspace</span><span class="p">=</span><span class="nb">eol</span><span class="p">,</span>start<span class="p">,</span><span class="nb">indent</span>
+    <span class="k">set</span> <span class="nb">whichwrap</span><span class="p">+=&lt;,&gt;,</span><span class="k">h</span><span class="p">,</span><span class="k">l</span></code></pre></figure>
 
 <h5 id="file-compatibility-and-configuration-issues">File compatibility and configuration issues</h5>
 
@@ -414,7 +414,9 @@ endif</span></code></pre></figure>]]></content><author><name></name></author><ca
 
 <h4 id="install-tmux">Install tmux</h4>
 
-<p>Tmux is avelibal in most distributions. I use Ubuntu so i install will <code class="language-plaintext highlighter-rouge">apt</code></p>
+<p>Tmux is avelibal in most distributions. I use Ubuntu so i install will <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>apt
+</pre></td></tr></tbody></table></code></p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">  <span class="nv">$ </span><span class="nb">sudo </span>apt <span class="nb">install </span>tmux</code></pre></figure>
 
@@ -447,8 +449,12 @@ endif</span></code></pre></figure>]]></content><author><name></name></author><ca
   <li>Download (click) the Linux button.</li>
 </ul>
 
-<p>Now ytou will have a <code class="language-plaintext highlighter-rouge">qt-online-installer-linux-x64-4.10.0.run</code>
-Make the file executable by running <code class="language-plaintext highlighter-rouge">chmod +x qt-online-installer-linux-x64-4.10.0.run</code></p>
+<p>Now ytou will have a <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>qt-online-installer-linux-x64-4.10.0.run
+</pre></td></tr></tbody></table></code>
+Make the file executable by running <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>chmod +x qt-online-installer-linux-x64-4.10.0.run
+</pre></td></tr></tbody></table></code></p>
 
 <p>You will need to create a Qt account and after this it will be installed.</p>]]></content><author><name></name></author><category term="open-source" /><category term="project" /><category term="Qt" /><category term="Ubuntu" /><summary type="html"><![CDATA[This is how i installed Qt on Ubuntu 24.04.2.]]></summary></entry><entry><title type="html">Updated SDL2Bootstrap</title><link href="/open-source/project/2025/02/23/updated-sdl2bootstrap.html" rel="alternate" type="text/html" title="Updated SDL2Bootstrap" /><published>2025-02-23T00:00:00+01:00</published><updated>2025-02-23T00:00:00+01:00</updated><id>/open-source/project/2025/02/23/updated-sdl2bootstrap</id><content type="html" xml:base="/open-source/project/2025/02/23/updated-sdl2bootstrap.html"><![CDATA[<p>I updated my <a href="https://github.com/niklasnson/SDL2Bootstrap">SDL2 Bootstrap</a>, i will start working on a small game, just to do some other programming than i normally do in C++. The game will live at <a href="https://github.com/niklasnson/missile_command.cpp">GitHub</a>.</p>
 

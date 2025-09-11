@@ -1,12 +1,32 @@
  <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Metadata, OpenGraph and Schema.org -->
+    <!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6W2HX5TZE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q6W2HX5TZE');
+</script>
+
+
+
     <title>Amiga Dos Inside and Out</title>
+
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/main.css">
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="/assets/css/borland.css">
+
   </head>
   <body>
 
@@ -21,7 +41,7 @@
           <div class="collapse navbar-collapse order-3 order-md-2" id="navbar-left">
             <ul class="navbar-nav me-auto">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown02" daRta-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown02">
                   
                     <a class="dropdown-item text-capitalize" href="/archives/category/amiga">amiga</a>
@@ -261,31 +281,29 @@
         <article class="post-content">
           <p>Mostly written as a note to myself while I’m configurering my Amiga 600HD.</p>
 
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">dir</code> -  directory</li>
-  <li><code class="language-plaintext highlighter-rouge">endcli</code> -  closedown cli and go to workbench</li>
-  <li><code class="language-plaintext highlighter-rouge">format DRIVE &lt;disk&gt; NAME &lt;name&gt; [NOICONS] </code> - format drive</li>
-  <li><code class="language-plaintext highlighter-rouge">cd DIR</code> - chanage directory</li>
-  <li><code class="language-plaintext highlighter-rouge">makedir /A</code> - make directory</li>
-  <li><code class="language-plaintext highlighter-rouge">delete </code> - remove directory</li>
-  <li><code class="language-plaintext highlighter-rouge">list</code> - list files and information</li>
-  <li><code class="language-plaintext highlighter-rouge">rename FROM TO</code> - rename file or folder</li>
-  <li><code class="language-plaintext highlighter-rouge">diskcopy FROM TO</code> - copy disc</li>
-  <li><code class="language-plaintext highlighter-rouge">relabel DRIVE NAME</code> - rename a disc</li>
-  <li><code class="language-plaintext highlighter-rouge">info</code> - display disc drive information</li>
-  <li><code class="language-plaintext highlighter-rouge">install DRIVE</code> - Converts Amiga format disc to bootable disks</li>
-  <li><code class="language-plaintext highlighter-rouge">type FROM</code> - Displays a ASCII file on screen</li>
-  <li><code class="language-plaintext highlighter-rouge">join</code> - Concatenate (joins) up to 15 files to one</li>
-  <li><code class="language-plaintext highlighter-rouge">serach FROM</code> - Search for a string</li>
-  <li><code class="language-plaintext highlighter-rouge">sort FROM TO</code> - Sort command sorts text files</li>
-  <li><code class="language-plaintext highlighter-rouge">protect FILE FLAGS</code> - Set single protection bit on files</li>
-  <li><code class="language-plaintext highlighter-rouge">filenote FILE COMMENT</code> - Set a comment on a file</li>
-  <li><code class="language-plaintext highlighter-rouge">setdate</code> - Set date on file</li>
-  <li><code class="language-plaintext highlighter-rouge">diskdoctor DRIVE</code> - Attemts to save disc with read/write errors</li>
-  <li><code class="language-plaintext highlighter-rouge">newcli</code> - Opens a new cli task</li>
-  <li><code class="language-plaintext highlighter-rouge">endcli</code> - CLose current cli task</li>
-  <li><code class="language-plaintext highlighter-rouge">execute</code> - Executes a script file</li>
-</ul>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="k">*</span> <span class="nb">dir</span> -  directory
+<span class="k">*</span> endcli -  closedown cli and go to workbench
+<span class="k">*</span> format DRIVE &lt;disk&gt; NAME &lt;name&gt; <span class="o">[</span>NOICONS]  - format drive
+<span class="k">*</span> <span class="nb">cd </span>DIR - chanage directory
+<span class="k">*</span> makedir /A - make directory
+<span class="k">*</span> delete - remove directory
+<span class="k">*</span> list - list files and information
+<span class="k">*</span> rename FROM TO - rename file or folder
+<span class="k">*</span> diskcopy FROM TO - copy disc
+<span class="k">*</span> relabel DRIVE NAME - rename a disc
+<span class="k">*</span> info - display disc drive information
+<span class="k">*</span> <span class="nb">install </span>DRIVE - Converts Amiga format disc to bootable disks
+<span class="k">*</span> <span class="nb">type </span>FROM - Displays a ASCII file on screen
+<span class="k">*</span> <span class="nb">join</span> - Concatenate <span class="o">(</span>joins<span class="o">)</span> up to 15 files to one
+<span class="k">*</span> serach FROM - Search <span class="k">for </span>a string
+<span class="k">*</span> <span class="nb">sort </span>FROM TO - Sort <span class="nb">command </span>sorts text files
+<span class="k">*</span> protect FILE FLAGS - Set single protection bit on files
+<span class="k">*</span> filenote FILE COMMENT - Set a comment on a file
+<span class="k">*</span> setdate - Set <span class="nb">date </span>on file
+<span class="k">*</span> diskdoctor DRIVE - Attemts to save disc with <span class="nb">read</span>/write errors
+<span class="k">*</span> newcli - Opens a new cli task
+<span class="k">*</span> endcli - CLose current cli task
+<span class="k">*</span> execute - Executes a script file</code></pre></figure>
 
 <p>I highly recomend you to read <a href="http://tele-work.hu/AmigaDoc/AmigaDosInside&amp;out.pdf">Amiga Dos Inside &amp; Out</a>. One of the best sources to understand Amiga CLI.</p>
 
