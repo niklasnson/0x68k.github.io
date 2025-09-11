@@ -14,7 +14,7 @@ This is my <a href="https://github.com/niklasnson/dotfiles/blob/main/apps/vim/vi
 
 A couple of these plugins have been with me for a very long time and some I have only recently started using. There are a couple that are primarily useful for certain languages or tools. For me to install a plugin, it should add something special to my work.
 
-{% highlight bash %}
+{% highlight vim lineos %}
 "-----------------------------------
 "
 "   0. Plugins
@@ -89,7 +89,7 @@ __tabular__ line up text, with ease.
 
 #### Functions
 
-{% highlight bash %}
+{% highlight vim lineos %}
 "-----------------------------------
 "
 "   1. Functions
@@ -118,7 +118,7 @@ __VisualSelection(direction, extra_filter)__ search for the word under the curso
 
 ##### OS specific settings
 
-{% highlight bash %}
+{% highlight vim lineos %}
 
 "-----------------------------------
 "
@@ -137,7 +137,7 @@ Now days im only using Linux machines, but i keep this - Codestyler is only avel
 
 #### General congifuration options
 
-{% highlight bash %}
+{% highlight vim lineos %}
 
 "-----------------------------------
 "
