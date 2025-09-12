@@ -38,6 +38,12 @@ This surprised me a lot. I had suspected that a mixed team would enter this seco
 
 #### Tips for activities to get you started
 
+So you've decided this is the way to go, but how do you get started?
+
+If there is already a sense of security in the team and you feel that you can be open with each other, I strongly believe in creating a user manual for yourself and then presenting it to the others. By opening up and telling about how we want to be contacted, how we learn or what we have difficulty with, we show vulnerability to each other and that is a fantastic component.
+
+###### User manual
+
 * Create and present a user manual to the team.
     * My name is:
     * Conditions I like to work in:
@@ -48,4 +54,10 @@ This surprised me a lot. I had suspected that a mixed team would enter this seco
     * How I learn best:
     * Things I struggle with:
 
+###### Check-ins
+
 * Check-in during team meetings
+
+If the team does not have a basic trust, it is of the utmost importance that it is created before you proceed with, for example, the exercise above. I assume your team has a team meeting once a week; at the beginning of the meeting ask everyone to rate their negative stress between 1-6, everyone chooses whether they want to include private things or not. After running this for a couple of months, the meeting usually has become deeper and you can, in addition to getting closer to each other, start working on stress, task distribution.
+
+However, it is very important that it does not become an environment where it is considered good to feel stress. If you start to see tendencies towards this, you must immediately address them.
