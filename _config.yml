@@ -69,6 +69,19 @@ jekyll-archives:
     category: '/archives/category/:name/'
 
 # -----------------------------------------------------------------------------
+# Optional Features
+# -----------------------------------------------------------------------------
+enable_google_analytics: true
+
+
+# -----------------------------------------------------------------------------
+# Analytics and search engine verification
+# -----------------------------------------------------------------------------
+
+# For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
+# and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
+google_analytics: G-Q6W2HX5TZE
+# -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
 # will use title and url fields

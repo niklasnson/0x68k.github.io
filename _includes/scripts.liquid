@@ -1,0 +1,11 @@
+{% if site.enable_google_analytics && jekyll.environment != "development" %}
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Q6W2HX5TZE');
+  </script>
+{% endif %}
