@@ -1,0 +1,53 @@
+- title: "Team Leader"
+  company: "Saab"
+  start: 2025-06-01
+  end:
+  description: "XAMERA Dev assignment: Team Leader and Scrummaster"
+  logo: "https://media.licdn.com/dms/image/v2/C560BAQEA6y1fdH0iVg/company-logo_100_100/company-logo_100_100/0/1631318690204?e=1759968000&v=beta&t=pPr7z0QwAYYYQI8XmZQd1-sUs4h2IGXcg6ka9EzUbIQ"
+
+
+- title: "Team Leader / Developer"
+  company: "Ericsson"
+  start: 2020-08-01
+  end: 2025-05-01
+  description: "Coordinator and mentor for the team. Lead and plan the team's work both in the short and long term. Develop and ensure time planning for projects, structure the work in Jira, continuously coach and keep the team motivated. Continuous reporting to the project manager and the program on current status and any risks that exist. Drive training and development of the team."
+  logo: "https://media.licdn.com/dms/image/v2/D4E0BAQENqPbk40CTBA/company-logo_100_100/B4EZYffZaEG0AQ-/0/1744285047948/ericsson_logo?e=1759968000&v=beta&t=9VYiARPK2W8Q8vWlDUnKC2FKx9zNh7azaVTl78yflds"
+
+
+- title: "Developer"
+  company: "Ericsson"
+  start: 2018-06-01
+  end: 2020-07-01
+  description: "Implementation and design of 5G RAN software for Ericsson, Implementation of new functionality and refactoring in mainly C++, Design and Testing in Google Test, Multi Component Testing in Erlang, Documentation."
+  logo: "https://media.licdn.com/dms/image/v2/D4E0BAQENqPbk40CTBA/company-logo_100_100/B4EZYffZaEG0AQ-/0/1744285047948/ericsson_logo?e=1759968000&v=beta&t=9VYiARPK2W8Q8vWlDUnKC2FKx9zNh7azaVTl78yflds"
+
+
+- title: "Bachelor Thesis"
+  company: "Ericsson"
+  start: 2018-01-01
+  end: 2018-06-01
+  description: "Bachelor Thesis: Integration Test of Asynchronous Message Passing Applications"
+  logo: "https://media.licdn.com/dms/image/v2/D4E0BAQENqPbk40CTBA/company-logo_100_100/B4EZYffZaEG0AQ-/0/1744285047948/ericsson_logo?e=1759968000&v=beta&t=9VYiARPK2W8Q8vWlDUnKC2FKx9zNh7azaVTl78yflds"
+
+
+- title: "Sales Manager"
+  company: "Siba"
+  start: 2008-01-01
+  end: 2016-04-01
+  description: "Salesperson and responsible for leading and driving the store's sales, with daily follow-up and motivational talks with sales staff."
+  logo: "https://media.licdn.com/dms/image/v2/C560BAQHF_Q9UQlQteQ/company-logo_100_100/company-logo_100_100/0/1631384769296?e=1759968000&v=beta&t=XLGnhPEukwYJqhTeU42heCQ7Fub_pSviYWZWizCzcko"
+
+
+- title: "Sales Person"
+  company: "Siba"
+  start: 2002-01-01
+  end: 2007-12-01
+  description: "Salesperson responsible for various areas in the store, including white goods and small appliances, TV and HiFi, and Photo.Salesperson responsible for various areas in the store, including white goods and small appliances, TV and HiFi, and Photo."
+  logo: "https://media.licdn.com/dms/image/v2/C560BAQHF_Q9UQlQteQ/company-logo_100_100/company-logo_100_100/0/1631384769296?e=1759968000&v=beta&t=XLGnhPEukwYJqhTeU42heCQ7Fub_pSviYWZWizCzcko"
+
+#- title:
+#  company:
+#  start:
+#  end:
+#  description:
+#  logo:
