@@ -14,7 +14,7 @@ echo " ---------------------------------"
 
 
 # Build the Jekyll site directly to a temporary folder
-jekyll build -d ~/$tmp_dir > /dev/null 2>&1
+JEKYLL_ENV=production jekyll build -d ~/$tmp_dir > /dev/null 2>&1
 if [ $? = 0 ]; then
   echo " *] Jekyll build successful"
 else

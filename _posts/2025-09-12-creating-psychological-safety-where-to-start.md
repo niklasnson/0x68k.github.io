@@ -61,3 +61,5 @@ If there is already a sense of security in the team and you feel that you can be
 If the team does not have a basic trust, it is of the utmost importance that it is created before you proceed with, for example, the exercise above. I assume your team has a team meeting once a week; at the beginning of the meeting ask everyone to rate their negative stress between 1-6, everyone chooses whether they want to include private things or not. After running this for a couple of months, the meeting usually has become deeper and you can, in addition to getting closer to each other, start working on stress, task distribution.
 
 However, it is very important that it does not become an environment where it is considered good to feel stress. If you start to see tendencies towards this, you must immediately address them.
+
+I am open to talking about these topics if you want a deeper insight.
