@@ -1,3 +1,3 @@
 .PHONY: run
 run:
-	jekyll serve --drafts
+	JEKYLL_ENV=development jekyll serve --drafts
