@@ -24,11 +24,14 @@
 lang: en
 url: https://0x68k.com/
 baseurl: /
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 title: Niklas Hilding
 email: niklas@0x68k.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://0x68k.com" # the base hostname & protocol for your site, e.g. http://example.com
+description: > # the ">" symbol means to ignore newlines until "keywords:"
+  The personal website and blog of Niklas Nilsson.
+keywords: amiga git jekyll bash open-source conferance teamlead vim psychology management assembler retro
+lang: eng
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

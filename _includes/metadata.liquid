@@ -1,9 +1,16 @@
 <!-- Standard metadata -->
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="{{ author_name }}">
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+{% if page.keywords or site.keywords %}
+  <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+{% endif %}
 
-<!-- Google tag (gtag.js) -->
+<meta property="og:locale" content="{{ site.lang }}">
+
 {% if jekyll.environment != "development" %}
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6W2HX5TZE"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
