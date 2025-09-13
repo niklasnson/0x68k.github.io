@@ -1,0 +1,21 @@
+# - title:
+#   project:
+#   description:
+
+- title: "Push updates to all subscribers"
+  project: "Epilogue"
+  description: "klkls"
+
+- title: "Handle multiple updates from multiple users at the same time and store them in the database"
+  project: "Epilogue"
+
+- title: "Document version handling."
+  project: "Epilogue"
+  description: ""
+
+- title: "Autoupdating a user-feed with content rendering, the feed should handle both adding and removing items in the feed"
+  project: "Idofun"
+
+- title: "Photo optimizing for speed."
+  project: "Epilogue"
+  description: "Otimizing photo/image for diffrent viewports and DL speed based on the width and height of the image"

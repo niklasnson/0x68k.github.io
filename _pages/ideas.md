@@ -15,8 +15,17 @@ latest_posts:
 
 If you are intrested in one of the topics, please reach out!
 
-* Push updates to all subscribers [EPILOGUE].
-* Handle multiple updates from multiple users at the same time and store them in the database [EPILOGUE].
-* Version handling of documents [EPILOGUE]
-* Autoupdating a user-feed with content rendering, the feed should handle both adding and removing items in the feed [IDOFUN].
-* Otimizing photo/image for diffrent viewports and DL speed based on the width and height of the image [EPILOGUE].
+{% for idea in site.data.ideas %}
+<div class="card mb-3">
+    <div class="card-header">
+        <h6 class="card-title py-2 my-2">{{ idea.title }}</h6>
+    </div>
+    <div class="card-body py-3">
+        {% if idea.description %} <span><strong>Description:</strong> {{ idea.description }}</span><br> {% endif %}
+        {% if idea.project %} <span><strong>Project:</strong> {{ idea.project }}</span> {% endif %}
+    </div>
+</div>
+{% endfor %}
+
+
+

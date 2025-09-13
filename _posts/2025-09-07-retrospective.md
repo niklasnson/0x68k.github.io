@@ -40,6 +40,6 @@ Life is short. Live with urgency! Don't put off things you want to do or experie
 
 I am now struggling with a complication of my diabetes that in the worst case scenario will take my sight. I have undergone several different procedures but nothing has so far stopped the bleeding and the damage that risks damaging the macula and with it my sight. What feels a little reassuring is that my right eye is in better condition than my left.
 
-But I also notice that when you go through a crisis, you come with new strengths and ways of dealing with stress and anxiety.
+But I also notice that when you go through a crisis, you come out with new strengths and ways of dealing with stress and anxiety.
 
 I have definitely learned more about myself through these feelings.
