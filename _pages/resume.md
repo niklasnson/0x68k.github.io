@@ -1,7 +1,7 @@
 ---
 layout: page
-title: cv
-permalink: /cv/
+title: Resume
+permalink: /resume/
 resource: true
 latest_posts:
   enabled: true
