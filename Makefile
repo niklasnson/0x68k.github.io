@@ -4,3 +4,6 @@ run:
 
 clean:
 	jekyll clean
+
+publish:
+	./scripts/publish.sh
