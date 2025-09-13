@@ -16,6 +16,11 @@ latest_posts:
 A List of active projects that I am currently working on, projects are hosted on GitHub, but some of them are private.
 </p>
 
+{% for entry in site.data.project %}
+<p>{{ entry.title }} aa</p>
+{% endfor %}
+
+
 
 <ul class="list-group list-group-flush">
   <li class="list-group-item pb-4">
