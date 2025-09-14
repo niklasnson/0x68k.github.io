@@ -2,20 +2,22 @@
 #   project:
 #   description:
 
-- title: "Push updates to all subscribers"
+- title: "Autoupdating a user-feed with content rendering."
   project: "Epilogue"
-  description: "klkls"
+  description: "A feed/timeline should always contain the latest data. If updates occur, such as a user deleting a post or updating a text, it should always be automatically updated in the users' feed. So that there is never a difference between what is in the feed and what is available."
+  url: "https://github.com/niklasnson/epilogue.rb"
 
-- title: "Handle multiple updates from multiple users at the same time and store them in the database"
+- title: "Handle multiple updates from multiple users at the same time and store them in the database."
   project: "Epilogue"
+  description: "One of the major uses of Epilogue is to be able to collaborate on clipboards together and then it is important that the latest version is always presented to all users. In addition, the fact that multiple users can update different parts of the document places a lot of demands on how and when the update is made. This will be one of the major technical challenges around this project."
+  url: "https://github.com/niklasnson/epilogue.rb"
 
-- title: "Document version handling."
+- title: "Push updates to content to subscribers."
   project: "Epilogue"
-  description: ""
-
-- title: "Autoupdating a user-feed with content rendering, the feed should handle both adding and removing items in the feed"
-  project: "Idofun"
+  description: "In a complex system with different versions of documents and clips, version management of several different types of content must be handled. This can be images, text, and other types of documents."
+  url: "https://github.com/niklasnson/epilogue.rb"
 
 - title: "Photo optimizing for speed."
   project: "Epilogue"
-  description: "Otimizing photo/image for diffrent viewports and DL speed based on the width and height of the image"
+  url: "https://github.com/niklasnson/epilogue.rb"
+  description: "I find that today we often lean towards the fact that most people today have very fast internet even on their phones; and we send unnecessarily large images to devices that could do just fine with a significantly smaller image. Based on the terminal that will receive the image, the data that goes over the wire should not be larger than the maximum image that a receiving device is capable of displaying."

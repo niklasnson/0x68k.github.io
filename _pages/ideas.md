@@ -22,7 +22,8 @@ If you are intrested in one of the topics, please reach out!
     </div>
     <div class="card-body py-3">
         {% if idea.description %} <span><strong>Description:</strong> {{ idea.description }}</span><br> {% endif %}
-        {% if idea.project %} <span><strong>Project:</strong> {{ idea.project }}</span> {% endif %}
+        {% if idea.project %} <span><strong>Project:</strong> {{ idea.project }}</span><br> {% endif %}
+        {% if idea.url %} <span><strong>URL:</strong> <a target="_blank" href="{{ idea.url }}">Link</a></span> {% endif %}
     </div>
 </div>
 {% endfor %}
