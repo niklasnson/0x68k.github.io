@@ -9,16 +9,12 @@ tmp_dir="temp_$last_SHA"
 SITE="gh-pages"
 SOURCE="main"
 
-echo " Publishing the blog to Github.com"
-echo " ---------------------------------"
-
-
 # Build the Jekyll site directly to a temporary folder
 JEKYLL_ENV=production jekyll build -d ~/$tmp_dir > /dev/null 2>&1
 if [ $? = 0 ]; then
-  echo " *] Jekyll build successful"
+  echo " - Jekyll build successful with env set to production."
 else
-  echo " *] Jekyll build failed"
+  echo " - There was errors building the site."
   exit 1
 fi
 
@@ -38,7 +34,7 @@ git rm -r --cached * > /dev/null 2>&1
 cp -r ~/$tmp_dir/* $current_dir
 
 # Commit the changes to the SITE branch
-message=" *] Updated $SITE site from $SOURCE ($last_SHA)"
+message=" - Commit the changes to $SITE on the branch $SOURCE ($last_SHA)"
 git add --all .
 git commit -m "$message" > /dev/null 2>&1
 
@@ -48,9 +44,9 @@ rm -r ~/$tmp_dir
 # Push latest SITE to server
 git push -u origin $SITE > /dev/null 2>&1
 if [ $? = 0 ]; then
-  echo " *] Push $SITE successful"
+  echo " - Push $SITE successful"
 else
-  echo " *] Push $SITE failed"
+  echo " - Push $SITE failed"
 fi
 
 # Switch back to SOURCE branch
@@ -59,7 +55,7 @@ git checkout $SOURCE > /dev/null 2>&1
 # Push the SOURCE to the server
 git push -u origin $SOURCE > /dev/null 2>&1
 if [ $? = 0 ]; then
-  echo " *] Push $SOURCE successful"
+  echo " - Push $SOURCE was successful"
 else
-  echo " *] Push $SOURCE failed"
+  echo " - Push $SOURCE did failed"
 fi
