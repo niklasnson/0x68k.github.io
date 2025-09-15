@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-gem "minima"
 gem 'jekyll-archives'
 gem 'jekyll-tagging-related_posts'
 gem 'jekyll-feed'
