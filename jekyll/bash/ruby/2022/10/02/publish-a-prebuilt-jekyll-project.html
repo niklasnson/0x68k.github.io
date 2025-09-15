@@ -302,11 +302,7 @@
 
 <p>The solution then is to build the HTML version locally and then push it to GitHub and make GitHub serve that as the webpage.</p>
 
-<p>Im using a new branch <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>gh-pages
-</pre></td></tr></tbody></table></code> for this, beeing on master i run <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>jekyll build ~/temp_buil
-</pre></td></tr></tbody></table></code> and then i replace the content in the gh-pages branch with this. Then i publlish the branch gh-pages.</p>
+<p>Im using a new branch <code class="language-plaintext highlighter-rouge">gh-pages</code> for this, beeing on master i run <code class="language-plaintext highlighter-rouge">jekyll build ~/temp_buil</code> and then i replace the content in the gh-pages branch with this. Then i publlish the branch gh-pages.</p>
 
 <p>On GitHub go to settings, pages and select “deploy from branch” and set it to use the gh-pages branch.</p>
 
