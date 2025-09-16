@@ -31,7 +31,9 @@ url: "https://0x68k.com" # the base hostname & protocol for your site, e.g. http
 description: >- # the ">" symbol means to ignore newlines until "keywords:"
   The personal website and blog of Niklas Nilsson.
 keywords: amiga git jekyll bash open-source conferance teamlead vim psychology management assembler retro
-lang: eng
+navbar_fixed: false
+footer_fixed: false
+bs_theme: light
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

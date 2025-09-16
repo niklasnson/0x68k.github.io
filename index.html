@@ -5,47 +5,56 @@ latest_posts:
   enabled: true
   limit: 5# leave blank to include all the blog posts
 ---
-<div class="archive">
-  <h5>{{ site.posts.first.date | date: '%Y' }}</h2>
-    {%for post in site.posts %}
-    {% unless post.next %}
-      <ul class="this">
-      {% else %}
-        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-        {% if year != nyear %}
+<div class="row">
+  <div class="col-md-9 mx-auto">
+    <div class="archive">
+      <h5>{{ site.posts.first.date | date: '%Y' }}</h2>
+        {%for post in site.posts %}
+        {% unless post.next %}
+          <ul class="this">
+          {% else %}
+            {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+            {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+            {% if year != nyear %}
+            </ul>
+            <h5>{{ post.date | date: '%Y' }}</h5>
+            <ul class="past">
+            {% endif %}
+          {% endunless %}
+          <li>
+            <time>{{ post.date | date:"%d %b" }}</time>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
         </ul>
-        <h5>{{ post.date | date: '%Y' }}</h5>
-        <ul class="past">
-        {% endif %}
-      {% endunless %}
-      <li>
-        <time>{{ post.date | date:"%d %b" }}</time>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
+    </div>
+
+    <h5 class="pt-4">Things I've Learned</h5>
+    <ul class="posts">
+      <li>Life is short. Live with urgency!</li>
+      <li>There is almost always more than one way to accomplish something!</li>
+      <li>Get over it. Just drop it and move on!</li>
+      <li>Deeply focus on areas you're interested in.</li>
+      <li>Do things that scare you. You will be surprised.</li>
+      <li>Say yes more often than no. It will make you grow.</li>
+      <li>Nobody asks “why” enough.</li>
     </ul>
+
+    <h5 class="pt-4">Noteworthy Open Source Projects</h5>
+    <ul class="posts">
+      <li><a href="https://github.com/niklasnson/dotfiles">My current settings for Vim and Bash</a></li>
+      <li><a href="https://github.com/niklasnson/SDL2Bootstrap">SDL Bootstrap</a></li>
+    </ul>
+
+    <h5 class="pt-4">Selected Personal Projects</h5>
+    <ul class="posts">
+      <li><a href="https://github.com/niklasnson/68000asm">Learning assembler on the Amiga</a></li>
+      <li><a href="https://github.com/niklasnson/6510asm">Learning assembler on the Commodre 64</a></li>
+    </ul>
+  </div>
+  <div class="col-md-3 ms-auto">
+    {% include latest_posts.liquid %}
+    {% include author.liquid %}
+    {% include categories.liquid %}
+  </div>
 </div>
-
-<h5 class="pt-4">Things I've Learned</h5>
-<ul class="posts">
-  <li>Life is short. Live with urgency!</li>
-  <li>There is almost always more than one way to accomplish something!</li>
-  <li>Get over it. Just drop it and move on!</li>
-  <li>Deeply focus on areas you're interested in.</li>
-  <li>Do things that scare you. You will be surprised.</li>
-  <li>Say yes more often than no. It will make you grow.</li>
-  <li>Nobody asks “why” enough.</li>
-</ul>
-
-<h5 class="pt-4">Noteworthy Open Source Projects</h5>
-<ul class="posts">
-  <li><a href="https://github.com/niklasnson/dotfiles">My current settings for Vim and Bash</a></li>
-  <li><a href="https://github.com/niklasnson/SDL2Bootstrap">SDL Bootstrap</a></li>
-</ul>
-
-<h5 class="pt-4">Selected Personal Projects</h5>
-<ul class="posts">
-  <li><a href="https://github.com/niklasnson/68000asm">Learning assembler on the Amiga</a></li>
-  <li><a href="https://github.com/niklasnson/6510asm">Learning assembler on the Commodre 64</a></li>
-</ul>

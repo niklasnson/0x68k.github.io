@@ -1,20 +1,27 @@
-{% include header.liquid %}
+<!DOCTYPE html>
+<html lang="{{ site.lang }}" data-bs-theme="{{ site.bs_theme }}">
 
-<div class="container my-5">
-  <div class="row">
-    <div class="col-md-9 mx-auto">
-      {{ content }}
-    </div>
-    <div class="col-md-3 ms-auto">
-      {% include latest_posts.liquid %}
-      {% include author.liquid %}
-      {% include categories.liquid %}
-    </div>
-  </div>
-</div>
+  <!-- Head -->
+  <head>
+    {% include head.liquid %}
+  </head>
 
-<!-- Footer -->
-{% include footer.liquid %}
+  <!-- Body -->
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <!-- Header -->
+    {% include header.liquid %}
+
+    <!-- Content -->
+    <main>
+      <section class="container my-5">
+        {{ content }}
+      </section>
+    </main>
+
+    <!-- Footer -->
+    {% include footer.liquid %}
+</html>
 
 <!-- JavaScripts -->
 {% include scripts.liquid %}
+
