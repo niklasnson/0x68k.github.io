@@ -1,8 +1,10 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+  <!-- Head -->
   <head>
-    <!-- Metadata, OpenGraph and Schema.org -->
-    <!-- Standard metadata -->
+    <!-- Metadata  -->
+<!-- Standard metadata -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
@@ -14,291 +16,296 @@
 
 
 
-    <title>Niklas Nilsson |Compressing HTML</title>
+<title>Niklas Nilsson |Compressing HTML</title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Code Syntax Highlighting -->
-    <link rel="stylesheet" href="/assets/css/borland.css">
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="/assets/css/borland.css">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<!-- Icons -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
   </head>
-  <body>
 
+  <!-- Body -->
+  <body class=" sticky-bottom-footer">
+    <!-- Header -->
     <header class="mb-4 border-bottom">
-      <nav class="navbar navbar-expand-md navbar-light bg-white absolute-top">
-        <div class="container">
+  <nav class="navbar navbar-expand-md navbar-light bg-white absolute-top">
+    <div class="container">
 
-          <button class="navbar-toggler order-2 order-md-1" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbar-left navbar-right" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler order-2 order-md-1" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbar-left navbar-right" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse order-3 order-md-2" id="navbar-left">
+
+        <div class="dropdown">
+          <button class="btn btn-link dropdown-toggle text-dark text-decoration-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Category
           </button>
-
-          <div class="collapse navbar-collapse order-3 order-md-2" id="navbar-left">
-
-            <div class="dropdown">
-              <button class="btn btn-link dropdown-toggle text-dark text-decoration-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Category
-              </button>
-              <ul class="dropdown-menu">
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/amiga">amiga</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/git">git</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/snippets">snippets</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/jekyll">jekyll</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/bash">bash</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/ruby">ruby</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/snippet">snippet</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/security">security</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/open-source">open-source</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/KDE">KDE</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/conferance">conferance</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/scrumi">scrumi</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/agile">agile</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/coaching">coaching</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/project">project</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/book-review">book-review</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/6510asm">6510asm</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/commodore64">commodore64</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/words">words</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/vim">vim</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/psychology">psychology</a></li>
-                  
-                    <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/management">management</a></li>
-                  
-              </ul>
-            </div>
-
-
-          </div>
-
-          <a class="navbar-brand mx-auto order-1 order-md-3" href="/index.html">Niklas Nilsson</a>
-
-          <div class="collapse navbar-collapse order-4 order-md-4" id="navbar-right">
-            <ul class="navbar-nav ms-auto">
+          <ul class="dropdown-menu">
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/amiga">amiga</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/git">git</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/snippets">snippets</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/jekyll">jekyll</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/bash">bash</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/ruby">ruby</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/snippet">snippet</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/security">security</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/open-source">open-source</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/KDE">KDE</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/conferance">conferance</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/scrumi">scrumi</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/agile">agile</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/coaching">coaching</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/project">project</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/book-review">book-review</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/6510asm">6510asm</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/commodore64">commodore64</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/words">words</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/vim">vim</a></li>
               
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/psychology">psychology</a></li>
               
-                
-                  <li class="nav-item"><a class="nav-link text-capitalize link-underline-opacity-0" href="/about/">about</a></li>
-                
+                <li><a class="dropdown-item text-capitalize link-underline-opacity-0" href="/archives/category/management">management</a></li>
               
-                
-                  <li class="nav-item"><a class="nav-link text-capitalize link-underline-opacity-0" href="/ideas/">ideas</a></li>
-                
-              
-                
-              
-                
-                  <li class="nav-item"><a class="nav-link text-capitalize link-underline-opacity-0" href="/projects/">projects</a></li>
-                
-              
-                
-                  <li class="nav-item"><a class="nav-link text-capitalize link-underline-opacity-0" href="/resume/">Resume</a></li>
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            </ul>
-          </div>
+          </ul>
         </div>
-      </nav>
-    </header>
 
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-9">
-      <h3>Compressing HTML</h3>
-      <hr />
-      <p class="mt-3">Posted: December 24, 2022</p>
-      
-      <hr />
+      </div>
 
-      <article class="post-content">
-        <p>Small snippet to compress HTML in Ruby. Returning from function is a string with the basic compressed HTML.</p>
+      <a class="navbar-brand mx-auto order-1 order-md-3" href="/index.html">Niklas Nilsson</a>
+
+      <div class="collapse navbar-collapse order-4 order-md-4" id="navbar-right">
+        <ul class="navbar-nav ms-auto">
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <li class="nav-item"><a class="nav-link text-capitalize link-underline-opacity-0" href="/about/">about</a></li>
+            
+          
+            
+              <li class="nav-item"><a class="nav-link text-capitalize link-underline-opacity-0" href="/ideas/">ideas</a></li>
+            
+          
+            
+          
+            
+              <li class="nav-item"><a class="nav-link text-capitalize link-underline-opacity-0" href="/projects/">projects</a></li>
+            
+          
+            
+              <li class="nav-item"><a class="nav-link text-capitalize link-underline-opacity-0" href="/resume/">Resume</a></li>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+    <!-- Content -->
+    <main>
+      <section class="container my-5">
+        <div class="row">
+          <div class="col-md-9">
+            <h3>Compressing HTML</h3>
+            <hr />
+            <p class="mt-3">Posted: December 24, 2022</p>
+            
+            <hr />
+
+            <article class="post-content">
+              <p>Small snippet to compress HTML in Ruby. Returning from function is a string with the basic compressed HTML.</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">compress</span><span class="p">(</span><span class="n">html</span><span class="p">)</span>
   <span class="n">html</span><span class="p">.</span><span class="nf">gsub!</span><span class="p">(</span><span class="sr">/\n+/</span><span class="p">,</span><span class="s1">''</span><span class="p">)</span>
@@ -308,11 +315,11 @@
 <span class="k">end</span></code></pre></figure>
 
 
-      </article>
-    </div>
+            </article>
+          </div>
 
-    <div class="col-md-3 ms-auto">
-      
+          <div class="col-md-3 ms-auto">
+            
   <div class="card mb-4">
     <div class="card-body">
       <h5 class="card-title border-bottom pb-3 mb-3">Latest Posts</h5>
@@ -349,69 +356,71 @@
 
 
 
-      <div class="card">
+            <div class="card">
   <div class="card-body">
     <h5 class="card-title border-bottom pb-3 mb-3">Hi there 👋</h5>
       <p><img src="/assets/img/prof_pic.jpg" class="rounded img-fluid pb-2">Hi! I’m NIklas Nilsson. I’m a consultant team leader and software engineer.<br/><br/>I’m interested in finding better ways to build maintainable software in small and efficient teams.<br/><br/>This is my personal blog about development, leadership, life and fitness.</p>
   </div>
 </div>
 
-      <div class="card tags mt-4">
-        <div class="card-body">
-          <h5 class="card-title border-bottom pb-3 mb-3">Categories</h5>
-          <ul class="list-unstyled">
-          
-            <li><a class="text-capitalize link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" href='/archives/category/snippet'>snippet</a></li>
-          
-          </ul>
-        </div>
-      </div>
+            <div class="card tags mt-4">
+              <div class="card-body">
+                <h5 class="card-title border-bottom pb-3 mb-3">Categories</h5>
+                <ul class="list-unstyled">
+                
+                  <li><a class="text-capitalize link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" href='/archives/category/snippet'>snippet</a></li>
+                
+                </ul>
+              </div>
+            </div>
 
-      <div class="card tags mt-4">
-        <div class="card-body">
-          <h5 class="card-title border-bottom pb-3 mb-3">Tags</h5>
-          <ul class="list-unstyled">
-          
-            <li><a class="text-capitalize link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" href='/archives/tag/ruby'>ruby</a></li>
-          
-          </ul>
-        </div>
-      </div>
+            <div class="card tags mt-4">
+              <div class="card-body">
+                <h5 class="card-title border-bottom pb-3 mb-3">Tags</h5>
+                <ul class="list-unstyled">
+                
+                  <li><a class="text-capitalize link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" href='/archives/tag/ruby'>ruby</a></li>
+                
+                </ul>
+              </div>
+            </div>
 
-      
-      <div class="card mt-4">
-        <div class="card-body">
-          <h5 class="card-title border-bottom pb-3 mb-3">Related stories</h5>
-          <ul class="list-unstyled">
             
-              <li><a class="link-offset-2 link-body-emphasis link-offset-3-hover link-underline link-underline-opacity-0" href="/book-review/2025/09/15/unix-power-tools.html">Unix power tools</a></li>
+            <div class="card mt-4">
+              <div class="card-body">
+                <h5 class="card-title border-bottom pb-3 mb-3">Related stories</h5>
+                <ul class="list-unstyled">
+                  
+                    <li><a class="link-offset-2 link-body-emphasis link-offset-3-hover link-underline link-underline-opacity-0" href="/book-review/2025/09/15/unix-power-tools.html">Unix power tools</a></li>
+                  
+                    <li><a class="link-offset-2 link-body-emphasis link-offset-3-hover link-underline link-underline-opacity-0" href="/psychology/management/2025/09/12/creating-psychological-safety-where-to-start.html">Creating Psychological Safety - Where to start</a></li>
+                  
+                    <li><a class="link-offset-2 link-body-emphasis link-offset-3-hover link-underline link-underline-opacity-0" href="/book-review/2025/09/10/teach-yourself-unix-in-a-week.html">Teach yourself unix in a week</a></li>
+                  
+                    <li><a class="link-offset-2 link-body-emphasis link-offset-3-hover link-underline link-underline-opacity-0" href="/vim/2025/09/09/my-vimrc-file.html">My .vimrc file</a></li>
+                  
+                    <li><a class="link-offset-2 link-body-emphasis link-offset-3-hover link-underline link-underline-opacity-0" href="/words/2025/09/07/retrospective.html">Life retrospective</a></li>
+                  
+                </ul>
+              </div>
+            </div>
             
-              <li><a class="link-offset-2 link-body-emphasis link-offset-3-hover link-underline link-underline-opacity-0" href="/psychology/management/2025/09/12/creating-psychological-safety-where-to-start.html">Creating Psychological Safety - Where to start</a></li>
-            
-              <li><a class="link-offset-2 link-body-emphasis link-offset-3-hover link-underline link-underline-opacity-0" href="/book-review/2025/09/10/teach-yourself-unix-in-a-week.html">Teach yourself unix in a week</a></li>
-            
-              <li><a class="link-offset-2 link-body-emphasis link-offset-3-hover link-underline link-underline-opacity-0" href="/vim/2025/09/09/my-vimrc-file.html">My .vimrc file</a></li>
-            
-              <li><a class="link-offset-2 link-body-emphasis link-offset-3-hover link-underline link-underline-opacity-0" href="/words/2025/09/07/retrospective.html">Life retrospective</a></li>
-            
-          </ul>
+          </div>
         </div>
-      </div>
-      
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <div class="container">
+  <footer class="py-5">
+    <div class="d-flex flex-column flex-sm-row justify-content-between border-top py-3">
+      <p>© 2023 Niklas Nilsson. All rights reserved.  Lets connect on <a href="https://www.linkedin.com/in/niklas-nson/">LinkedIn</a> or <a href="https://github.com/niklasnson">GitHub</a></p>
+      <p><a target="_blank" href="https://github.com/niklasnson/0x68k.github.io">Powerd by Jekyll</a></p>
     </div>
-  </div>
+  </footer>
 </div>
 
-<!-- Footer -->
-  <div class="container">
-    <footer class="py-5">
-      <div class="d-flex flex-column flex-sm-row justify-content-between border-top py-3">
-        <p>© 2023 Niklas Nilsson. All rights reserved.  Lets connect on <a href="https://www.linkedin.com/in/niklas-nson/">LinkedIn</a> or <a href="https://github.com/niklasnson">GitHub</a></p>
-      </div>
-    </footer>
-  </div>
 </html>
-
 
 <!-- JavaScripts -->
 
@@ -424,5 +433,6 @@
 
     gtag('config', 'G-Q6W2HX5TZE');
   </script>
+
 
 
