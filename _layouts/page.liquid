@@ -22,7 +22,9 @@
           </div>
           <div class="col-md-3 ms-auto">
             {% include latest_posts.liquid %}
-            {% include author.liquid %}
+            {% unless page.title == "about" %}
+              {% include author.liquid %}
+            {% endunless %}
             {% include categories.liquid %}
             {% include social.liquid %}
           </div>
