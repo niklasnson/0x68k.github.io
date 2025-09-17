@@ -12,6 +12,22 @@ jekyll:
     description: Personal blog of Chad Baldwin. Has been a great inspiration.
     link: https://github.com/chadbaldwin/chadbaldwin.github.io
 
+  - name: 3 Simple steps to setup Jekyll Categories and Tags
+    description: A great post about categories and tags in Jekyll.
+    link: https://blog.webjeda.com/jekyll-categories/
+
+  - name: Jekyll Archives
+    description: Automatically generate post archives by dates, tags, and categories.
+    link: https://github.com/jekyll/jekyll-archives/tree/master
+
+  - name: jekyll-deploy
+    description: Simple shell script for building a Jekyll site and deploying it to GitHub.
+    link: https://github.com/balevine/jekyll-deploy/tree/master
+
+  - name: al-folio
+    description: Amazing boilerplate for a new blog.
+    link: https://github.com/alshedivat/al-folio
+
 ruby:
   - name: Ruby Gems
     description: Find, install and publish RubyGems.
@@ -35,5 +51,24 @@ vim:
     description: Awesome Vim Plugins - Across the universe.
     link: https://vimawesome.com/
 
+C64Asm:
+  - name: "6502/6510 Instruction set"
+    description: Fastest, easiest-to-use and best organized 6502/6510 instruction set reference document on the internet
+    link: https://c64os.com/post/6502instructions
+
+  - name: Commodore 64 memory map
+    description: Memory map
+    link: https://sta.c64.org/cbm64mem.html
 
 
+  - name: Commodore 64 standard KERNAL functions
+    description: Kernel functions.
+    link: https://sta.c64.org/cbm64krnfunc.html
+
+  - name: C64-Wiki
+    description: The C64-Wiki is a project to build a special C64 encyclopedia
+    link: https://www.c64-wiki.com/
+
+  - name: "C64 ASSEMBLY: HELLO WORLD"
+    description: A great starting project.
+    link: https://8bitheaven.home.blog/2020/01/07/c64-assembly-hello-world/
