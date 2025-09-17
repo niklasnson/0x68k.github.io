@@ -11,6 +11,7 @@ latest_posts:
 {% for category in site.data.bookmarks %}
 {% assign items = category[1] | sort_natural: "name" %}
 <h5>{{ category[0] | capitalize }}</h5>
+<hr/>
 <ul>
 {% for item in items %}
     <li><a target="_blank" href="{{ item.link }}">{{ item.name }}</a></li>
