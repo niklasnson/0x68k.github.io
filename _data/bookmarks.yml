@@ -1,0 +1,39 @@
+  # - name:
+  #   description:
+  #   link:
+
+reference:
+  - name: HTTP Status Codes
+    description: Database of HTTP Status Codes with their definitions and helpful code references
+    link: https://httpstatuses.com
+
+jekyll:
+  - name: chadbaldwin.net
+    description: Personal blog of Chad Baldwin. Has been a great inspiration.
+    link: https://github.com/chadbaldwin/chadbaldwin.github.io
+
+ruby:
+  - name: Ruby Gems
+    description: Find, install and publish RubyGems.
+    link: https://rubygems.org/
+
+bash:
+  - name: Bash Scripting Tutorial
+    description: Basics of bash scripting which includes variables, commands, inputs/ outputs, and debugging.
+    link: https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/
+
+vim:
+  - name: Vim Tips Wiki
+    description: Exelent guide to start your journey with Vim.
+    link: https://vim.fandom.com/wiki/Tutorial
+
+  - name: Vim Documentation Online
+    description: Sometimes its great to browse the man in the browser.
+    link: https://linuxcommand.org/lc3_man_pages/vim1.html
+
+  - name: Vim Awesome
+    description: Awesome Vim Plugins - Across the universe.
+    link: https://vimawesome.com/
+
+
+

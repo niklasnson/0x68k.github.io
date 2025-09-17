@@ -25,7 +25,9 @@
             {% unless page.title == "about" %}
               {% include author.liquid %}
             {% endunless %}
-            {% include categories.liquid %}
+            {% unless page.resource %}
+              {% include categories.liquid %}
+            {% endunless %}
             {% include social.liquid %}
           </div>
         </div>
