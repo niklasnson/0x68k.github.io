@@ -27,9 +27,9 @@ My opensource projects are hosted and published on [GitHub.com](https://github.c
 ##### Projects
 Under [Projects](/projects) you can find a list of current projects im working on. Many of these projects are published and put in production mode. On my spare time i mostly work with web based projects and with Ruby On Rails.
 
-## Amiga and retro computing
+### Amiga and retro computing
 <hr />
-<img class="img-fluid" src="/assets/img/90250796_10157024841761723_6919638784296353792_n.jpg">
+<img width="550" class="rounded mx-auto d-block" src="/assets/img/90250796_10157024841761723_6919638784296353792_n.jpg">
 
 I have a strong intrest in retro computers; specific the Commodore Amiga computers. I collect hardware and use them for games, programming and BBS:ing (pre-internet communication).
 
