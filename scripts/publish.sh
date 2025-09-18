@@ -1,6 +1,5 @@
 # Get the latest commit SHA in SOURCE branch
 last_SHA=$(git log --pretty=format:'%h' -n 1)
-
 # The name of the temporary folder will be the
 #   last commit SHA, to prevent possible conflicts
 #   with other folder names.
@@ -8,11 +7,12 @@ tmp_dir="temp_$last_SHA"
 
 SITE="gh-pages"
 SOURCE="main"
+ENVIROMENT="production"
 
 # Build the Jekyll site directly to a temporary folder
-JEKYLL_ENV=production jekyll build -d ~/$tmp_dir > /dev/null 2>&1
+JEKYLL_ENV=$ENVIROMENT jekyll build -d ~/$tmp_dir > /dev/null 2>&1
 if [ $? = 0 ]; then
-  echo " - Jekyll build successful with env set to production."
+  echo " - Jekyll build successful with env set to '$ENVIROMENT'."
 else
   echo " - There was errors building the site."
   exit 1
