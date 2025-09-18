@@ -12,7 +12,7 @@ latest_posts:
     <h3>Noteworthy projects</h3>
     <hr>
 </header>
-<p>
+<p class="fs-5">
 A List of noteworthy projects that i ahve been working on or are working on, all projects are hosted on GitHub, but some of them are private.
 </p>
 

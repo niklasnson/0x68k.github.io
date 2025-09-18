@@ -34,9 +34,9 @@ description: "Niklas Nilsson - Curriculum vitae"
     <hr>
 </header>
 
-<p class="my-4">
+<p class="my-4 fs-5">
     Some highĺights below; for full CV check my <a href="https://www.linkedin.com/in/niklas-nson/">LinkedIn</a>.
-    </p>
+</p>
 
 ##### Experience
 <hr>
