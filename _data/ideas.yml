@@ -2,6 +2,10 @@
 #   project:
 #   description:
 
+- title: "Automatic import data from StrengthLog into Jekyll"
+  project: "0x68k.com"
+  description: "I use StrengthLog for my training, I would like to export data from the app and show my weekly training and progress on the blog in data and graphs."
+
 - title: "Autoupdating a user-feed with content rendering."
   project: "Epilogue"
   description: "A feed/timeline should always contain the latest data. If updates occur, such as a user deleting a post or updating a text, it should always be automatically updated in the users' feed. So that there is never a difference between what is in the feed and what is available."

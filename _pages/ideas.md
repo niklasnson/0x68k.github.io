@@ -13,7 +13,7 @@ latest_posts:
     <hr>
 </header>
 
-If you are intrested in one of the topics, please reach out!
+<p class="fs-5">If you are intrested in one of the topics, please reach out! I would really appreciate having someone to bounce ideas off of. Or if you have any tips for similar projects and solutions.</p>
 
 {% for idea in site.data.ideas %}
 <div class="card mb-3">
