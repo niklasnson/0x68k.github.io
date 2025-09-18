@@ -72,3 +72,19 @@ C64Asm:
   - name: "C64 ASSEMBLY: HELLO WORLD"
     description: A great starting project.
     link: https://8bitheaven.home.blog/2020/01/07/c64-assembly-hello-world/
+
+Fiddlers:
+  - name: regex101
+    description: Regex Fiddler
+    link: https://regex101.com/
+
+  - name: Repl.it
+    description: Multi-language fiddler (too many to list) (requires signing up)
+    link: https://replit.com/
+
+  - name: Visualizing Git
+    description: Online visualizer for practicing git commands
+    link: https://git-school.github.io/visualizing-git/
+
+
+

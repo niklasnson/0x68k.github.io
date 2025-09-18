@@ -14,7 +14,7 @@ latest_posts:
     <hr>
 </header>
 
-Hi! I'm NIklas Nilsson. I'm a consultant team leader and software engineer with Ericsson and Saab as my most recent placements. I’m interested in finding better ways to build maintainable software in small and efficient teams.
+<p class="fs-5">Hi! I'm NIklas Nilsson. I'm a consultant team leader and software engineer with Ericsson and Saab as my most recent placements. I’m interested in finding better ways to build maintainable software in small and efficient teams.</p>
 
 ##### Leadership
 Positive, team player and communicative leader. As a person, I am open, cooperative, extrovert and eager to work with people of different backgrounds and genders. Divercity will in my eyes always be the best building block for a strong team.
