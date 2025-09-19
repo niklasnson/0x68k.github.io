@@ -33,7 +33,7 @@ description: >- # the ">" symbol means to ignore newlines until "keywords:"
 keywords: amiga git jekyll bash open-source conferance teamlead vim psychology management assembler retro
 navbar_fixed: false
 footer_fixed: false
-bs_theme: light
+bs_theme: light #
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -59,6 +59,9 @@ plugins:
 gems:
   - jekyll-tagging-related_posts
 
+# -----------------------------------------------------------------------------
+# Jekyll Archives
+# -----------------------------------------------------------------------------
 jekyll-archives:
   enabled:
     - tags
@@ -69,7 +72,18 @@ jekyll-archives:
   permalinks:
     tag: '/archives/tag/:name/'
     category: '/archives/category/:name/'
+  slug_mode: latin
 
+# -----------------------------------------------------------------------------
+# Jekyll Feed
+# -----------------------------------------------------------------------------
+# will use title and url fields
+# Take a look to https://github.com/jekyll/jekyll-feed for more customization
+feed:
+  include:
+    - _pages
+    - _posts
+  excerpt_only: true
 
 # -----------------------------------------------------------------------------
 # Sitemap Settings
@@ -85,7 +99,6 @@ defaults:
 # -----------------------------------------------------------------------------
 enable_google_analytics: true
 
-
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
@@ -93,26 +106,10 @@ enable_google_analytics: true
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
 google_analytics: G-Q6W2HX5TZE
-# -----------------------------------------------------------------------------
-# RSS Feed
-# -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
-
-include:
-  - _pages
-  - _posts
 
 exclude:
   - .jekyll-cache/
   - gemfiles/
   - Gemfile
   - Gemfile.lock
-
-# Sitemap settings
-defaults:
-  - scope:
-      path: "assets"
-    values:
-      sitemap: false
 
