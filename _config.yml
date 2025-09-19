@@ -54,6 +54,7 @@ plugins:
   - jekyll-feed
   - jekyll-archives
   - jekyll-feed
+  - jekyll-sitemap
 
 gems:
   - jekyll-tagging-related_posts
@@ -68,6 +69,16 @@ jekyll-archives:
   permalinks:
     tag: '/archives/tag/:name/'
     category: '/archives/category/:name/'
+
+
+# -----------------------------------------------------------------------------
+# Sitemap Settings
+# -----------------------------------------------------------------------------
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
 
 # -----------------------------------------------------------------------------
 # Optional Features
@@ -104,3 +115,4 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+
