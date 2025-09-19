@@ -73,6 +73,10 @@ C64Asm:
     description: A great starting project.
     link: https://8bitheaven.home.blog/2020/01/07/c64-assembly-hello-world/
 
+  - name: c64
+    description: Examples in 6502/6510 Assembly language
+    link: https://github.com/digitsensitive/c64
+
 Fiddlers:
   - name: regex101
     description: Regex Fiddler
@@ -86,5 +90,11 @@ Fiddlers:
     description: Online visualizer for practicing git commands
     link: https://git-school.github.io/visualizing-git/
 
+Tools:
+  - name: pastebin
+    description: Share text/code
+    link: https://pastebin.com/
 
-
+  - name: asciinema
+    description: Record and share your terminal sessions, the simple way.
+    link: https://asciinema.org/
