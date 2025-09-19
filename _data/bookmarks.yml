@@ -33,6 +33,18 @@ ruby:
     description: Find, install and publish RubyGems.
     link: https://rubygems.org/
 
+  - name: pidfd
+    description: A Ruby wrapper for Linux pidfd (Process File Descriptor) system calls, providing safer process management with guaranteed process identity.
+    link: https://github.com/mensfeld/pidfd
+
+  - name: rbspy
+    description: A long-standing tool for profiling a Ruby program without having to restart it – give rbspy a PID of a running process and it starts profiling.
+    link: https://rbspy.github.io/
+
+  - name: Forme
+    description: A structured way to create HTML forms with no external dependencies and a simple API.
+    link: https://github.com/jeremyevans/forme
+
 bash:
   - name: Bash Scripting Tutorial
     description: Basics of bash scripting which includes variables, commands, inputs/ outputs, and debugging.
