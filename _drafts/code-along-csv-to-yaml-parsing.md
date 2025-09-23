@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Code along: CSV to YAML parsing
+title: "Code along: CSV to YAML parsing"
 categories: code-along
 tags: ruby
 latest_posts:
