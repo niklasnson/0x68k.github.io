@@ -2,7 +2,7 @@
 layout: post
 title: I was this old when i found tmux
 categories: open-source project
-tags: linux ubuntu
+tags: tools linux terminal
 latest_posts:
   enabled: true
   limit: 5# leave blank to include all the blog posts

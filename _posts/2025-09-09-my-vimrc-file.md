@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My .vimrc file
-categories: vim
+categories: vim tools
 tags: vim vimrc config
 latest_posts:
    enabled: true
