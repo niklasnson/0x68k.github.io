@@ -53,7 +53,6 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-archives
-  - jekyll-feed
   - jekyll-sitemap
 
 gems:
@@ -106,6 +105,9 @@ enable_google_analytics: true
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
 google_analytics: G-Q6W2HX5TZE
+
+include:
+  - _pages
 
 exclude:
   - .jekyll-cache/
