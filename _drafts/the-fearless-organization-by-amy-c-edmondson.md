@@ -12,4 +12,4 @@ book_review:
  author: Amy C. Edmondson
  isbn: 9781119477242
 ---
-aaa
+<p class="fs-5">I had not heard of "The Fearless Organization" until I was introduced to the book at a fantastic lecture on group intelligence by <a target="_blank" href="http://lindarising.org/">Linda Rising</a>. It has since formed the basis for how I try to build and develop the teams I lead in my role as team lead/scrum master.</p>
