@@ -7,6 +7,11 @@ latest_posts:
   enabled: true
   limit: 5# leave blank to include all the blog posts
 ---
+<header class="pb-4">
+    <hr>
+    <h3>Bookmarks</h3>
+    <hr>
+</header>
 
 {% for category in site.data.bookmarks %}
 {% assign items = category[1] | sort_natural: "name" %}

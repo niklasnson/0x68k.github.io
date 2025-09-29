@@ -2,7 +2,7 @@
 layout: book-review
 title: The Fearless Organization by Amy C. Edmondson
 categories: book-review
-tags: ruby, rspec, json, rails, scripting, testing, 68kasm, 6510asm, hyrox, fitness, words
+tags: words leadership
 latest_posts:
  enabled: true
  limit: 5
