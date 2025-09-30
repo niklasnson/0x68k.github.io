@@ -14,15 +14,13 @@ latest_posts:
     <hr>
 </header>
 
-<ul>
+<div>
     {% for tag in site.tags %}
-    <li>
-        <a class="text-capitalize" href='/archives/tag/{{tag|first}}'>{{ tag|first }}</a>
-            <ul>
-                {% for post in tag.last %}
-                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-            </ul>
-    </li>
+        <span class="fs-6 text-uppercase">{{ tag|first }}</span>
+        <ul class="my-3">
+            {% for post in tag.last %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
     {% endfor %}
-</ul>
+</div>
