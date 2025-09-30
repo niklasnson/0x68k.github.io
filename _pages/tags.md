@@ -18,6 +18,11 @@ latest_posts:
     {% for tag in site.tags %}
     <li>
         <a class="text-capitalize" href='/archives/tag/{{tag|first}}'>{{ tag|first }}</a>
+            <ul>
+                {% for post in tag.last %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
     </li>
     {% endfor %}
 </ul>
