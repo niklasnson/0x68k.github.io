@@ -54,6 +54,7 @@ plugins:
   - jekyll-feed
   - jekyll-archives
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 gems:
   - jekyll-tagging-related_posts
