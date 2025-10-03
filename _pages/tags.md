@@ -16,8 +16,8 @@ latest_posts:
 
 <div>
     {% for tag in site.tags %}
-        <span class="fs-6 text-uppercase">{{ tag|first }}</span>
-        <ul class="my-3">
+        <span class="fs-5 text-uppercase"><i class="bi bi-tag me-1"></i>{{ tag|first }}</span>
+        <ul class="my-2">
             {% for post in tag.last %}
                 <li><a href="{{ post.url }}">{{ post.title }}</a></li>
             {% endfor %}
