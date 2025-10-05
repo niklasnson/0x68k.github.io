@@ -29,7 +29,7 @@ __Psychological safety isn’t just another word for trust__ — Although trust 
 
 __Psychological safety isn’t about lowering performance standards__ — Psychological safety is not an “anything goes” environment where people aren’t expected to adhere to high standards or meet deadlines. It isn’t about becoming “comfortable” at work. Psychological safety enables candour and openness and, as such, thrives in an environment of mutual respect.
 
-Todo text!
+Below is an example of the different exercises that Amy presents that effectively demonstrate the challenges and obstacles that you need to address before you can move forward in your team building.
 
 _Fig. 3 — A survey measure of psychological safety — Taken from: Amy Edmondson, The Fearless Organisation, p. 20_
 
@@ -40,6 +40,10 @@ _Fig. 3 — A survey measure of psychological safety — Taken from: Amy Edmonds
 * It is difficult to ask other members of this team for help. (R)
 * No one on this team would deliberately act in a way that undermines my efforts.
 * Working with members of this team, my unique skills and talents are valued and utilised.
+
+##### Final words
+
+Amy C. Edmondson is an American scholar of leadership, teaming, and organizational learning. She is currently Professor of Leadership at Harvard Business School. I don't think it's particularly controversial to say that Amy is the established expert on social security. Her work has influenced not only me but many others and given us tools to build teams that can perform better even under severe stress. Large parts of the book provide a lot of knowledge and thoughts on how you can create an environment that enables personal security, which in the long run gives you the opportunity to build on the team.
 
 ###### Related links for further learning:
 
