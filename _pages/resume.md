@@ -45,7 +45,7 @@ description: "Niklas Nilsson - Curriculum vitae"
     {% for entry in site.data.cv %}
       <li class="list-group-item d-flex align-items-start">
         <div class="me-4">
-        <img width="48" src="{{ entry.logo }}">
+        <img width="48" src="/assets/img/{{ entry.logo }}">
         </div>
         <div>
             <h5>{{ entry.title }}</h5>
@@ -67,6 +67,26 @@ description: "Niklas Nilsson - Curriculum vitae"
     {% endfor %}
 </ul>
 
+##### Licenses and certificates
+<hr>
+
+<ul class="list-group list-group-flush">
+    {% for entry in site.data.certificate %}
+      <li class="list-group-item d-flex align-items-start">
+        <div class="me-4">
+        <img width="48" src="/assets/img/{{ entry.logo }}">
+        {%- assign issued_date = entry.issued | date: "%b, %Y" -%}
+        </div>
+        <div>
+            <h5>{{ entry.certificate}}</h5>
+            <h6>{{ entry.issuer  }}</h6>
+            <h6>{{ issued_date }}</h6>
+        </div>
+      </li>
+    {% endfor %}
+</ul>
+
+
 ##### Education
 <hr>
 
@@ -74,7 +94,7 @@ description: "Niklas Nilsson - Curriculum vitae"
     {% for entry in site.data.education %}
       <li class="list-group-item d-flex align-items-start">
         <div class="me-4">
-        <img width="48" src="{{ entry.logo }}">
+        <img width="48" src="/assets/img/{{ entry.logo }}">
         </div>
         <div>
             <h5>{{ entry.degree }}</h5>
