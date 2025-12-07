@@ -97,7 +97,7 @@
 <lastmod>2025-12-04T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>https://0x68k.com/tools/2025/12/07/spell-checking-in-vim.html</loc>
+<loc>https://0x68k.com/open-source/2025/12/07/spell-checking-in-vim.html</loc>
 <lastmod>2025-12-07T00:00:00+01:00</lastmod>
 </url>
 <url>
@@ -245,6 +245,9 @@
 <loc>https://0x68k.com/archives/tag/fitness/</loc>
 </url>
 <url>
+<loc>https://0x68k.com/archives/tag/plugins/</loc>
+</url>
+<url>
 <loc>https://0x68k.com/archives/category/amiga/</loc>
 </url>
 <url>
@@ -321,8 +324,5 @@
 </url>
 <url>
 <loc>https://0x68k.com/archives/category/personal/</loc>
-</url>
-<url>
-<loc>https://0x68k.com/archives/category/tools/</loc>
 </url>
 </urlset>
