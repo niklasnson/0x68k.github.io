@@ -8,7 +8,7 @@ latest_posts:
    limit: 5
 ---
 
-This is my <a href="https://github.com/niklasnson/dotfiles/blob/main/apps/vim/vimrc">.vimrc</a> file, as I mentioned earlier, I have a new job where working with Vim is again optimal, so I needed to go through my configuration and update it. I thought this could be a good exercise to do together.
+This is my <a href="https://github.com/cube-se/dotfiles/blob/main/apps/vim/vimrc">.vimrc</a> file, as I mentioned earlier, I have a new job where working with Vim is again optimal, so I needed to go through my configuration and update it. I thought this could be a good exercise to do together.
 
 #### Plugins
 

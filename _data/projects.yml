@@ -12,8 +12,8 @@
   functions:
     - function: "Realtime updating notes."
     - function: "API interaction from other services."
-  source_url: "https://github.com/niklasnson/epilogue.rb/"
-  wiki_url: "https://github.com/niklasnson/epilogue.rb/wiki"
+  source_url: "https://github.com/cube-se/epilogue.rb/"
+  wiki_url: "https://github.com/cube-se/epilogue.rb/wiki"
 
 - title: "<strong>Idofun.com</strong> -  a social sharing platform"
   description: "IDOFUN.COM is a social photosharing platform with high privacy in mind. Built to be fast and responsive, one version for all devices and screen sizes. The platform includes private posts, messages, muting and blocking users."
@@ -24,8 +24,8 @@
     - function: "Blocking or muting other users."
     - function: "Share photos in cirkles."
     - function: "Challange and competetions."
-  source_url: "https://github.com/niklasnson/idofun.com/"
-  wiki_url: "https://github.com/niklasnson/idofun.com/wiki"
+  source_url: "https://github.com/cube-se/idofun.com/"
+  wiki_url: "https://github.com/cube-se/idofun.com/wiki"
 
 - title: "<strong>Kroppsfabriken</strong> - website for the club Kroppsfabriken"
   description: "KROPPSFABRIKEN is a fetish club with a strict dress code, which must be followed to gain entry. We want to offer a safe haven for you to live out your fetishes together with other fetishists. Focusing on latex, rubber and electronic music. Parts of the site is protected and you need to be logged in to view photos and but tickets to event."
@@ -34,11 +34,11 @@
     - function: "Advanced ticket system with entrance interface"
     - function: "Transfer tickets to other members."
     - function: "Blog with posts and drafts."
-  source_url: "https://github.com/niklasnson/nemesis-on-rails/"
-  wiki_url: "https://github.com/niklasnson/nemesis-on-rails/wiki"
+  source_url: "https://github.com/cube-se/nemesis-on-rails/"
+  wiki_url: "https://github.com/cube-se/nemesis-on-rails/wiki"
 
 - title: "<strong>SDL2Bootstrap</strong>"
   description: "Setting up a bootstrap for coming projects in SDL2. The idea is a small project with the a main, about and configuration menus."
   functions:
     - function: "Defined screens for main, menus and about"
-  source_url: "https://github.com/niklasnson/SDL2Bootstrap"
+  source_url: "https://github.com/cube-se/SDL2Bootstrap"

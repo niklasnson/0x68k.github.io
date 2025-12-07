@@ -22,7 +22,7 @@ And then edit the page created in posts directory.
 ## To setup a new local branch
 
 ```
-  $ git clone git@github.com:niklasnson/niklasnson.github.io.git
+  $ git clone git@github.com:cube-se/cube-se.github.io.git
   $ git switch -c gh-pages origin/gh-pages
 
 ```

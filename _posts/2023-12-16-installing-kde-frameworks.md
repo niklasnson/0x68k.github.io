@@ -11,7 +11,7 @@ latest_posts:
 After following the instructions found at [Get Involved/development/Set up a development environment](https://community.kde.org/Get_Involved/development/Set_up_a_development_environment). I got some strange errors running my sample CMAKE file.
 
 {% highlight bash %}
-Installing in /usr/local. Run /home/niklasnson/Projects/Active/sample/build/prefix.sh to set the environment for helloworld.
+Installing in /usr/local. Run /home/cube-se/Projects/Active/sample/build/prefix.sh to set the environment for helloworld.
 fatal: not a git repository (or any of the parent directories): .git
 fatal: not a git repository (or any of the parent directories): .git
 -- Could NOT find KF5CoreAddons (missing: KF5CoreAddons_DIR)
