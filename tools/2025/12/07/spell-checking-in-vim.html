@@ -16,7 +16,7 @@
 
 
 
-<title>Niklas Nilsson |TMUX my favorite plugins</title>
+<title>Niklas Nilsson |Spell checking in Vim</title>
 
 <!-- Bootstrap -->
 <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
@@ -32,21 +32,21 @@
 <link rel="stylesheet" href="/assets/css/bootstrap-icons.min.css">
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>TMUX my favorite plugins | Niklas Nilsson</title>
+<title>Spell checking in Vim | Niklas Nilsson</title>
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="TMUX my favorite plugins" />
+<meta property="og:title" content="Spell checking in Vim" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="I have now been using TMUX for a couple of weeks and I have found a couple of plugins that make my life much easier and thought I would take the opportunity to give you some tips and tell you about the plug-ins that I frequently use." />
-<meta property="og:description" content="I have now been using TMUX for a couple of weeks and I have found a couple of plugins that make my life much easier and thought I would take the opportunity to give you some tips and tell you about the plug-ins that I frequently use." />
-<link rel="canonical" href="https://0x68k.com/tools/2025/09/24/tmux-my-favorite-plugins.html" />
-<meta property="og:url" content="https://0x68k.com/tools/2025/09/24/tmux-my-favorite-plugins.html" />
+<meta name="description" content="Support for spell checking was added to Vim in version 7, before that there was different plugins adding support to vim. But its nice with a built in support, especially if you, like me - sit in a locked environment where you cannot add any programs or plugins you want." />
+<meta property="og:description" content="Support for spell checking was added to Vim in version 7, before that there was different plugins adding support to vim. But its nice with a built in support, especially if you, like me - sit in a locked environment where you cannot add any programs or plugins you want." />
+<link rel="canonical" href="https://0x68k.com/tools/2025/12/07/spell-checking-in-vim.html" />
+<meta property="og:url" content="https://0x68k.com/tools/2025/12/07/spell-checking-in-vim.html" />
 <meta property="og:site_name" content="Niklas Nilsson" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-09-24T00:00:00+02:00" />
+<meta property="article:published_time" content="2025-12-07T00:00:00+01:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="TMUX my favorite plugins" />
+<meta property="twitter:title" content="Spell checking in Vim" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-09-24T00:00:00+02:00","datePublished":"2025-09-24T00:00:00+02:00","description":"I have now been using TMUX for a couple of weeks and I have found a couple of plugins that make my life much easier and thought I would take the opportunity to give you some tips and tell you about the plug-ins that I frequently use.","headline":"TMUX my favorite plugins","mainEntityOfPage":{"@type":"WebPage","@id":"https://0x68k.com/tools/2025/09/24/tmux-my-favorite-plugins.html"},"url":"https://0x68k.com/tools/2025/09/24/tmux-my-favorite-plugins.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-12-07T00:00:00+01:00","datePublished":"2025-12-07T00:00:00+01:00","description":"Support for spell checking was added to Vim in version 7, before that there was different plugins adding support to vim. But its nice with a built in support, especially if you, like me - sit in a locked environment where you cannot add any programs or plugins you want.","headline":"Spell checking in Vim","mainEntityOfPage":{"@type":"WebPage","@id":"https://0x68k.com/tools/2025/12/07/spell-checking-in-vim.html"},"url":"https://0x68k.com/tools/2025/12/07/spell-checking-in-vim.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -249,39 +249,31 @@
       <section class="container my-5">
         <div class="row">
           <div class="col-md-9">
-            <h3>TMUX my favorite plugins</h3>
+            <h3>Spell checking in Vim</h3>
             <hr />
-            <p class="mt-3">Posted: September 24, 2025</p>
+            <p class="mt-3">Posted: December 7, 2025</p>
             
             <hr />
 
             <article class="post-content">
-              <p class="fs-5">
-I have now been using TMUX for a couple of weeks and I have found a couple of plugins that make my life much easier and thought I would take the opportunity to give you some tips and tell you about the plug-ins that I frequently use.
-</p>
+              <p>Support for spell checking was added to Vim in version 7, before that there was different plugins adding support to vim. But its nice with a built in support, especially if you, like me - sit in a locked environment where you cannot add any programs or plugins you want.</p>
 
-<p><img width="750" class="rounded mx-auto d-block" src="/assets/img/tmux-my-favorite-plugins-2.png" /></p>
+<p><img src="/assets/img/spell-checking-in-vim-1.png" class="rounded mx-auto d-block" width="750" /></p>
 
-<h4 id="tmux-plugin-manager">TMUX PLUGIN MANAGER</h4>
-<p><a href="https://github.com/tmux-plugins/tpm">Tmux Plugin Managerh</a> - an absolutely fantastic plug-in manager for tmux, makes it extremely easy and smooth to install or uninstall plug-ins for tmux. It really couldn’t be easier. All you need to do is add a tag with the link to each plug-in you want to install and TPM will do the rest.</p>
+<h5 id="activate">Activate</h5>
+<p>You’ll need to be in command mode and switch to last line mode, then run this:
+<code class="language-plaintext highlighter-rouge">:set spell spelllang=en_us</code> depending on your settings and color mode you will see that misspelled words are highlighted. The “en_us” specifies English, U.S. style. You can change language to use by setting another language.</p>
 
-<p><img width="750" class="rounded mx-auto d-block" src="/assets/img/tmux-my-favorite-plugins-0.png" /></p>
+<p>If you do not want to show the spell checking send the command: <code class="language-plaintext highlighter-rouge">:set nospell</code>.</p>
 
-<h5 id="tmux---nord-theme">TMUX - NORD THEME</h5>
-<p><a href="https://github.com/nordtheme/tmux">nord theme</a>- if you’ve been following me for a while, you probably already know that I’m very fond of the Nord color theme. I find it easy to read and the syntax is clearly visible and easy to follow, for example, code.</p>
+<h5 id="using-spellchecking">Using spellchecking</h5>
 
-<p>Here you get Nord’s clear palette of colors that make tmux beautiful to look at.</p>
+<p>To get to the next misspelled word use <code class="language-plaintext highlighter-rouge">]s</code> and <code class="language-plaintext highlighter-rouge">[s</code>. The <code class="language-plaintext highlighter-rouge">]s</code> moves to the next misspelled word, <code class="language-plaintext highlighter-rouge">[s</code>, moves mack word to through the buffer to previous misspelled words.</p>
 
-<p><img width="750" class="rounded mx-auto d-block" src="/assets/img/tmux-my-favorite-plugins-1.png" /></p>
+<p>When you are over a misspelled word use <code class="language-plaintext highlighter-rouge">z=</code> to open up a selection of words to change to.</p>
 
-<h5 id="tmux-menus">TMUX MENUS</h5>
-<p><a href="https://github.com/jaclu/tmux-menus">tmux-menus</a> - a fantastic tool that helps with all the keyboard shortcuts and functions before they are in your spine, I think it is an absolutely fantastic tool and really recommend it.</p>
+<p><img src="/assets/img/spell-checking-in-vim-2.png" class="rounded mx-auto d-block" width="750" /></p>
 
-<h5 id="tmux-yank">TMUX-YANK</h5>
-<p><a href="https://github.com/tmux-plugins/tmux-yank">tmux-yank</a>- the first thing I had trouble with when I first started using TMUX was how easily I could copy and paste text; something I do frequently when troubleshooting systems. To be completely honest, I was about to give up; because I couldn’t find a smooth way to work. It feels like this plug-in solved all my problems.</p>
-
-<h5 id="tmux-mighty-scroll">TMUX MIGHTY SCROLL</h5>
-<p><a href="https://github.com/noscript/tmux-mighty-scroll">tmux mighty scroll</a>- instead of having to go into copy mode to scroll, this happens automatically when you scroll up. Some people probably don’t understand the benefit of this tool, but it really suits the way I work and think.</p>
 
             </article>
           </div>
@@ -336,7 +328,7 @@ I have now been using TMUX for a couple of weeks and I have found a couple of pl
                 <h5 class="card-title border-bottom pb-3 mb-3">Categories</h5>
                 <ul class="list-unstyled">
                 
-                  <li><a class="text-capitalize link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" href='/archives/category/tools'>tools</a></li>
+                  <li><a class="text-capitalize link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" href='/archives/category/Tools'>Tools</a></li>
                 
                 </ul>
               </div>
@@ -347,11 +339,9 @@ I have now been using TMUX for a couple of weeks and I have found a couple of pl
                 <h5 class="card-title border-bottom pb-3 mb-3">Tags</h5>
                 <ul class="list-unstyled">
                 
-                  <li><a class="text-capitalize link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" href='/archives/tag/linux'>linux</a></li>
+                  <li><a class="text-capitalize link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" href='/archives/tag/vim'>vim</a></li>
                 
                   <li><a class="text-capitalize link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" href='/archives/tag/tools'>tools</a></li>
-                
-                  <li><a class="text-capitalize link-body-emphasis link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0" href='/archives/tag/terminal'>terminal</a></li>
                 
                 </ul>
               </div>
@@ -363,13 +353,13 @@ I have now been using TMUX for a couple of weeks and I have found a couple of pl
                 <h5 class="card-title border-bottom pb-3 mb-3">Related stories</h5>
                 <ul class="list-unstyled">
                   
-                    <li><a class="link-offset-2 link-body-emphasis link-offset-3-hover link-underline link-underline-opacity-0" href="/tools/2025/12/07/spell-checking-in-vim.html">Spell checking in Vim</a></li>
-                  
                     <li><a class="link-offset-2 link-body-emphasis link-offset-3-hover link-underline link-underline-opacity-0" href="/personal/2025/12/04/a-year-in-the-life-of-me.html">A year in the life of me</a></li>
                   
                     <li><a class="link-offset-2 link-body-emphasis link-offset-3-hover link-underline link-underline-opacity-0" href="/hardware/review/2025/11/19/logitech-mx-ergo-s-trackball-first-impression.html">Logitech MX Ergo S trackball first impression</a></li>
                   
                     <li><a class="link-offset-2 link-body-emphasis link-offset-3-hover link-underline link-underline-opacity-0" href="/book-review/2025/10/05/the-fearless-organization-by-amy-c-edmondson.html">The Fearless Organization by Amy C. Edmondson</a></li>
+                  
+                    <li><a class="link-offset-2 link-body-emphasis link-offset-3-hover link-underline link-underline-opacity-0" href="/tools/2025/09/24/tmux-my-favorite-plugins.html">TMUX my favorite plugins</a></li>
                   
                     <li><a class="link-offset-2 link-body-emphasis link-offset-3-hover link-underline link-underline-opacity-0" href="/book-review/2025/09/15/unix-power-tools.html">Unix power tools</a></li>
                   
