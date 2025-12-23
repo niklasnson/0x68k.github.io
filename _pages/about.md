@@ -39,4 +39,4 @@ I enjoy software projects on the Amiga, mostly working in C. I have made a colle
 I have a collection of dirrent Amigas but mostly use either a Amiga 600HD or a Amiga 500 with a external harddrive.
 
 #### Connect with me
-I’d love to connect! Feel free to reach me on <a href="https://mastodon.social/@cube-se">Mastodon</a>, or drop me a mail.
+I’d love to connect! Feel free to reach me on <a href="https://www.linkedin.com/in/niklas-hilding/">Linked in</a>, or drop me a mail.
